@@ -1,0 +1,1814 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{November58:online}{online}{}
+  \field{title}{November: New £300 million campus will transform Temple
+  Quarter | News | University of Bristol}
+  \verb{url}
+  \verb http://www.bristol.ac.uk/news/2016/november/temple-quarter-campus.html
+  \endverb
+  \field{month}{11}
+  \field{year}{2016}
+  \field{urlday}{08}
+  \field{urlmonth}{12}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{SmartEne79:online}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {GB}{G.}%
+     {Smart~Energy}{S.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GSE1}
+  \strng{fullhash}{GSE1}
+  \field{title}{The Voice of the Smart Meter Rollout}
+  \verb{url}
+  \verb https://www.smartenergygb.org/en
+  \endverb
+  \field{year}{2016}
+  \field{urlday}{08}
+  \field{urlmonth}{12}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{universi93:online}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {UoB}{U.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{U1}
+  \strng{fullhash}{U1}
+  \field{title}{Our Vision. Our Strategy}
+  \verb{url}
+  \verb http://www.bristol.ac.uk/media-library/sites/university/documents/gover
+  \verb nance/policies/university-strategy.pdf
+  \endverb
+  \field{year}{2016}
+  \field{urlday}{08}
+  \field{urlmonth}{12}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{schneiderRECPS}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Electric}{E.}%
+     {Schnider}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ES1}
+  \strng{fullhash}{ES1}
+  \field{title}{Reducing Energy Costs with Peak Shaving}
+  \verb{url}
+  \verb https://www.schneider-electric.com.hk/documents/energy-efficiency-forum
+  \verb /Reducing-Energy-Costs-with-Peak-Shaving.pdf
+  \endverb
+  \list{institution}{1}{%
+    {Schnider Electric}%
+  }
+  \field{year}{2007}
+  \field{urlday}{27}
+  \field{urlmonth}{11}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{baldorPS}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Baldor}{B.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{B1}
+  \strng{fullhash}{B1}
+  \field{title}{Energy Management Best Practices Energy Management Best
+  Practices - Peak Shaving Generators}
+  \verb{url}
+  \verb http://www.sustainableplant.com/assets/WP00010.pdf
+  \endverb
+  \list{institution}{1}{%
+    {Baldor}%
+  }
+  \field{year}{2005}
+  \field{urlday}{30}
+  \field{urlmonth}{11}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{Jbrentmeet}{misc}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Brenton}{B.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jones}{J.}%
+     {Chris}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BJJC1}
+  \strng{fullhash}{BJJC1}
+  \field{howpublished}{Personal Communications}
+  \field{title}{Meeting}
+  \field{month}{11}
+  \field{year}{2016}
+\endentry
+
+\entry{Deconstr52:online}{online}{}
+  \field{title}{Deconstructing Your Energy Bill: Capacity Charges}
+  \verb{url}
+  \verb http://www.energysmart.enernoc.com/deconstructing-your-energy-bill-capa
+  \verb city-charges/
+  \endverb
+  \list{institution}{1}{%
+    {Energy Smart}%
+  }
+  \field{month}{09}
+  \field{year}{2012}
+  \field{urlday}{09}
+  \field{urlmonth}{12}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{TriadsWh7:online}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Grid}{G.}%
+     {National}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GN1}
+  \strng{fullhash}{GN1}
+  \field{title}{Triads: Why three is the magic number - National Grid}
+  \verb{url}
+  \verb http://nationalgridconnecting.com/triads-why-three-is-the-magic-number/
+  \endverb
+  \field{year}{2014}
+  \field{urlday}{09}
+  \field{urlmonth}{12}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{TNUoSTra99:online}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {PCMG}{P.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{P1}
+  \strng{fullhash}{P1}
+  \field{title}{TNUoS (Transmission Network Use of System) Charges and Triads}
+  \verb{url}
+  \verb http://www.pcmg.co.uk/services/energy/tnuos-transmission-network-use-of
+  \verb -system-charges-and-triads.html?L=0%2FRK%3D0%2FRS%3DL1v24MDxrTlEQk4XnNh
+  \verb R0chgJ14-
+  \endverb
+  \field{year}{2012}
+  \field{urlday}{09}
+  \field{urlmonth}{12}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{TNUoScha93:online}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Energy}{E.}%
+     {Eon}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{EE1}
+  \strng{fullhash}{EE1}
+  \field{title}{TNUoS charge.pdf}
+  \verb{url}
+  \verb https://www.eonenergy.com/for-your-business/large-energy-users/Understa
+  \verb nd-Energy/~/media/PDFs/For-your-business/Large-Energy-Users/3rd%20Party
+  \verb %20Charges/TNUoS%20charge.pdf
+  \endverb
+  \field{year}{2015}
+  \field{urlday}{09}
+  \field{urlmonth}{12}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{SWEB201492:online}{online}{}
+  \field{title}{Use of System Charging Statement}
+  \verb{url}
+  \verb https://www.westernpower.co.uk/docs/system-charges/Use-of-System/2014/S
+  \verb WEB-2014-2015.aspx
+  \endverb
+  \list{institution}{1}{%
+    {Western Power Distribution}%
+  }
+  \field{month}{02}
+  \field{year}{2014}
+  \field{urlday}{10}
+  \field{urlmonth}{12}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{6199851}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Barker}{B.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mishra}{M.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Irwin}{I.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shenoy}{S.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Albrecht}{A.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{load (electric);A-C;SmartCap;TV;background loads;dehumidifiers;earliest
+  deadline first algorithm;electric loads;flattening household electricity
+  demand;flattening peak electricity demand;generation costs reduction;home
+  energy use;household electrical loads;household loads;least slack first
+  scheduling algorithm;microwaves;power data;refrigerators;scheduling
+  flexibility;smart homes;time 4 hour;Electricity;Humidity;Logic
+  gates;Monitoring;Power demand;Refrigerators}
+  \strng{namehash}{BSMAID+1}
+  \strng{fullhash}{BSMAIDSPAJ1}
+  \field{abstract}{%
+  Flattening household electricity demand reduces generation costs, since costs
+  are disproportionately affected by peak demands. While the vast majority of
+  household electrical loads are interactive and have little scheduling
+  flexibility (TVs, microwaves, etc.), a substantial fraction of home energy
+  use derives from background loads with some, albeit limited, flexibility.
+  Examples of such devices include A/Cs, refrigerators, and dehumidifiers. In
+  this paper, we study the extent to which a home is able to transparently
+  flatten its electricity demand by scheduling only background loads with such
+  flexibility. We propose a Least Slack First (LSF) scheduling algorithm for
+  household loads, inspired by the well-known Earliest Deadline First
+  algorithm. We then integrate the algorithm into Smart-Cap, a system we have
+  built for monitoring and controlling electric loads in homes. To evaluate
+  LSF, we collected power data at outlets, panels, and switches from a real
+  home for 82 days. We use this data to drive simulations, as well as
+  experiment with a real testbed implementation that uses similar background
+  loads as our home. Our results indicate that LSF is most useful during peak
+  usage periods that exhibit ``peaky'' behavior, where power deviates
+  frequently and significantly from the average. For example, LSF decreases the
+  average deviation from the mean power by over 20% across all 4-hour periods
+  where the deviation is at least 400 watts.%
+  }
+  \field{booktitle}{2012 IEEE International Conference on Pervasive Computing
+  and Communications}
+  \verb{doi}
+  \verb 10.1109/PerCom.2012.6199851
+  \endverb
+  \field{pages}{67\bibrangedash 75}
+  \field{title}{SmartCap: Flattening peak electricity demand in smart homes}
+  \field{month}{03}
+  \field{year}{2012}
+\endentry
+
+\entry{Reducing37:online}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Inc.}{I.}%
+     {Storage Battery~Systems}{S.~B.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ISBS1}
+  \strng{fullhash}{ISBS1}
+  \field{title}{Reducing Utility Demand Charges pdf}
+  \verb{url}
+  \verb http://www.sbsbattery.com/PDFs/ReducingUtilityDemandCharges.pdf
+  \endverb
+  \field{year}{2012}
+  \field{urlday}{27}
+  \field{urlmonth}{11}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{6938948}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Salis}{S.}%
+     {R.~T.}{R.~T.}%
+     {de}{d.}%
+     {}{}}%
+    {{}%
+     {Clarke}{C.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wang}{W.}%
+     {Z.}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moyne}{M.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tilbury}{T.}%
+     {D.~M.}{D.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{adaptive control;energy storage;power control;power grids;adaptive
+  control method;battery energy storage system;commercial power
+  customers;energy storage control;grid electrical demand;multiple demand
+  forecasts;peak shaving;single building;Adaptive
+  control;Batteries;Buildings;Forecasting;Standards;Weather
+  forecasting;BESS;Battery Energy Storage System;Peak Shaving;STLF;Short Term
+  Load Forecasting}
+  \strng{namehash}{SRTdCAWZ+1}
+  \strng{fullhash}{SRTdCAWZMJTDM1}
+  \field{abstract}{%
+  An adaptive control method is proposed for applying ``peak shaving'' to the
+  grid electrical demand of a single building, using a battery energy storage
+  system to reduce the maximum demand. The objective is to save cost by
+  reducing the monthly ``demand charges'' commonly levied on commercial power
+  customers. Multiple demand forecasts are evaluated at every time step during
+  each day, and combined to calculate a maximum limit to which the grid demand
+  is controlled. Whereas prior methods apply peak shaving to every day alike,
+  our method does not attempt to reduce peak demand below the maximum reached
+  in the same month. The results show greater monthly demand cost reduction
+  than a previously published method.%
+  }
+  \field{booktitle}{2014 IEEE PES General Meeting | Conference Exposition}
+  \verb{doi}
+  \verb 10.1109/PESGM.2014.6938948
+  \endverb
+  \field{issn}{1932-5517}
+  \field{pages}{1\bibrangedash 5}
+  \field{title}{Energy storage control for peak shaving in a single building}
+  \field{month}{07}
+  \field{year}{2014}
+\endentry
+
+\entry{shen2016}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Shen}{S.}%
+     {Jingshuang}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jiang}{J.}%
+     {Chuanwen}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Yangyang}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Qian}{Q.}%
+     {Jie}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SJJCLY+1}
+  \strng{fullhash}{SJJCLYQJ1}
+  \field{abstract}{%
+  AbstractA microgrid that consists of distributed energy sources, such as
+  micro turbines, wind turbines, fuel cells, and photovoltaic panels, storage
+  devices and a group of radial load feeders are quickly rising in popularity
+  in recent years. Because there are various controllable units in a microgrid,
+  it has the potential to provide ancillary services (A/Ss) for the grid in the
+  grid-connected mode. This article proposes a novel microgrid energy
+  management strategy with demand response to provide peak shaving for the grid
+  by using the peak-time rebate scheme. Under this scheme, various controllable
+  units, such as controllable loads, battery storage, and diesel generators,
+  participate voluntarily in the demand-response program to achieve maximum
+  profit for the microgrid, so the microgrid can respond actively to the grid.
+  The optimal energy management for the microgrid is achieved under this
+  scheme. In addition, the main grid can benefit from the scheme with a lower
+  cost compared with other traditional peak-shaving programs. Various incentive
+  rewards of the peak-time rebate and demand-response levels of the
+  controllable loads are discussed in the peak-time rebate scheme. The results
+  demonstrate that the peak power of the grid tie-line is shaved markedly while
+  achieving optimal energy management.%
+  }
+  \verb{doi}
+  \verb 10.1080/15325008.2016.1138344
+  \endverb
+  \verb{eprint}
+  \verb http://dx.doi.org/10.1080/15325008.2016.1138344
+  \endverb
+  \field{number}{8}
+  \field{pages}{843\bibrangedash 852}
+  \field{title}{A Microgrid Energy Management System with Demand Response for
+  Providing Grid Peak Shaving}
+  \verb{url}
+  \verb http://dx.doi.org/10.1080/15325008.2016.1138344
+  \endverb
+  \field{volume}{44}
+  \field{journaltitle}{Electric Power Components and Systems}
+  \field{year}{2016}
+\endentry
+
+\entry{brentemail}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Brenton}{B.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BJ1}
+  \strng{fullhash}{BJ1}
+  \field{howpublished}{Email Correspondance}
+  \field{title}{Estates Prilimary Feedback Email}
+  \field{month}{10}
+  \field{year}{2016}
+\endentry
+
+\entry{abbpeakshave}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {ABB}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{title}{Peak Shaving}
+  \verb{url}
+  \verb http://www.abb-energystoragesolutions.com/?_ga=1.123851658.1295266903.1
+  \verb 480518807
+  \endverb
+  \list{institution}{1}{%
+    {ABB}%
+  }
+  \field{year}{2016}
+  \field{urlday}{30}
+  \field{urlmonth}{11}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{5559470}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Sauter}{S.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lobashov}{L.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{IP networks;Internet;carrier transmission on power lines;data
+  acquisition;distributed power generation;energy management
+  systems;metering;renewable energy sources;smart power grids;IP based
+  networks;Internet;data acquisition;distributed power plants;end-to-end
+  communication architecture;heterogeneous network
+  infrastructure;metering;powerline communication;real-time energy
+  management;renewable energy;smart grids;supervisory control;Communication
+  network;metering;powerline communication;protocol tunneling;smart grid}
+  \strng{namehash}{STLM1}
+  \strng{fullhash}{STLM1}
+  \field{abstract}{%
+  Smart grids heavily depend on communication in order to coordinate the
+  generation, distribution, and consumption of energy-even more so if
+  distributed power plants based on renewable energies are taken into account.
+  Given the variety of communication partners, a heterogeneous network
+  infrastructure consisting of IP-based and suitable field-level networks is
+  the most appropriate solution. This paper investigates such a two-tier
+  infrastructure and possible field-level networks with particular attention to
+  metering and supervisory control and data acquisition applications. For the
+  problem of network integration, a combination of gateway and tunneling
+  solutions is proposed which allows a semitransparent end-to-end connection
+  between application servers and field nodes. The feasibility of the approach
+  and implementation details are discussed at the example of powerline
+  communication and IP-based networks investigated in the European research
+  project on real-time energy management via powerlines and internet.
+  Nevertheless, it is shown that the communication architecture is versatile
+  enough to serve as a generic solution for smart grids.%
+  }
+  \verb{doi}
+  \verb 10.1109/TIE.2010.2070771
+  \endverb
+  \field{issn}{0278-0046}
+  \field{number}{4}
+  \field{pages}{1218\bibrangedash 1228}
+  \field{title}{End-to-End Communication Architecture for Smart Grids}
+  \field{volume}{58}
+  \field{journaltitle}{IEEE Transactions on Industrial Electronics}
+  \field{month}{04}
+  \field{year}{2011}
+\endentry
+
+\entry{peakload38:online}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {One-Cycle~Control}{O.-C.~C.}%
+     {Inc}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{OCCI1}
+  \strng{fullhash}{OCCI1}
+  \field{title}{Peak Load Reduction with Lithium Iron Battery Energy Storage,
+  Peak Shaving}
+  \verb{url}
+  \verb http://www.onecyclecontrol.com/OCC-PLR-product.html
+  \endverb
+  \list{institution}{1}{%
+    {One-Cycle Control, Inc}%
+  }
+  \field{year}{2012}
+  \field{urlday}{07}
+  \field{urlmonth}{12}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{Demonstr51:online}{report}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Smedley}{S.}%
+     {Gregory~T.}{G.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SGT1}
+  \strng{fullhash}{SGT1}
+  \field{title}{Demonstration of One-Cycle Control Peak Load Regulator
+  (OCC-PLR) System}
+  \verb{url}
+  \verb http://www.energy.ca.gov/2014publications/CEC-500-2014-100/CEC-500-2014
+  \verb -100.pdf
+  \endverb
+  \list{institution}{1}{%
+    {California Energy Commission}%
+  }
+  \field{type}{techreport}
+  \field{year}{2013}
+  \field{urlday}{07}
+  \field{urlmonth}{12}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{7555795}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Telaretti}{T.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dusonchet}{D.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{flow batteries;lead acid batteries;lithium
+  compounds;BESS;Li;NaS;advanced lead-acid batteries;battery energy storage
+  system;customer electricity bill;economic feasibility;electricity
+  price;electrochemical storage systems;flow batteries;internal rate of
+  return;investment costs;lithium-ion batteries;net present value;peak load
+  shaving;sensitivity analysis;sodium-sulphur
+  batteries;Batteries;Economics;Indexes;Investment;Lead;Power system
+  stability;battery energy storage;demand charges;parametric analysis;peak load
+  shaving;technical-economical evaluation}
+  \strng{namehash}{TEDL1}
+  \strng{fullhash}{TEDL1}
+  \field{abstract}{%
+  This paper is the second of a two-part series, aiming to evaluate the
+  economic feasibility of electrochemical storage systems in peak load shaving
+  applications. The battery energy storage system (BESS) is considered to be
+  added to a private facility, with the aim of reducing the customer
+  electricity bill. The BESS is charged during the night, when the electricity
+  prices are the lowest and discharged during the daily hours, when the prices
+  are the highest, contemporary achieving a leveling of the daily usage
+  pattern. The economical evaluations are carried out considering four
+  different electrochemical technologies: lithium-ion (li-ion), advanced
+  lead-acid, sodium-sulphur (NaS) and flow batteries. First, the total costs
+  and savings are estimated, calculating the net present value (NPV) and the
+  internal rate of return (IRR) for each BESS technology. The economic indexes
+  are calculated referring both to 2015 and to the estimated 2020 BESS prices.
+  Second, a parametric analysis is carried out to investigate the effect of
+  several parameters on the economic feasibility of installing a BESS. The
+  considered parameters are: i) the gap between high and low electricity
+  prices; ii) the peak demand charges; iii) the BESS investment costs. The
+  economic analysis reveals that none of the BESS technologies are cost
+  effective at the current BESS prices, without incentives, but the situation
+  could already change in 2020 thanks to the sharp cost decline expected in the
+  coming years.%
+  }
+  \field{booktitle}{2016 IEEE 16th International Conference on Environment and
+  Electrical Engineering (EEEIC)}
+  \verb{doi}
+  \verb 10.1109/EEEIC.2016.7555795
+  \endverb
+  \field{pages}{1\bibrangedash 6}
+  \field{title}{Battery storage systems for peak load shaving applications:
+  Part 2: Economic feasibility and sensitivity analysis}
+  \field{month}{06}
+  \field{year}{2016}
+\endentry
+
+\entry{7555793}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Telaretti}{T.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dusonchet}{D.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{power consumption;power markets;power system economics;secondary
+  cells;BESS operating strategy;ancillary service market;battery energy storage
+  system;daily usage pattern;economic feasibility evaluation;electrochemical
+  storage system;global energy landscape;off-peak period;on-peak period;peak
+  load shaving applications;power system reliability;power system
+  stability;Batteries;Dynamic programming;Economics;Power system
+  reliability;Power system stability;Reliability;TOU tariffs;battery energy
+  storage;case study;peak demand charges;peak load shaving}
+  \strng{namehash}{TEDL1}
+  \strng{fullhash}{TEDL1}
+  \field{abstract}{%
+  Battery Energy Storage Systems (BESSs) are gaining more and more attention in
+  the current global energy landscape, thanks to some peculiar characteristics
+  such as the versatility, modularity, scalability, fast response time, etc.
+  BESSs can advantageously be used in the ancillary services market, in order
+  to provide all the services necessary to ensure the stability and the
+  reliability of the power system. Among other applications, BESS can also be
+  used to shift electricity demand from on-peak to off-peak periods, also
+  contributing to relieve peak demand charges, thus ensuring a saving for the
+  customers. The BESS is charged when the electricity prices are the lowest
+  (during the night) and discharged when the prices are the highest (during the
+  daily hours), contemporary achieving a leveling of the daily usage pattern.
+  This paper is the first of a two-part series, aiming to evaluate the economic
+  feasibility of electrochemical storage systems in peak load shaving
+  applications. The sizing and the operating strategy of the BESS are defined,
+  so as to obtain, at the same time, the flattest daily usage pattern and the
+  maximum benefit for the customer. A case study is analyzed, showing the
+  modification of the power diagram when the BESS is added. The simulation
+  results show a customer daily power profile perfectly leveled in shoulder
+  seasons and a peak shaving effect in all other days.%
+  }
+  \field{booktitle}{2016 IEEE 16th International Conference on Environment and
+  Electrical Engineering (EEEIC)}
+  \verb{doi}
+  \verb 10.1109/EEEIC.2016.7555793
+  \endverb
+  \field{pages}{1\bibrangedash 6}
+  \field{title}{Battery storage systems for peak load shaving applications:
+  Part 1: Operating strategy and modification of the power diagram}
+  \field{month}{06}
+  \field{year}{2016}
+\endentry
+
+\entry{5590194}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Hu}{H.}%
+     {Weihao}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Zhe}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bak-Jensen}{B.-J.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{energy storage;power markets;power system economics;real-time
+  systems;secondary cells;wind power;Denmark;PSB battery;VRB battery;battery
+  energy storage system;energy costs;investment;optimal operation
+  strategy;polysulfide-bromine;real-time electricity price;spot market
+  price;vanadium redox battery;western Danish power system;wind power;Optimal
+  operation;battery energy storage system;electricity market;real-time
+  electricity price}
+  \strng{namehash}{HWCZBJB1}
+  \strng{fullhash}{HWCZBJB1}
+  \field{abstract}{%
+  Since the hourly spot market price is available one day ahead, the price
+  could be transferred to the consumers and they may have some motivations to
+  install an energy storage system in order to save their energy costs. This
+  paper presents an optimal operation strategy for a battery energy storage
+  system (BESS) in relation to the real-time electricity price in order to
+  achieve the maximum profits of the BESS. The western Danish power system,
+  which is currently the grid area in the world that has the largest share of
+  wind power in its generation profiles and may represent the future of
+  electricity markets in some ways, is chosen as the studied power system in
+  this paper. Two kinds of BESS, based on polysulfide-bromine (PSB) and
+  vanadium redox (VRB) battery technologies, are studies in the paper.
+  Simulation results show, that the proposed optimal operation strategy is an
+  effective measure to achieve maximum profits of the BESS. The results also
+  show that it will take longer time to return the original investment of the
+  VRB battery. So the PSB battery is the better investment choice for the time
+  being.%
+  }
+  \field{booktitle}{IEEE PES General Meeting}
+  \verb{doi}
+  \verb 10.1109/PES.2010.5590194
+  \endverb
+  \field{issn}{1932-5517}
+  \field{pages}{1\bibrangedash 7}
+  \field{title}{Optimal operation strategy of battery energy storage system to
+  real-time electricity price in Denmark}
+  \field{month}{07}
+  \field{year}{2010}
+\endentry
+
+\entry{Bennett2015122}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Bennett}{B.}%
+     {Christopher~J.}{C.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stewart}{S.}%
+     {Rodney~A.}{R.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lu}{L.}%
+     {Jun~Wei}{J.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Load balancing}
+  \strng{namehash}{BCJSRALJW1}
+  \strng{fullhash}{BCJSRALJW1}
+  \field{abstract}{%
+  Abstract Three phase battery energy storage (BES) installed in the
+  residential low voltage (LV) distribution network can provide functions such
+  as peak shaving and valley filling (i.e. charge when demand is low and
+  discharge when demand is high), load balancing (i.e. charge more from phases
+  with lower loads and discharge more to phases with higher loads) and
+  management of distributed renewable energy generation (i.e. charge when
+  rooftop solar photovoltaics are generating). To accrue and enable these
+  functions an intelligent scheduling system was developed. The scheduling
+  system can reliably schedule the charge and discharge cycles and operate the
+  \{BES\} in real time. The scheduling system is composed of three integrated
+  modules: (1) a load forecast system to generate next-day load profile
+  forecasts; (2) a scheduler to derive an initial charge and discharge schedule
+  based on load profile forecasts; and (3) an online control algorithm to
+  mitigate forecast error through continuous schedule adjustments. The
+  scheduling system was applied to an \{LV\} distribution network servicing 128
+  residential customers located in an urban region of South East Queensland,
+  Australia.%
+  }
+  \verb{doi}
+  \verb http://dx.doi.org/10.1016/j.apenergy.2015.02.012
+  \endverb
+  \field{issn}{0306-2619}
+  \field{pages}{122 \bibrangedash  134}
+  \field{title}{Development of a three-phase battery energy storage scheduling
+  and operation system for low voltage distribution networks}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S0306261915001841
+  \endverb
+  \field{volume}{146}
+  \field{journaltitle}{Applied Energy}
+  \field{year}{2015}
+\endentry
+
+\entry{iearoadmapes}{report}{}
+  \name{author}{1}{}{%
+    {{}%
+     {IEA}{I.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{I1}
+  \strng{fullhash}{I1}
+  \field{title}{Technology Roadmap: Energy storage}
+  \verb{url}
+  \verb https://www.iea.org/publications/freepublications/publication/Technolog
+  \verb yRoadmapEnergystorage.pdf
+  \endverb
+  \list{institution}{1}{%
+    {International Energy Agency}%
+  }
+  \field{type}{techreport}
+  \field{year}{2014}
+\endentry
+
+\entry{7324861}{inproceedings}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Rodrigues}{R.}%
+     {E.~M.~G.}{E.~M.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Godina}{G.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Os{\'o}rio}{O.}%
+     {G.~J.}{G.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lujano-Rojas}{L.-R.}%
+     {J.~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Matias}{M.}%
+     {J.~C.~O.}{J.~C.~O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Catal{\~a}o}{C.}%
+     {J.~P.~S.}{J.~P.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{energy storage;lead acid batteries;power grids;renewable energy
+  sources;electrochemical energy storage device application;insular power grid
+  applications;insular power system;lead acid battery;lithium-ion
+  battery;nickel-cadmium battery;nickel-metal hydride battery;renewable
+  generation;Integrated circuit modeling;Lead;Lead compounds;Mathematical
+  model;Nickel cadmium batteries;battery SOC;electrical energy storage;insular
+  grids;modelling techniques;renewables integration}
+  \strng{namehash}{REMGGROGJ+1}
+  \strng{fullhash}{REMGGROGJLRJMMJCOCJPS1}
+  \field{abstract}{%
+  This paper explores different modelling techniques for representing
+  electrochemical energy storage devices in insular power grid applications.
+  Particular attention is given to Thevenin based and not Thevenin based
+  models. A case study involving two insular power systems with renewable
+  generation are used to stand out the performance of the selected battery
+  technologies: Lithium-ion (Li-ion), Nickel-Cadmium (NiCd), Nickel-Metal
+  Hydride (NiMH) and Lead Acid.%
+  }
+  \field{booktitle}{2015 Australasian Universities Power Engineering Conference
+  (AUPEC)}
+  \verb{doi}
+  \verb 10.1109/AUPEC.2015.7324861
+  \endverb
+  \field{pages}{1\bibrangedash 6}
+  \field{title}{Comparison of battery models for energy storage applications on
+  insular grids}
+  \field{month}{09}
+  \field{year}{2015}
+\endentry
+
+\entry{7564619}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Deeba}{D.}%
+     {S.~R.}{S.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sharma}{S.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Saha}{S.}%
+     {T.~K.}{T.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chakraborty}{C.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thomas}{T.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{algebra;battery storage plants;distributed power
+  generation;distribution networks;load flow;optimisation;Australian medium
+  voltage distribution network;battery price;battery-based energy storage
+  systems;charge-discharge profile;co-optimise battery size;distributed
+  intermittent renewable generators;financial benefits;generic algebraic
+  modelling system platform;load growth rate;multiperiod power flow
+  analysis;optimisation problem;peak shave fraction;power networks;renewable
+  generation penetration;technical benefits}
+  \strng{namehash}{DSRSRSTK+1}
+  \strng{fullhash}{DSRSRSTKCDTA1}
+  \field{abstract}{%
+  Prompted by technical issues that have arisen due to the widespread
+  deployment of distributed intermittent renewable generators, rapidly rising
+  peak demand and reductions in battery price, the use of battery-based energy
+  storage systems in power networks is on the rise. While battery-based energy
+  storage has the potential to deliver technical benefits, the best possible
+  sizing, location and usage govern the financial viability. The objective of
+  this study is twofold. Firstly, a generalised approach is proposed to model
+  network upgrade deferral as a function of load growth rate, renewable
+  generation penetration and peak shave fraction. This model is then used for
+  the formulation of an optimisation problem which benefits from multi-period
+  power flow analysis to co-optimise battery size, location, charge/discharge
+  profile for a pre-specified number of units to be deployed in a given
+  distribution network. The proposed approach is implemented using the generic
+  algebraic modelling system platform and validated on an Australian medium
+  voltage distribution network under multiple practical and potential future
+  scenarios.%
+  }
+  \verb{doi}
+  \verb 10.1049/iet-rpg.2015.0440
+  \endverb
+  \field{issn}{1752-1416}
+  \field{number}{8}
+  \field{pages}{1149\bibrangedash 1160}
+  \field{title}{Evaluation of technical and financial benefits of battery-based
+  energy storage systems in distribution networks}
+  \field{volume}{10}
+  \field{journaltitle}{IET Renewable Power Generation}
+  \field{year}{2016}
+\endentry
+
+\entry{Allik20161116}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Allik}{A.}%
+     {Alo}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {M{\"a}rss}{M.}%
+     {Maido}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Uiga}{U.}%
+     {Jaanus}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Annuk}{A.}%
+     {Andres}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Inverter sizing}
+  \strng{namehash}{AAMMUJ+1}
+  \strng{fullhash}{AAMMUJAA1}
+  \field{abstract}{%
+  Abstract This paper addresses the problems of output power distribution and
+  variability of small wind turbines. The aim of the study was to increase the
+  share of locally consumed renewable energy and decrease power fluctuation in
+  residential houses that meet their energy demand using wind energy. A system
+  with shiftable water heating and decreased inverter power, which avoids
+  unnecessary conversion steps for shifting of power peaks is proposed.
+  Autocorrelation functions were used to analyse the energy consumption and
+  production patterns for optimization of the inverter and hot water storage
+  tank size for load shifting. The optimal sizing of these components for
+  applying the method was found for different wind conditions. The results of
+  simulations with high temporal resolution data and experiments showed that
+  the proposed system is able to shave stochastic power peaks and shift
+  electrical loads. The analysis of net energy flow revealed that the renewable
+  energy cover factors can be enhanced by 14.4--36.0% and the wind turbine's
+  nominal inverter power can be decreased down to 29.2--52.3% without
+  increasing the system's energy losses or changing the hot water consumption
+  pattern.%
+  }
+  \verb{doi}
+  \verb http://dx.doi.org/10.1016/j.renene.2016.08.016
+  \endverb
+  \field{issn}{0960-1481}
+  \field{pages}{1116 \bibrangedash  1125}
+  \field{title}{Optimization of the inverter size for grid-connected
+  residential wind energy systems with peak shaving}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S0960148116307170
+  \endverb
+  \field{volume}{99}
+  \field{journaltitle}{Renewable Energy}
+  \field{year}{2016}
+\endentry
+
+\entry{Leadbetter2012685}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Leadbetter}{L.}%
+     {Jason}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Swan}{S.}%
+     {Lukas}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Inverter}
+  \strng{namehash}{LJSL1}
+  \strng{fullhash}{LJSL1}
+  \field{abstract}{%
+  This article presents the modeling, simulation, and sizing results of battery
+  energy storage systems for residential electricity peak shaving. Realistic 5
+  min time-step electricity profiles were input to an energy storage model with
+  the objective of reducing the peak electricity demand seen by the electricity
+  grid. The model simulates and provides performance results of a range of
+  battery and inverter sizes specific to a variety of residential houses. The
+  results suggest typical system sizes range from 5 kWh/2.6 kW for low
+  electricity intensity homes to 22 kWh/5.2 kW for electricity intense homes
+  with electric space heating. Based on the resulting storage system cycling
+  profile and data provided by other researchers, the battery life is estimated
+  to be in the range of 10{\^a}€``20 years for this application.%
+  }
+  \verb{doi}
+  \verb http://dx.doi.org/10.1016/j.enbuild.2012.09.035
+  \endverb
+  \field{issn}{0378-7788}
+  \field{note}{Cool Roofs, Cool Pavements, Cool Cities, and Cool World}
+  \field{pages}{685 \bibrangedash  692}
+  \field{title}{Battery storage system for residential electricity peak demand
+  shaving}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S0378778812004896
+  \endverb
+  \field{volume}{55}
+  \field{journaltitle}{Energy and Buildings}
+  \field{year}{2012}
+\endentry
+
+\entry{1300158}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Malinowski}{M.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kaderly}{K.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{cost reduction;energy conservation;industrial economics;machinery
+  production industries;power utilisation;adjustable speed drives;energy
+  consumption;energy cost per motor produced;energy efficiency;high-efficiency
+  electric cooperative;industrial products;motor plant;peak shaving;premium
+  efficiency motors;utility costs reduction;AC motors;Brushless DC
+  motors;Costs;DC motors;Energy conservation;Fans;Fixtures;Manufacturing
+  industries;Servomotors;Variable speed drives}
+  \strng{namehash}{MJKK1}
+  \strng{fullhash}{MJKK1}
+  \field{abstract}{%
+  By thinking out of the box, Baldor Electric Company has been able to save
+  about $1 million a year in energy savings corporate-wide for each of the last
+  three years. Over $100,000 a year of this savings comes from our Westville,
+  OK plant. This paper will discuss Baldor's success reducing utility costs at
+  a motor plant in Westville, Oklahoma by working with the local electricity
+  supplier (Ozarks Electric Cooperative Corp) and practicing peak shaving
+  during summer months. After the plant had adopted all current energy saving
+  methods such as use of NEMA Premium{\texttrademark} electric motors,
+  adjustable speed drives and high-efficiency lighting systems, additional
+  savings were desired. Ozarks Electric Cooperative was also interested in a
+  reduction in the plant's electrical demand during the peak season to unload
+  their system. The co-author is Keith Kaderly from the utility to give a
+  win-win perspective on the project from the utility's viewpoint.%
+  }
+  \field{booktitle}{Region 5 Conference: Annual Technical and Leadership
+  Workshop, 2004}
+  \verb{doi}
+  \verb 10.1109/REG5.2004.1300158
+  \endverb
+  \field{pages}{41\bibrangedash 44}
+  \field{title}{Peak shaving - a method to reduce utility costs}
+  \field{month}{04}
+  \field{year}{2004}
+\endentry
+
+\entry{6175723}{inproceedings}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Lavrova}{L.}%
+     {O.}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cheng}{C.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Abdollahy}{A.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barsun}{B.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mammoli}{M.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dreisigmayer}{D.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Willard}{W.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arellano}{A.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zeyl}{Z.}%
+     {C.}{C.}%
+     {van}{v.}%
+     {}{}}%
+  }
+  \keyw{battery storage plants;load management;photovoltaic power systems;smart
+  power grids;New Mexico;battery storage utilization analysis;commercial
+  loads;customer demand response management;customer-owned storage;distribution
+  feeder;high PV penetration ratio;load shifting;peak smoothing;power 0.5
+  MW;power discharge modes;residential loads;smart grid demonstration
+  project;smart meters;substation-sited photovoltaic
+  system;Batteries;Discharges (electric);Economics;Educational
+  institutions;Smart grids;Smoothing methods;System-on-a-chip;Load
+  management;Photovoltaic systems;Power demand;Smart Grids;Solar power
+  generation}
+  \strng{namehash}{LOCFAS+1}
+  \strng{fullhash}{LOCFASBHMADDWSABZCv1}
+  \field{abstract}{%
+  A Smart Grid demonstration project is currently underway at Public Service
+  Company of New Mexico (PNM). The project combines both residential and
+  commercial loads on a dedicated feeder, with high PV penetration ratio,
+  equipped with a 0.5MW substation-sited photovoltaic (PV) system and
+  large-scale utility storage. The unique aspect of the battery storage system
+  being used, is that both slow (load-shifting) and fast
+  (intermittency-mitigation) power discharge modes are possible. Smart meters
+  and customer Demand Response (DR) management, along with some customer-owned
+  storage will all be implemented. This program targets a minimum of 15%
+  peak-load reduction at a specific feeder through a combination of these the
+  devices and measures. In this paper, we present goals, future plans and
+  current results of modeling for the existing and future infrastructure of
+  this Smart Grid project.%
+  }
+  \field{booktitle}{2012 IEEE PES Innovative Smart Grid Technologies (ISGT)}
+  \verb{doi}
+  \verb 10.1109/ISGT.2012.6175723
+  \endverb
+  \field{pages}{1\bibrangedash 6}
+  \field{title}{Analysis of battery storage utilization for load shifting and
+  peak smoothing on a distribution feeder in New Mexico}
+  \field{month}{01}
+  \field{year}{2012}
+\endentry
+
+\entry{20164002874437}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hau}{H.}%
+     {Lee~Cheun}{L.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lim}{L.}%
+     {Yun~Seng}{Y.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \keyw{College buildings;Control systems;Electric batteries;Real time
+  control;}
+  \strng{namehash}{HLCLYS1}
+  \strng{fullhash}{HLCLYS1}
+  \field{abstract}{%
+  Battery-based energy storage (BESS) has found to have potential and interest
+  in reducing the peak demand. Over the years, a number of control strategies
+  have been developed for BESS to reduce the peak demand. The control
+  strategies are however complex and confined to simulation evaluation only.
+  The control strategies are also not tested in BESS set-up with limited
+  capacity. A simple and yet comprehensive real-time active peak demand
+  reduction control has therefore been developed and presented in this paper.
+  The real-time active control has been evaluated experimentally using the
+  university building as the site. The performance of the real-time control has
+  been evaluated as compared to the fundamental control as well as the ideal
+  reduction in simulation. Even though the capacity is limited, the results
+  showed superiority and adoptability of the real-time active control as
+  compared to the fundamental control, with peak demand reduction of about
+  8.64% as compared to 4.24%. The real-time active control also showed higher
+  accuracy of 70.52% towards the ideal reduction result as compared to the
+  fundamental control with only 35.25%. &copy; 2016 Journal of Communications.%
+  }
+  \field{issn}{17962021}
+  \field{note}{Battery energy storage;Bess;Control strategies;Energy storage
+  systems;Fundamental control;Limited capacity;Peak demand;Simulation
+  evaluation;}
+  \field{number}{9}
+  \field{pages}{841 \bibrangedash  847}
+  \field{title}{A real-time active peak demand reduction for battery energy
+  storage with limited capacity}
+  \verb{url}
+  \verb http://dx.doi.org/10.12720/jcm.11.9.841-847
+  \endverb
+  \field{volume}{11}
+  \field{journaltitle}{Journal of Communications}
+  \field{year}{2016}
+\endentry
+
+\entry{6604477}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Aksanli}{A.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rosing}{R.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pettis}{P.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{computer centres;distributed control;power measurement;real-time
+  systems;secondary cells;uninterruptible power supplies;battery
+  lifetime;communication costs;continuous
+  performance;cooling;datacenters;distributed battery control;large
+  cyber-physical systems;nonideal UPS system;peak power demands;peak power
+  shaving;power 10 MW;power measurements;power subsystems;real-time control
+  decisions;workload placement;Batteries;Discharges (electric);Power
+  demand;Power measurement;Servers;US Department of Defense;Uninterruptible
+  power systems;batteries;datacenters;distributed control;peak power shaving}
+  \strng{namehash}{ABRTPE1}
+  \strng{fullhash}{ABRTPE1}
+  \field{abstract}{%
+  Datacenters are large cyber-physical systems with continuous performance and
+  power measurements, and real-time control decisions related to workload
+  placement, cooling and power subsystems etc. In our work we focus on the
+  non-ideal UPS system used to shave peak power demands. Our novel distributed
+  battery control design has no performance impact, reduces the peak power
+  needs, and accurately estimates and maximizes the battery lifetime. We
+  demonstrate that models which do not take into account physical
+  characteristics of batteries overestimate their lifetime by 2.4x. In
+  contrast, our design is within 3.3% of the centralized battery control in
+  terms of battery lifetime with 10x reduction in the communication costs,
+  while shaving 23MWhrs/week of energy in a 10MW datacenter, equivalent to
+  adding 8760 more servers at no additional power cost.%
+  }
+  \field{booktitle}{2013 International Green Computing Conference Proceedings}
+  \verb{doi}
+  \verb 10.1109/IGCC.2013.6604477
+  \endverb
+  \field{pages}{1\bibrangedash 8}
+  \field{title}{Distributed battery control for peak power shaving in
+  datacenters}
+  \field{month}{06}
+  \field{year}{2013}
+\endentry
+
+\entry{6348200}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Giannoutsos}{G.}%
+     {S.~V.}{S.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Manias}{M.}%
+     {S.~N.}{S.~N.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{cascade control;electric current control;energy storage;invertors;power
+  grids;reactive power control;semiconductor switches;BESS;SOC;active power
+  command override mode;active power regulation;autonomous power system;cascade
+  control scheme;charging modes;discharging modes;dynamic behavior;external
+  controller;gating signals;grid connected battery energy storage
+  system;internal current controller;inverter semiconductor switches;peak
+  shaving;power demand normalization;power demand step variations;reactive
+  power regulation;reference currents;state of charge;system
+  performance;Batteries;Discharges (electric);Inverters;Power demand;Reactive
+  power;System-on-a-chip;Voltage control;Battery Energy Storage System
+  (BESS);P-Q control;State of charge (SOC);VSI grid interconnection}
+  \strng{namehash}{GSVMSN1}
+  \strng{fullhash}{GSVMSN1}
+  \field{abstract}{%
+  The development of a Battery Energy Storage System (BESS) is considered to be
+  very important for peak shaving and power demand normalization, especially in
+  an autonomous power system. This paper presents a control scheme based on a
+  cascade of an external controller that regulates the active and reactive
+  power to generate reference currents and an internal current controller which
+  produces gating signals for the inverter semiconductor switches. The proposed
+  control algorithm takes the state of charge (SOC%) of the battery system into
+  account and implements an active power command override to satisfy the
+  requirements of the SOC% limits of the batteries. System simulations are
+  performed during discharging and charging modes of operation as well as
+  during the active power command override mode for several power demand step
+  variations. The evaluation of the results shows good system performance and
+  dynamic behavior.%
+  }
+  \field{booktitle}{2012 IEEE International Energy Conference and Exhibition
+  (ENERGYCON)}
+  \verb{doi}
+  \verb 10.1109/EnergyCon.2012.6348200
+  \endverb
+  \field{pages}{469\bibrangedash 474}
+  \field{title}{A cascade control scheme for a grid connected Battery Energy
+  Storage System (BESS)}
+  \field{month}{09}
+  \field{year}{2012}
+\endentry
+
+\entry{20160601898032}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Lucas}{L.}%
+     {Alexandre}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chondrogiannis}{C.}%
+     {Stamatios}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \keyw{Battery management systems;Charging (batteries);Data storage
+  equipment;Decision making;Electric batteries;Electric energy storage;Electric
+  power transmission networks;Energy storage;Flow batteries;MATLAB;Secondary
+  batteries;Storage (materials);Vanadium;Virtual storage;}
+  \strng{namehash}{LACS1}
+  \strng{fullhash}{LACS1}
+  \field{abstract}{%
+  Grid connected energy storage systems are regarded as promising solutions for
+  providing ancillary services to electricity networks and to play an important
+  role in the development of smart grids. Thus far, the more mature battery
+  technologies have been installed in pilot projects and studies have indicated
+  their main advantages and shortcomings. The main concerns for wide adoption
+  are the overall cost, the limited number of charging cycles (or lifetime),
+  the depth of discharge, the low energy density and the sustainability of
+  materials used. Vanadium Redox Flow Batteries (VRFB) are a promising option
+  to mitigate many of these shortcomings, and demonstration projects using this
+  technology are being implemented both in Europe and in the USA. This study
+  presents a model using MATLAB/Simulink, to demonstrate how a VRFB based
+  storage device can provide multi-ancillary services, focusing on frequency
+  regulation and peak-shaving functions. The study presents a storage system at
+  a medium voltage substation and considers a small grid load profile,
+  originating from a residential neighbourhood and fast charging stations
+  demand. The model also includes an inverter controller that provides a net
+  power output from the battery system, in order to offer both services
+  simultaneously. Simulation results show that the VRFB storage device can
+  regulate frequency effectively due to its fast response time, while still
+  performing peak-shaving services. VRFB potential in grid connected systems is
+  discussed to increase awareness of decision makers, while identifying the
+  main challenges for wider implementation of storage systems, particularly
+  related to market structure and standardisation requirements. &copy; 2016
+  Elsevier Ltd. All rights reserved.%
+  }
+  \field{issn}{01420615}
+  \field{note}{Fast charging stations;Frequency regulations;Grid connected
+  systems;Grid Storage;Medium voltage substations;Peak shaving;Smart
+  grid;Vanadium redox flow batteries;}
+  \field{pages}{26 \bibrangedash  36}
+  \field{title}{Smart grid energy storage controller for frequency regulation
+  and peak shaving, using a vanadium redox flow battery}
+  \verb{url}
+  \verb http://dx.doi.org/10.1016/j.ijepes.2016.01.025
+  \endverb
+  \field{volume}{80}
+  \field{journaltitle}{International Journal of Electrical Power and Energy
+  Systems}
+  \field{year}{2016}
+\endentry
+
+\entry{Levron201280}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Levron}{L.}%
+     {Yoash}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shmilovitz}{S.}%
+     {Doron}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Peak shaving}
+  \strng{namehash}{LYSD2}
+  \strng{fullhash}{LYSD2}
+  \field{abstract}{%
+  Energy storage devices can facilitate more efficient energy management by
+  regulating the peak of generated power. Managing the stored energy usually
+  presents a complicated optimization problem. In this paper, we show an
+  optimal ``peak shaving'' strategy, that enables minimization of the power
+  peak and derive an analytic design method for attaining optimal peak shaving.
+  The analysis reveals the lowest possible peak, given only the load's demand
+  profile and the storage capacity. The effects of losses in the storage device
+  are analyzed numerically, showing the increase of power peak associated with
+  the increase of loss.%
+  }
+  \verb{doi}
+  \verb http://dx.doi.org/10.1016/j.epsr.2012.02.007
+  \endverb
+  \field{issn}{0378-7796}
+  \field{pages}{80 \bibrangedash  84}
+  \field{title}{Power systems' optimal peak-shaving applying secondary storage}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S037877961200048X
+  \endverb
+  \field{volume}{89}
+  \field{journaltitle}{Electric Power Systems Research}
+  \field{year}{2012}
+\endentry
+
+\entry{5371839}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Levron}{L.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shmilovitz}{S.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{energy storage;fuel cell power plants;power system management;secondary
+  cells;finite storage capacity;fueled power systems;optimal power management
+  strategy;secondary energy storage;Battery lifetime;energy storage;load
+  balancing;load leveling;optimal efficiency;power management}
+  \strng{namehash}{LYSD1}
+  \strng{fullhash}{LYSD1}
+  \field{abstract}{%
+  Fueled power systems using secondary energy storage are analyzed. A generic
+  model of such systems is suggested, and an optimal power management strategy
+  that maximizes efficiency is derived analytically. The model and optimal
+  management solution emphasizes the constraint imposed by finite storage
+  capacity. The optimal generated energy is established independently of the
+  system's capacity, and load, and general characteristics of it are derived
+  and proved. The analytic solution provides an intuitive comprehension into
+  the optimal power management, without needing numeric simulations.%
+  }
+  \verb{doi}
+  \verb 10.1109/TCSI.2009.2037405
+  \endverb
+  \field{issn}{1549-8328}
+  \field{number}{8}
+  \field{pages}{2221\bibrangedash 2231}
+  \field{title}{Optimal Power Management in Fueled Systems With Finite Storage
+  Capacity}
+  \field{volume}{57}
+  \field{journaltitle}{IEEE Transactions on Circuits and Systems I: Regular
+  Papers}
+  \field{month}{08}
+  \field{year}{2010}
+\endentry
+
+\entry{Chen2009291}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Chen}{C.}%
+     {Haisheng}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cong}{C.}%
+     {Thang~Ngoc}{T.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yang}{Y.}%
+     {Wei}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tan}{T.}%
+     {Chunqing}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Yongliang}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ding}{D.}%
+     {Yulong}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Electrical energy storage}
+  \strng{namehash}{CHCTNYW+1}
+  \strng{fullhash}{CHCTNYWTCLYDY1}
+  \field{abstract}{%
+  Electrical energy storage technologies for stationary applications are
+  reviewed. Particular attention is paid to pumped hydroelectric storage,
+  compressed air energy storage, battery, flow battery, fuel cell, solar fuel,
+  superconducting magnetic energy storage, flywheel, capacitor/supercapacitor,
+  and thermal energy storage. Comparison is made among these technologies in
+  terms of technical characteristics, applications and deployment status.%
+  }
+  \verb{doi}
+  \verb http://dx.doi.org/10.1016/j.pnsc.2008.07.014
+  \endverb
+  \field{issn}{1002-0071}
+  \field{number}{3}
+  \field{pages}{291 \bibrangedash  312}
+  \field{title}{Progress in electrical energy storage system: A critical
+  review}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S100200710800381X
+  \endverb
+  \field{volume}{19}
+  \field{journaltitle}{Progress in Natural Science}
+  \field{year}{2009}
+\endentry
+
+\entry{liao2016a}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Liao}{L.}%
+     {Qiangqiang}{Q.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sun}{S.}%
+     {Bo}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Yu}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sun}{S.}%
+     {Jun}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhou}{Z.}%
+     {Guoding}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{LQSBLY+1}
+  \strng{fullhash}{LQSBLYSJZG1}
+  \field{abstract}{%
+  The merits of electricity grid in Shanghai and sodium sulfur (NaS) storage
+  techniques situation are introduced. High-energy NaS battery energy storage
+  system (BESS) is very suitable for peak shaving of electricity grid. A
+  cost--benefit analysis model of NaS BESS is established to study the
+  electricity price mechanism in load shift in the light of an example of NaS
+  BESS in Meisei University. Capacity price, energy price and twofold
+  electricity price mechanism are discussed under the fixed payback period. The
+  results show that twofold electric power price mechanism is fitter for NaS
+  BESS than onefold energy price mechanism while onefold capacity price
+  mechanism is not suitable for NaS BESS. The discharge price of NaS BESS has
+  an advantage over Shanghai's electricity price in industrial and commercial
+  peak periods when its construction cost descends to 1000 yuan kWh−1.
+  Copyright {\copyright} 2015 John Wiley & Sons, Ltd.%
+  }
+  \verb{doi}
+  \verb 10.1002/er.3460
+  \endverb
+  \field{issn}{1099-114X}
+  \field{number}{2}
+  \field{pages}{241\bibrangedash 247}
+  \field{title}{A techno‐economic analysis on NaS battery energy storage
+  system supporting peak shaving}
+  \verb{url}
+  \verb http:https://dx.doi.org/10.1002/er.3460
+  \endverb
+  \field{volume}{40}
+  \field{journaltitle}{International Journal of Energy Research}
+  \field{month}{02}
+  \field{year}{2016}
+\endentry
+
+\entry{Dunn928}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Dunn}{D.}%
+     {Bruce}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kamath}{K.}%
+     {Haresh}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tarascon}{T.}%
+     {Jean-Marie}{J.-M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Association for the Advancement of Science}%
+  }
+  \strng{namehash}{DBKHTJM1}
+  \strng{fullhash}{DBKHTJM1}
+  \field{abstract}{%
+  The increasing interest in energy storage for the grid can be attributed to
+  multiple factors, including the capital costs of managing peak demands, the
+  investments needed for grid reliability, and the integration of renewable
+  energy sources. Although existing energy storage is dominated by pumped
+  hydroelectric, there is the recognition that battery systems can offer a
+  number of high-value opportunities, provided that lower costs can be
+  obtained. The battery systems reviewed here include sodium-sulfur batteries
+  that are commercially available for grid applications, redox-flow batteries
+  that offer low cost, and lithium-ion batteries whose development for
+  commercial electronics and electric vehicles is being applied to grid
+  storage.%
+  }
+  \verb{doi}
+  \verb 10.1126/science.1212741
+  \endverb
+  \verb{eprint}
+  \verb http://science.sciencemag.org/content/334/6058/928.full.pdf
+  \endverb
+  \field{issn}{0036-8075}
+  \field{number}{6058}
+  \field{pages}{928\bibrangedash 935}
+  \field{title}{Electrical Energy Storage for the Grid: A Battery of Choices}
+  \verb{url}
+  \verb http://science.sciencemag.org/content/334/6058/928
+  \endverb
+  \field{volume}{334}
+  \field{journaltitle}{Science}
+  \field{year}{2011}
+\endentry
+
+\entry{flowbatstan}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Garg}{G.}%
+     {Bhaskar}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Flow Batteries; Batteries}
+  \strng{namehash}{GB1}
+  \strng{fullhash}{GB1}
+  \field{title}{Introduction to Flow Batteries: Theory and Applications}
+  \verb{url}
+  \verb http://large.stanford.edu/courses/2011/ph240/garg1/
+  \endverb
+  \field{year}{2012}
+  \field{urlday}{30}
+  \field{urlmonth}{11}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{batuni}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Univeristy}{U.}%
+     {Battery}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Batteries}
+  \strng{namehash}{UB1}
+  \strng{fullhash}{UB1}
+  \field{title}{Comparison Table of Secondary Batteries}
+  \verb{url}
+  \verb http://batteryuniversity.com/learn/article/secondary_batteries
+  \endverb
+  \list{institution}{1}{%
+    {Battery Univeristy}%
+  }
+  \field{year}{2016}
+  \field{urlday}{30}
+  \field{urlmonth}{11}
+  \field{urlyear}{2016}
+\endentry
+
+\entry{Choudar201521}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Choudar}{C.}%
+     {Adel}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boukhetala}{B.}%
+     {Djamel}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barkat}{B.}%
+     {Said}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brucker}{B.}%
+     {Jean-Michel}{J.-M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Ultra-capacitor}
+  \strng{namehash}{CABDBS+1}
+  \strng{fullhash}{CABDBSBJM1}
+  \field{abstract}{%
+  Abstract The presented work focuses on energy management strategy, to operate
+  a grid connected active \{PV\} system (APS) in a microgrid. A microgrid is a
+  smart grid in a small scale which can be stand-alone or grid-tied. The
+  proposed system is based on photovoltaic system, batteries and
+  ultra-capacitors. Three converters are used to interface the elements of the
+  \{APS\} to a common DC-link capacitor. The presented control strategy manages
+  the power flow between the converters and the grid through the DC-link in
+  order to maintain the grid power demand coming from the grid operator.
+  Batteries are used as an energy source, to stabilize and permit the \{APS\}
+  units to run at a constant and stable output power, damping peak surges in
+  electricity demand and to store the excess of energy from the \{PV\} array.
+  Ultra-capacitors are used as a fast power regulator to: limit the
+  battery{\^a}€{\texttrademark}s current, regulate the DC-link voltage when
+  the disconnection mode occurs and to deliver a smooth power to the grid,
+  despite primary source and load fluctuations. Several operating modes are
+  presented to manage locally the power flows between the various sources,
+  taking into account the state of charge of batteries (SOC), the energy level
+  of ultra-capacitors (Lev), the available \{PV\} power and the power demand
+  from the grid operator.%
+  }
+  \verb{doi}
+  \verb http://dx.doi.org/10.1016/j.enconman.2014.10.067
+  \endverb
+  \field{issn}{0196-8904}
+  \field{pages}{21 \bibrangedash  33}
+  \field{title}{A local energy management of a hybrid PV-storage based
+  distributed generation for microgrids}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S0196890414009625
+  \endverb
+  \field{volume}{90}
+  \field{journaltitle}{Energy Conversion and Management}
+  \field{year}{2015}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

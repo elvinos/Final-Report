@@ -9,7 +9,8 @@
 % -----------------------------------------------------------------------------------
 %      PACKAGES & OTHER DOCUMENT CONFIGURATIONS
 % -----------------------------------------------------------------------------------
-\documentclass{article}
+\documentclass[fontsize=9.5pt]{extarticle}
+
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[british]{babel}
@@ -22,16 +23,20 @@
 % Note urldate field must be in yyyy-mm-dd to work - use online type
 % Remeber to use \printbibliography in the footer
 % -----------------------------------------------------------------------------------
-\usepackage{sectsty}
+% \usepackage{sectsty}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}  %<<<<<<<<< Edit FONT HERE
+% \usepackage{fontspec}
+% \setmainfont{Times New Roman}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
 \else % if luatex or xelatex
   \ifxetex
     \usepackage{mathspec}
-    \setmainfont{Avenir-Light}
+    \setmainfont[
+ BoldFont={Avenir-Medium},ItalicFont={Avenir-BookOblique},
+ BoldItalicFont={Avenir-MediumOblique}]{Avenir-Book}
   \else
   % Font Package for XeLatex
     \usepackage{fontspec}
@@ -56,7 +61,8 @@
 % \usepackage[maxlevel=3]{csquotes}
 %    \MakeAutoQuote{‘}{’}
 %    \MakeAutoQuote*{“}{”} %corrects quote marks
-
+\usepackage{enumitem} % resume numbered lists
+\usepackage{multicol} %for mulitple colums in lists
 \usepackage{geometry}
 \usepackage{booktabs} %<<<<<<<<< Table drawing package
 \usepackage[table,xcdraw]{xcolor} %<<<<<<<<< Table drawing package
@@ -66,6 +72,16 @@
 \usepackage{changepage} %Allows Adjust width to be used for the document (indenting paragraphs)
 \usepackage{pdfpages} %Allows Pdfpages to be added to the document use \includepdf[pages={1}]{myfile.pdf}
 \usepackage{pdflscape} %Change Pages from Portrait to Landscape
+
+% \usepackage[compact]{titlesec}
+\usepackage{titlesec}
+\titlespacing\section{0pt}{8pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{0pt plus 3pt minus 2pt}{-3pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{0pt plus 2pt minus 2pt}{-6pt plus 2pt minus 2pt}
+\titlespacing\subsubsubsection{0pt}{-6pt plus 2pt minus 2pt}{-6pt plus 2pt minus 2pt}
+\setlength{\multicolsep}{-1pt plus 2.0pt minus 1.5pt}% 50% of original values
+
+% \titlespacing*{\section}{0pt}{1.1\baselineskip}{\baselineskip}
 
 \renewcommand*{\thefootnote}{\alph{footnote}} %%% Changes footnotes to letters
 \usepackage[bottom]{footmisc} %%% Pushes footnote to bottom and to the margin
@@ -141,19 +157,19 @@
 % -----------------------------------------------------------------------------------
 %                   NAMES & CLASS DEFINITION %<<<<<<<<< INSERT DETAILS HERE
 % -----------------------------------------------------------------------------------
-\newcommand{\AssignmentTitle}{Report Title}
-\newcommand{\ModuleTitle}{Module Title}
+\newcommand{\AssignmentTitle}{Investigation of the Use Energy Storage Technologies to Reduce Peak Demand Charges for the University of Bristol}
+\newcommand{\ModuleTitle}{Design Project 4 - Final Report}
 \newcommand{\University}{University of Bristol}
 \newcommand{\Faculty}{Faculty of Engineering}
 \newcommand{\UniCrest}{crestbris.png}
 \newcommand{\UniLogo}{logobris.png}%<<<<<<<<< Make Sure Files are in the Template
 %\newcommand{\GroupName}{Group 2}
-\newcommand{\StudentNameA}{Alex Charles}
+\newcommand{\StudentNameA}{Alexander Charles}
 \newcommand{\StudentNumberA}{67634}
-\newcommand{\SupervisorNameA}{Name}
-\newcommand{\SupervisorEmailA}{email@gmail.com}
-\newcommand{\SupervisorNameB}{Name}
-\newcommand{\SupervisorEmailB}{email@gmail.com}
+\newcommand{\SupervisorNameA}{Dr Theo Tryfonas}
+\newcommand{\SupervisorEmailA}{Theo.Tryfonas@bristol.ac.uk}
+% \newcommand{\SupervisorNameB}{Name}
+% \newcommand{\SupervisorEmailB}{email@gmail.com}
 
 % -----------------------------------------------------------------------------------
 %        PACKAGES FOR MARKDOWN CONVERSION - FOR USE If Using Markdown to Latex
@@ -214,19 +230,19 @@
 % -----------------------------------------------------------------------------------
  \geometry{
  left=20mm,
- right=20mm,
- top=25mm,
- bottom=25mm,
+ right=25.4mm,
+ top=25.4mm,
+ bottom=20mm,
  }
-\linespread{1.05}
+\linespread{1.5}
 
 \pagestyle{fancy}
 \lhead{\includegraphics[width = 0.2\textwidth]{\UniLogo}}
 % \chead{\AssignmentTitle}
 % \rhead{}
 \lfoot{\StudentNameA}
-\cfoot{}
-\rfoot{Page \thepage} %%%% note the footer is swapped when page numbering style changes
+\cfoot{\thepage}
+% \rfoot{Page \thepage} %%%% note the footer is swapped when page numbering style changes
 \renewcommand\headrulewidth{0.4pt}
 \renewcommand\footrulewidth{0.4pt}
 
@@ -258,6 +274,10 @@
   \setlength{\abovedisplayshortskip}{-18pt}
   \setlength{\belowdisplayshortskip}{0pt}
 
+  \setlist[enumerate]{itemsep=-2mm}
+  \setlist[itemize]{itemsep=-2mm}
+
+
 %----------------------------------------------------------------------------------------
                                   %	TITLE PAGE FORMAT
 %----------------------------------------------------------------------------------------
@@ -274,7 +294,10 @@
 %----------------------------------------------------------------------------------------
 %	LOGO SECTION - Adds Univeristy Crest to the Report
 %----------------------------------------------------------------------------------------
-		\includegraphics[width = 0.2\textwidth]{\UniCrest}\\[0.5cm]
+\newcolumntype{C}{>{\centering\arraybackslash} m{6cm} }  %# New column type
+\begin{tabular}{CC}
+  \includegraphics[width = 0.2\textwidth]{\UniCrest} &   \includegraphics[width=0.3\textwidth]{Arup_logo.png}
+\end{tabular}\\[0.5cm]
 %----------------------------------------------------------------------------------------
 %	HEADING SECTION
 %----------------------------------------------------------------------------------------
@@ -336,15 +359,43 @@
 
 \newpage
 
+% -----------------------------------------------------------------------------------
+%                             	 Acknowledgements
+% -----------------------------------------------------------------------------------
+
+\addcontentsline{toc}{section}{Acknowledgements}
+\section*{Acknowledgements}\label{acknowledgements}
+A paragraph should be written in place of this text, acknowledging all persons who have helped or contributed towards your project. All formally allocated supervisors should be acknowledged first followed by other university staff, representatives of external companies and people not falling in those categories such as peers and PhD students. The acknowledgement should indicate the nature of the assistance received, for example “I acknowledge Paul Rowe of OnAxis Ltd for providing the linear motors used in section 4 and Dr Simon Richards for help in writing the source code for the controller.”
+
+\addcontentsline{toc}{section}{Declaration}
+\section*{Declaration}\label{declartion}
+\begin{quote}
+\textit{The accompanying research project report entitled:  “\AssignmentTitle” is submitted in the fourth year of study towards an application for the degree of Bachelor of Engineering in Engineering Design at the University of Bristol. The report is based upon independent work by the candidate. All contributions from others have been acknowledged above. The views expressed within the report are those of the author and not of the University of Bristol.}
+\end{quote}
+I hereby declare that the above statements are true.
+\\
+\\Signed (author)
+\\
+\\ ………………………………………………………………………
+\\
+\\ Full Name
+\\
+\\ {\large \StudentNameA}
+\\
+\\ Date
+\\
+\\ {\large \today}
+
+\newpage
 
 % -----------------------------------------------------------------------------------
 %                             	 ABSTRACT
 % -----------------------------------------------------------------------------------
 
-\addcontentsline{toc}{section}{Abstract}
-\begin{abstract}
+\addcontentsline{toc}{section}{Executive Summary}
+\section*{Executive Summary}\label{ExecSummary}
 
-\end{abstract}
+\newpage
 % -----------------------------------------------------------------------------------
 %                              TABLE OF CONTENTS
 % -----------------------------------------------------------------------------------
@@ -352,32 +403,34 @@
 \tableofcontents
 
 
-% \newpage
-
-\addcontentsline{toc}{section}{List of Tables}
-\listoftables
+\newpage
 \addcontentsline{toc}{section}{List of Figures}
 \listoffigures
-% \addcontentsline{toc}{section}{List of Acronyms}
-% \section*{List of Acronyms}\label{acronyms}
-% \textbf{BRB}: Be Right Back \\
+\addcontentsline{toc}{section}{List of Tables}
+\listoftables
+\addcontentsline{toc}{section}{List of Acronyms}
+\section*{List of Acronyms}\label{acronyms}
+\begin{tabular}{p{1cm}p{12cm}}
+\textbf{ESS}:& Energy Storage System \\
+\textbf{DUoS}:& Energy Storage SystemDistribution Use of System\\
+\textbf{TNUoS}:& Transmission Network Use of System\\
+\textbf{SQP}:& Sequential Quadratic Programming\\
+\textbf{ROI}:& Return On Investment\\
+\textbf{VRB}&: Vanadium Redox Batteries\\
+\textbf{PHS}:& Pumped Hydroelectric Storage\\
+\textbf{CAES}:& Compressed Air Energy Storage\\
+\textbf{CES}:& Cryogenic Energy Storage\\
+\textbf{TES}:& Thermal Energy Storage\\
+\textbf{SMES}:& Superconducting Magnetic Energy Storages\\
+\end{tabular}
 
-
-% \newpage
-
-% \addcontentsline{toc}{section}{Acknowledgements}
-% \section*{Acknowledgements}\label{acknowledgements}
-
-% \addcontentsline{toc}{section}{Declaration}
-% \section*{Declaration}\label{declartion}
-% I hereby declare that this report entitled “\AssignmentTitle” submitted to Bristol University, is a record of an original work completed by myself.\\
-
-% \newpage
+\newpage
 
 %% -----------------------------------------------------------------------------------
 %%                          	  INTRODUCTION
 %% -----------------------------------------------------------------------------------
 \clearpage
-\rfoot{Page \thepage\ of \pageref{LastPage}}
+\cfoot{\thepage}
+% \rfoot{Page \thepage\ of \pageref{LastPage}}
 \pagenumbering{arabic}
 \begin{counted} %<<<<<<<<<<<<<<STARTS WORD COUNTER
