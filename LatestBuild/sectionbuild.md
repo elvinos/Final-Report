@@ -105,3 +105,69 @@ The selected Electrical Storage System (ESS) will govern the cost and feasibilit
 By removing energy storage methods that would not be appropriate for the system a table was created \footnote{See table \ref{battabs}, in the Appendices} comparing ESSs. Batteries along with capacitors provide the response time \cite{Choudar201521} and efficiencies required to make the system justifiable, where only rechargeable batteries were compared. From section \ref{battery-sizing-and-financial-modelling} a model of a University peak demand reduction system will need to compare different battery parameters along with their cost, to optimise the model.
 
 \newpage
+
+# Development Of Model And Background Research
+
+## Battery Model Definition
+### Battery Economics
+
+**NPV Calculation**
+
+### Battery Costing
+### Discharge of Battery Modelling
+## New Campus Demand Model
+### Creation of Senate House Billing Model
+
+**Representative Bill Creation**
+
+**Tax and Other Charges**
+
+### Definition of New Campus Requirements/ Assumptions
+### Creation of New Campus Model
+## Definition of System Architectures / Strategies
+### Peak demand Sensing and Smart Metering
+### Energy Conversion
+### Centralised vs Decentralised
+### Strategies
+
+**Simple Red Peak Battery Usage**
+
+**Advanced Strategies**
+
+# Validation of Model
+
+## Sensitivity Check
+
+# Results and Analysis
+## Senate House Battery Strategy and Sizing
+### Simple
+### Advanced
+## New Campus Battery Strategy and Sizing
+### Simple
+### Advanced
+## Discussion of Results
+
+# Conclusions and Future Work
+## Conclusions
+## Future Work
+
+\newpage
+\section{Appendices}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{battypes}
+\caption{Diagram Showing Batteries Catorgised for Their Use Case \cite{Dunn928}}
+\label{battypes}
+\end{figure}
+
+\begin{landscape}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=1.3\textwidth]{battab.eps}
+\caption{Table Showing Battery Performance}
+\label{battabs}
+\end{table}
+
+\end{landscape}
