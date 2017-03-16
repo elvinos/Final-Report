@@ -1,9 +1,10 @@
 
-# Results and Analysis
+# Results
 ## Senate House Battery Strategy and Sizing
 ### Simple
 ### Advanced
 ## New Campus Battery Strategy and Sizing
 ### Simple
 ### Advanced
-## Discussion of Results
+
+# Discussion of Results

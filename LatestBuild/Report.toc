@@ -42,52 +42,50 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.1.1}Battery Economics}{8}{subsubsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2}Battery Costing}{8}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2}Battery Costing}{9}{subsubsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.3}Discharge of Battery Modelling}{8}{subsubsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3}Degradation of Battery Modelling}{9}{subsubsection.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}New Campus Demand Model}{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}New Campus Demand Model}{12}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}Creation of Senate House Billing Model}{8}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1}Creation of Senate House Billing Model}{12}{subsubsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2}Definition of New Campus Requirements/ Assumptions}{8}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2}Creation of New Campus Model}{13}{subsubsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3}Creation of New Campus Model}{8}{subsubsection.3.2.3}
+\contentsline {subsection}{\numberline {3.3}Definition of System Architectures / Strategies}{13}{subsection.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Definition of System Architectures / Strategies}{8}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Peak demand Sensing and Smart Metering}{13}{subsubsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.1}Peak demand Sensing and Smart Metering}{8}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Energy Conversion}{13}{subsubsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.2}Energy Conversion}{8}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}Centralised vs Decentralised}{13}{subsubsection.3.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.3}Centralised vs Decentralised}{8}{subsubsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.4}Strategies}{13}{subsubsection.3.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.4}Strategies}{8}{subsubsection.3.3.4}
+\contentsline {section}{\numberline {4}Validation of Model}{13}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Validation of Model}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Sensitivity Check}{13}{subsection.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Sensitivity Check}{8}{subsection.4.1}
+\contentsline {section}{\numberline {5}Results}{13}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Results and Analysis}{8}{section.5}
+\contentsline {subsection}{\numberline {5.1}Senate House Battery Strategy and Sizing}{13}{subsection.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Senate House Battery Strategy and Sizing}{8}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Simple}{13}{subsubsection.5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1}Simple}{8}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Advanced}{13}{subsubsection.5.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2}Advanced}{8}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}New Campus Battery Strategy and Sizing}{13}{subsection.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}New Campus Battery Strategy and Sizing}{8}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Simple}{13}{subsubsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1}Simple}{8}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Advanced}{13}{subsubsection.5.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2}Advanced}{8}{subsubsection.5.2.2}
+\contentsline {section}{\numberline {6}Discussion of Results}{13}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Discussion of Results}{8}{subsection.5.3}
+\contentsline {section}{\numberline {7}Conclusions and Future Work}{13}{section.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Conclusions and Future Work}{8}{section.6}
+\contentsline {subsection}{\numberline {7.1}Conclusions}{13}{subsection.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Conclusions}{8}{subsection.6.1}
+\contentsline {subsection}{\numberline {7.2}Future Work}{13}{subsection.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}Future Work}{8}{subsection.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Appendices}{9}{section.7}
+\contentsline {section}{\numberline {8}Appendices}{14}{section.8}

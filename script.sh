@@ -16,7 +16,7 @@ cp  sectionbuild.md ~/Documents/University/Year\ 4/Design\ Project\ 4/Final\ Rep
 cd ~/Documents/University/Year\ 4/Design\ Project\ 4/Final\ Report/LatestBuild/
 
 # Run Pandoc to turn the markdown file with the bulk of the document into a .TeX file
-pandoc -f markdown --latex-engine=xelatex -R -i sectionbuild.md -o pandocked.tex
+pandoc -f markdown --latex-engine=xelatex --biblatex -R -i sectionbuild.md -o pandocked.tex
 
 # Remove some of the junk that Markdown adds when converting to TeX.
 sed -i .bak 's/\[<+->\]//g' ~/Documents/University/Year\ 4/Design\ Project\ 4/Final\ Report/LatestBuild/pandocked.tex

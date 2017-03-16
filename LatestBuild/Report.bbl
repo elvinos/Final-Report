@@ -1808,6 +1808,244 @@
   \field{year}{2015}
 \endentry
 
+\entry{diorio2015economic}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {DiOrio}{D.}%
+     {Nicholas}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dobos}{D.}%
+     {Aron}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Janzou}{J.}%
+     {Steven}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DNDAJS1}
+  \strng{fullhash}{DNDAJS1}
+  \field{title}{Economic analysis case studies of battery energy storage with
+  SAM}
+  \field{journaltitle}{National Renewable Energy Laboratory: Denver, CO, USA}
+  \field{year}{2015}
+\endentry
+
+\entry{mckBat}{report}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Knupfer}{K.}%
+     {Stefan~M.}{S.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hensley}{H.}%
+     {Russell}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hertzke}{H.}%
+     {Patrick}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schaufuss}{S.}%
+     {Patrick}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KSMHRHP+1}
+  \strng{fullhash}{KSMHRHPSP1}
+  \field{title}{Electrifying insights: How automakers can drive electrified
+  vehicle sales and profitability}
+  \list{institution}{1}{%
+    {Mckinsey \& Company}%
+  }
+  \field{type}{techreport}
+  \field{year}{2017}
+\endentry
+
+\entry{spotnitz2003simulation}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Spotnitz}{S.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{SR1}
+  \strng{fullhash}{SR1}
+  \field{number}{1}
+  \field{pages}{72\bibrangedash 80}
+  \field{title}{Simulation of capacity fade in lithium-ion batteries}
+  \field{volume}{113}
+  \field{journaltitle}{Journal of Power Sources}
+  \field{year}{2003}
+\endentry
+
+\entry{rong2006analytical}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Rong}{R.}%
+     {Peng}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pedram}{P.}%
+     {Massoud}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{RPPM1}
+  \strng{fullhash}{RPPM1}
+  \field{number}{5}
+  \field{pages}{441\bibrangedash 451}
+  \field{title}{An analytical model for predicting the remaining battery
+  capacity of lithium-ion batteries}
+  \field{volume}{14}
+  \field{journaltitle}{IEEE Transactions on Very Large Scale Integration (VLSI)
+  Systems}
+  \field{year}{2006}
+\endentry
+
+\entry{Choi2002130}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Choi}{C.}%
+     {Soo~Seok}{S.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lim}{L.}%
+     {Hong~S}{H.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Float charge}
+  \strng{namehash}{CSSLHS1}
+  \strng{fullhash}{CSSLHS1}
+  \field{abstract}{%
+  An extensive test has been conducted on a lithium-ion (Li-ion) cell under a
+  variety of cycling conditions in order to evaluate factors that affect its
+  cycle-life. The study is performed on a 900-mAh wound prismatic cell with
+  contains a LiCoO2 positive electrode (cathode) and a synthetic graphite
+  negative electrode (anode). Cycle-life is greatly influenced by the charge
+  conditions, but is relatively insensitive to the discharge conditions. High
+  charge cut-off voltages and a long float-charge period at 4.2 V or above have
+  the most severe effects on cycle-life. Another damaging condition is high
+  charge rates above the 1C rate, but reduction in the depth-of-discharge does
+  not improve the cycle-life unlike the situation with other rechargeable
+  batteries such as alkaline and lead--acid batteries. The dependence of the
+  degradation rate on the charge voltage and the period of high charge voltage
+  suggests that an electrochemical oxidation may be the cause.%
+  }
+  \verb{doi}
+  \verb http://dx.doi.org/10.1016/S0378-7753(02)00305-1
+  \endverb
+  \field{issn}{0378-7753}
+  \field{number}{1}
+  \field{pages}{130 \bibrangedash  136}
+  \field{title}{Factors that affect cycle-life and possible degradation
+  mechanisms of a Li-ion cell based on LiCoO2}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S0378775302003051
+  \endverb
+  \field{volume}{111}
+  \field{journaltitle}{Journal of Power Sources}
+  \field{year}{2002}
+\endentry
+
+\entry{Charging53:online}{online}{}
+  \field{title}{Charging Lithium-Ion Batteries -- Battery University}
+  \verb{url}
+  \verb http://batteryuniversity.com/learn/article/charging_lithium_ion_batteri
+  \verb es
+  \endverb
+  \field{urlday}{15}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
+\endentry
+
+\entry{BatteryL10:online}{online}{}
+  \field{title}{Battery Life and How To Improve It}
+  \verb{url}
+  \verb http://www.mpoweruk.com/life.htm
+  \endverb
+  \field{urlday}{15}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
+\endentry
+
+\entry{Prematur82:online}{online}{}
+  \field{title}{Premature Voltage Cut-off - Battery University}
+  \verb{url}
+  \verb http://batteryuniversity.com/learn/article/premature_voltage_cut_off
+  \endverb
+  \field{urlday}{15}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
+\endentry
+
+\entry{Effectso69:online}{online}{}
+  \field{title}{Effects of Discharge Rate and Temperature on Battery Capacity
+  and Life | Engineers Edge}
+  \verb{url}
+  \verb http://www.engineersedge.com/battery/discharge_rate_temperature_effects
+  \verb _battery.htm
+  \endverb
+  \field{urlday}{15}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
+\endentry
+
+\entry{xu2016modeling}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Xu}{X.}%
+     {Bolun}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Oudalov}{O.}%
+     {Alexandre}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ulbig}{U.}%
+     {Andreas}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Andersson}{A.}%
+     {Goran}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kirschen}{K.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{XBOAUA+1}
+  \strng{fullhash}{XBOAUAAGKD1}
+  \field{title}{Modeling of lithium-ion battery degradation for cell life
+  assessment}
+  \field{journaltitle}{IEEE Transactions on Smart Grid}
+  \field{year}{2016}
+\endentry
+
 \lossort
 \endlossort
 
