@@ -380,24 +380,155 @@ section \ref{battery-sizing-and-financial-modelling} a model of a
 University peak demand reduction system will need to compare different
 battery parameters along with their cost, to optimise the model.
 
+\subsection{Previous Bristol University Work
+IODICUS}\label{previous-bristol-university-work-iodicus}
+
+\subsection{Battery Capacity
+Modelling}\label{battery-capacity-modelling}
+
+\subsection{Battery Selection - Telsa Power-pack
+2}\label{battery-selection---telsa-power-pack-2}
+
 \newpage
 
-\section{Development Of Model And Background
-Research}\label{development-of-model-and-background-research}
+\section{Development of Model Advantages and Barriers
+Assessment}\label{development-of-model-advantages-and-barriers-assessment}
 
 This section discusses and defines how the model was created and the
 process used to generate results.
 
-\subsection{Battery Model Definition}\label{battery-model-definition}
+It is important to understand how a battery system can best be utilised
+to maximise it's effect. The following section will highlight the
+advantages and barriers of using a battery system. Understanding the
+advantages will highlight the best way to design a system architectures
+which leverages these points. It is this report objective to create
+strong arguments to how the system will overcome barriers to entry,
+laying out how all the assumptions in the model overcome these issues
+and address any qualitative issues in the following section
 
-\subsubsection{Battery Economics}\label{battery-economics}
+\textbf{Advantages}
+
+\begin{itemize}
+\tightlist
+\item
+  Reducing Electricity Bills:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Reducing the DUoS Charges
+  \item
+    Reducing Triad Charges
+  \item
+    Playing on the frequency response market (beyond project scope)
+  \item
+    Reducing capacity charges
+  \end{itemize}
+\item
+  Supply Levelling:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Leveraging maximum use of PV's and other renewable energy sources
+  \item
+    Providing a fully predictable energy profile for new building.
+    Useful in negotiating price when new power capacity has to be
+    installed ( very relevant to the new Bristol campus), saves paying
+    for the new connection. \cite{wpMWMD}
+  \end{itemize}
+\item
+  Emergency Power: Providing backup generation in the case of power
+  cuts. Can support crucial systems alleviating risks associated with
+  loss of power
+\item
+  Sustainability:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Reducing peak load, reduces losses on the network. There is a green
+    argument for running diesel generators in peak times. Batteries are
+    a highly more sustainable.
+  \item
+    Ensures self consumption of renewables
+  \end{itemize}
+\end{itemize}
+
+\textbf{Barriers}
+
+\begin{itemize}
+\tightlist
+\item
+  Costs of Purchase too high:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Installation Costs too high, too complex -
+    \hl{difficulty of retrofitting?}
+  \item
+    Unit Price of the battery is too high - (kWh)
+  \item
+    Additional equipment cost, inverters
+  \item
+    Maintenance cost
+  \end{itemize}
+\item
+  Lifetime/ longevity of the battery too low, replacement costs/
+  dismantling cost make battery installation unfeasible
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Unpredictability in cycle life of the battery may mean that lifetime
+    is much lower than all good predictions
+  \end{itemize}
+\item
+  Finance not feasible
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Loan Interest \textgreater{} Savings
+  \item
+    Negative NPV
+  \end{itemize}
+\item
+  Frequent change of regulation may mean that costs shift to reduce
+  battery savings, use for reducing DUoS is still favoured by energy
+  companies. May change if lots of people take up using batteries in
+  this manner.
+\item
+  Barriers to entry
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Laws/ regulations
+  \item
+    Penalisation from energy companies
+  \end{itemize}
+\item
+  Negative environmental effects: Uses of large scale quantities may be
+  hold undesired environmental risks
+\item
+  Risk of injury/ explosion. Large batteries that overload, hold a very
+  high risk of explosion. Battery system monitoring is key to ensuring
+  the battery operates with in it's limits
+\item
+  Technology still maturing, Li-ion batteries have not been used in this
+  manner before, for extended periods of time
+\end{itemize}
+
+\subsection{Battery Economics}\label{battery-economics}
 
 The main objective of this project is to create a business case for
 using a battery system to reduce energy bills. Ultimately the model aims
 to produce the information required to justify whether investing in
 batteries is feasible and advise on the best battery to buy based on
 it's capacity and it's power rating. Due to the readily available
-commercial information of Tesla's Powerpack 2, this battery system was
+commercial information of Tesla's Power-pack 2, this battery system was
 used to model financial feasibility and optimal product.
 
 There are 3 ways the model will evaluate the value of the battery
@@ -412,41 +543,25 @@ likely that the battery will be purchased on financing this means that
 interest on the loan has to be paid each year reducing the battery
 value. Additionally the battery will degrade in performance over time,
 this is key to understanding the value of the product over its life
-time. Using an Initial return rate \emph{Add return rate calc here} the
+time. Using an Initial return rate \hl{Add return rate calc here} the
 maximum discount rate can be found for a few batteries (using the
 extremes). This can then be used to set different discount rates, where
 0 is used to illustrate the payback of the battery. Even with the
 battery degrading, it can be predicted that the battery will continue to
-degrade until failure. \emph{The net present value (NPV) is a way to
-examine costs and revenues while accounting for the time value of money.
-If the NPV of a system is positive, then the investment is predicted to
-provide a return on investment greater than the initial and ongoing cash
-expenditures associated with ownership of the system. A negative NPV
-indicates the returns are worth less than the cash outflows and the
-investment does not show a financial benefit, although unquantified
-benefits may be present. \cite{diorio2015economic}} Total-savings is the
-measure of net present value when the discount rate is 0.
+degrade until failure.
+\hl{The net present value (NPV) is a way to examine costs and revenues while accounting for the time value of money. If the NPV of a system is positive, then the investment is predicted to provide a return on investment greater than the initial and ongoing cash expenditures associated with ownership of the system. A negative NPV indicates the returns are worth less than the cash outflows and the investment does not show a financial benefit, although unquantified benefits may be present.}
+\cite{diorio2015economic} Total-savings is the measure of net present
+value when the discount rate is 0.
 
-\textbf{Payback Period:} \emph{The payback period (PBP) is the time in
-years it takes for project savings to equal or exceed the initial cost
-of the investment. This metric is included because of its ability to
-quickly communicate tangible value of a project. A system which yields a
-very short payback period is typically a profitable one because
-subsequent years of the project result in pure revenue for the system
-owner. A system which cannot be paid back over the lifetime of the
-system is a poor investment because money is still owed when the system
-is retired and no longer able to generate revenue. The payback period is
-reported as the first time where the project savings exceeds the debt,
-but care must be taken to also consider additional cash expenditures in
-later years \cite{diorio2015economic}.} The this model looks at the
-lifetime of investing in one battery system over a period of time so
-additional cash expenditure is ignored in this model.
+\textbf{Payback Period:}
+\hl{The payback period (PBP) is the time in years it takes for project savings to equal or exceed the initial cost of the investment. This metric is included because of its ability to quickly communicate tangible value of a project. A system which yields a very short payback period is typically a profitable one because subsequent years of the project result in pure revenue for the system owner. A system which cannot be paid back over the lifetime of the system is a poor investment because money is still owed when the system is retired and no longer able to generate revenue. The payback period is reported as the first time where the project savings exceeds the debt, but care must be taken to also consider additional cash expenditures in later years.}
+\cite{diorio2015economic} The this model looks at the lifetime of
+investing in one battery system over a period of time so additional cash
+expenditure is ignored in this model.
 
-\subsubsection{Battery Costing}\label{battery-costing}
+\subsection{Battery Costing}\label{battery-costing}
 
-\emph{explanation of the Powerpack 2 costs, including warranty,
-maintenance, installation and any other additional costs. Discussion of
-the falling costs of lithium battery prices, refer to Diagram}
+\hl{explanation of the Power-pack 2 costs, including warranty, maintenance, installation and any other additional costs. Discussion of the falling costs of lithium battery prices, refer to Diagram}
 
 \begin{figure}[H]
   \centering
@@ -455,23 +570,17 @@ the falling costs of lithium battery prices, refer to Diagram}
   \label{mckBatPrice}
 \end{figure}
 
-\emph{Discussion of Li-ion Battery Falling costs, why now or the 5 year
-time period of the campus is a good time to buy} \emph{installation
-costs, probably large when retrofitting to an existing building,
-although the technology comes as almost plug and play, assume will need
-to be connected to where the mains supply enters the building in order
-to work in tandem with mains supply} \emph{Other technology required
-such as inverters e.c.t.}
+\hl{Discussion of Li-ion Battery Falling costs, why now or the 5 year time period of the campus is a good time to buy, installation costs, probably large when retrofitting to an existing building, although the technology comes as almost plug and play, assume will need to be connected to where the mains supply enters the building in order to work in tandem with mains supply Other technology required such as inverters e.c.t.}
 
-\subsubsection{Degradation of Battery
-Modelling}\label{degradation-of-battery-modelling}
+\subsection{Battery Lifetime Assessment - Understanding Battery
+Degradation}\label{battery-lifetime-assessment---understanding-battery-degradation}
 
 The below figure shows the typical profile a Li-ion battery follows as
 it degrades over time:
 
 \begin{figure}[H]
   \centering
-  \includegraphics[trim = 0 0 0 0, clip, width=0.5\textwidth]{batCapGen.png}
+  \includegraphics[trim = 0 0 0 0, clip, width=0.35\textwidth]{batCapGen.png}
   \caption{Plot of the General Relationship between battery capacity and cycle number \cite{spotnitz2003simulation} }
   \label{batCapGen}
 \end{figure}
@@ -487,11 +596,11 @@ The literature review revealed these factors to have the greatest effect
 on the rate in which the battery decays:
 
 \begin{itemize}
-\tightlist
 \item
   Temperature: By running the battery at a temperature too hot or two
-  cold, the battery will degrade much quicker \emph{Include numerical
-  prediction here with reference \cite{rong2006analytical}}
+  cold, the battery will degrade much quicker
+  \hl{Include numerical prediction here with reference}
+  \cite{rong2006analytical}
 \item
   Charging:
 
@@ -499,12 +608,12 @@ on the rate in which the battery decays:
   \tightlist
   \item
     Charging Level: The cycle life of a battery can be increased by
-    reducing the cut off voltage of the battery. \emph{Battery volatge
-    will be fixed at either high voltage three phase or at single phase
-    240V, instead current drawn by the battery will very.} Decreasing
-    the current drawn therefore will extend the battery cycle life, give
-    the battery a partial charge instead of fully charing it. This has a
-    similar effect to working at a lower DoD. \cite{Choi2002130}
+    reducing the cut off voltage of the battery.
+    \hl{Battery voltage will be fixed at either high voltage three phase or at single phase 240V, instead current drawn by the battery will very.}
+    Decreasing the current drawn therefore will extend the battery cycle
+    life, give the battery a partial charge instead of fully charing it.
+    This has a similar effect to working at a lower DoD.
+    \cite{Choi2002130}
 
     \begin{figure}[H]
     \centering
@@ -515,26 +624,14 @@ on the rate in which the battery decays:
   \item
     Overcharging: By charging the battery too its' full capacity the
     battery or continuing to charge the battery beyond its designed
-    voltage, the battery capacity can quickly degrade. \emph{The battery
-    becomes unstable if inadvertently charged to a higher than specified
-    voltage. Prolonged charging above 4.30V on a Li-ion designed for
-    4.20V/cell will plate metallic lithium on the anode. The cathode
-    material becomes an oxidising agent, loses stability and produces
-    carbon dioxide (CO2). The cell pressure rises and if the charge is
-    allowed to continue, these can cause the temperature inside the cell
-    to increase, furthering the reduction in the batteries capacity. A
-    fully charged battery has a lower thermal runaway temperature and
-    will vent sooner than one that is partially charged. All
-    lithium-based batteries are safer at a lower charge
-    \cite{Charging53:online}.} Due to these two issues the battery
-    should stop charging once it reaches a threshold below its maximum
-    value.
+    voltage, the battery capacity can quickly degrade.
+    \hl{The battery becomes unstable if inadvertently charged to a higher than specified voltage. Prolonged charging above 4.30V on a Li-ion designed for 4.20V/cell will plate metallic lithium on the anode. The cathode material becomes an oxidising agent, loses stability and produces carbon dioxide (CO2). The cell pressure rises and if the charge is allowed to continue, these can cause the temperature inside the cell to increase, furthering the reduction in the batteries capacity. A fully charged battery has a lower thermal runaway temperature and will vent sooner than one that is partially charged. All lithium-based batteries are safer at a lower charge.}
+    \cite{Charging53:online} Due to these two issues the battery should
+    stop charging once it reaches a threshold below its maximum value.
   \item
-    Charging Rate: \emph{The capacity reduction at high discharge rates
-    occurs because the transformation of the active chemicals cannot
-    keep pace with the current drawn. The result is incomplete or
-    unwanted chemical reactions and an associated reduction in capacity
-    \cite{BatteryL10:online}}
+    Charging Rate:
+    \hl{The capacity reduction at high discharge rates occurs because the transformation of the active chemicals cannot keep pace with the current drawn. The result is incomplete or unwanted chemical reactions and an associated reduction in capacity}
+    \cite{BatteryL10:online}
   \end{itemize}
 \item
   Useage
@@ -546,8 +643,8 @@ on the rate in which the battery decays:
     have detrimental effects on capacity. It is common for battery
     management systems (BMS), particularly in consumer electronics to
     power the device off at a threshold above 0, to negate some of
-    effects of low energy storage \cite{Prematur82:online}. \emph{Add
-    further evidence here}
+    effects of low energy storage \cite{Prematur82:online}.
+    \hl{Add further evidence here}
   \item
     Speed of Depletion: The rate in which the battery is discharge can
     have a strong effect on the battery life time. The images below
@@ -568,13 +665,9 @@ on the rate in which the battery decays:
   full current capacity (noting that the capacity will degrade over
   time, making each cycle length smaller). It has been cited that there
   is a logarithmic relationship between depth of discharge and the cycle
-  life of the battery \cite{BatteryL10:online}.\emph{Note the graph
-  above is for Lead-Acid batteries, but also holds true for Li-ion by
-  restricting the possible DOD in the application, the designer can
-  dramatically improve the cycle life of the product. Similarly the user
-  can get a much longer life out of the battery by using cells with a
-  capacity slightly more than required or by topping the battery up
-  before it becomes completely discharged. \cite{BatteryL10:online}}
+  life of the battery
+  \cite{BatteryL10:online}.\hl{Note the graph above is for Lead-Acid batteries, but also holds true for Li-ion by restricting the possible DOD in the application, the designer can dramatically improve the cycle life of the product. Similarly the user can get a much longer life out of the battery by using cells with a capacity slightly more than required or by topping the battery up before it becomes completely discharged.}
+  \cite{BatteryL10:online}
 
   \begin{figure}[H]
     \centering
@@ -591,35 +684,248 @@ on the rate in which the battery decays:
     \end{figure}
 \end{itemize}
 
-\subsection{New Campus Demand Model}\label{new-campus-demand-model}
+\newpage
 
-\subsubsection{Creation of Senate House Billing
+\section{Battery Model Definition}\label{battery-model-definition}
+
+Understanding the key design parameters highlighted in section
+\ref{Development-of-Model-Advantages-and-Barriers-Assessment}. The model
+was created to capture as many of these drivers to maximise the models
+validity. Data was obtained for Senate house (a large University
+office/study space building). This data was manipulated to create a
+representative energy profile for the Senate and then the New Campus.
+
+\subsection{Model Development
+Requirements}\label{model-development-requirements}
+
+\subsubsection{Fixed vs Variable Optimisation
+Model}\label{fixed-vs-variable-optimisation-model}
+
+\subsubsection{Code Optimisation}\label{code-optimisation}
+
+\subsubsection{User Interface}\label{user-interface}
+
+\subsubsection{Ease of Development}\label{ease-of-development}
+
+\subsection{Creation of Senate House Billing
 Model}\label{creation-of-senate-house-billing-model}
 
-\textbf{Representative Bill Creation}
+Data was received for Senate house, giving usage in kWh for the previous
+half hour period. A bill was also provided for a months energy use at
+the Victoria rooms (another Bristol University building used for
+lecturing, offices and teaching classes). A meeting with John Brenton
+\hl{add reference} clarified that billing profiles for both buildings
+were identical.
 
-\textbf{Tax and Other Charges} \#\#\# Definition of New Campus
-Requirements/ Assumptions
+In order to gauge the size and power requirements needed for a building
+the size of Senate house, a minute by minute usage profile needed to be
+created and then cross checked against a representative bill to
+understand how the different charges are broken down and highlight
+charges to target the design of the battery system architecture too.
 
-\subsubsection{Creation of New Campus
-Model}\label{creation-of-new-campus-model}
+Using the half hourly usage data of senate house for a year, usage plots
+were created for different days in the year. It was clear that the was a
+major difference between energy demand during the weekend and during the
+week, shown in \ref{Development-c4}. Total energy consumption was 3
+times greater over the weekdays than the weekend. When creating at usage
+data, it was imperative to make sure that weekday's and weekend matched
+completely in order to give an accurate representation about the energy
+usage.\\
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[trim = 50 50 30 50, clip, width=0.5\textwidth]{Development-c4.eps}
+ \caption{Plot of Mean Senate House Weekday and Weekend Usage}
+ \label{Development-c4}
+ \end{figure}
+
+This data was good at giving a rough estimation of the battery size
+needed to produce some impact on the Universities energy bills.
+
+\subsubsection{Representative Bill
+Creation}\label{representative-bill-creation}
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[trim = 0 0 0 0, clip, width=0.5\textwidth]{Development-38.png}
+ \caption{Image of Energy Bill For Victoria Rooms}
+ \label{Development-38}
+ \end{figure}
+
+Figure \ref{Development-38} shows a typical electricity bill for a
+University building. It is clear the red unit rates make up the largest
+part of the DUoS Charge and roughly 20\% of that months total recorded
+charges. Instead capacity charges made up only 4\% of the total bill.
+This realisation meant that the focus of the model would be to start by
+reducing the red rate charge through load shifting, and explore other
+charges if this proved to not be effective to offset investment costs.
+Figure \ref{Development-50} highlights the significance of the different
+unit costs.
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[trim = 0 0 0 0, clip, width=0.5\textwidth]{Development-50.eps}
+ \caption{Difference in Unit Charge Rates}
+ \label{Development-50}
+ \end{figure}
+
+Using this data a model was created taking into account DUoS charges and
+multiplying them by their respective rate. This charge makes up and
+large \% of the total bill showing roughly how much the unit rate costs.
+
+To achieve this, the date of the usage data was scanned to find which
+day the bill began, then assigning the next 6 days, to be either
+weekdays or weekends. This was important as there are different DUoS
+rate at different times of day between weekdays and weekends. Creating a
+counter that loops through each half hour period, logic can be applied
+to categorise each half hour period into their respective unit rate.
+Total units consumed in red, amber and green periods were found allowing
+for some simple calculations to find the effect of load shifting. By
+shifting the load in red units to green rate charges, a significant
+saving could be made. By measuring the amount of units consumed in red
+periods gave a good estimation for the size range of the battery that
+would be required.
+
+\subsection{Representative Demand
+Profile}\label{representative-demand-profile}
+
+The second performance parameter of the battery is the maximum power it
+can supply, rated in kW. By applying to much load on a battery can
+ultimately cause it to fail, severely reducing the batteries cycle life.
+As there was no demand data available, a few assumption had to be made
+in order to generate an valid demand profile. First the half hourly
+usage data was split into a minute by minute representation, creating
+points at every minute by finding the gradient and constant between two
+points then splitting the distant into 30 equidistant points. This
+produced an identical graph to the fit, applied by Matlab. However as
+each point int he original graph represented usage for the previous 30
+minutes, this was divided by 30 to give the usage per minute This can be
+validated by summing all the points and compare to the original graph.
+
+This profile however assumes that all usage varies linearly between time
+periods. In reality this is not true. To generate a more realistic
+demand profile. The start, end and midpoint between two values were used
+as means in which a random number with a normal distribution was applied
+to give normally distributed values in intervals of 10 minutes,
+modelling how usage varies randomly minute by minute but holding the
+trend of the original data. Scaling by two, coverts usage from kWH into
+demand KW. This graph was then validated by integrating the area of the
+graph and comparing it against the summation of the original data. A
+standard deviation \(\sigma\), was then selected which would fairly
+represent the change in usage. After trailing with a range of different
+scales of data, \(\sigma\) was set to the mean between the average usage
+and max usage. This gave a fair, but conservative representation of how
+energy usage may look.
+
+\textbf{\emph{Assumptions:}} Usage will have a peaky profile due to a
+large number of people in the buildings , switching numerous devices on
+and off frequently. For an office style building like Senate it is
+unlikely that there is any large equipment that could cause a major
+spike in demand.
+
+The demand profile could then be plotted as both as histogram and as a
+cumulative distribution plot, identifying the typical demand of Senate
+house over the year, as well as the max demand the building experiences.
+Figures \ref{Development-dd} and \ref{Development-a8} show the demand
+profile of the building.
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[trim = 140 80 140 20, clip, width=0.95\textwidth]{Development-dd.eps}
+ \caption{Plots of Usage and Demand Profile Generation and Histogram of Year Data}
+ \label{Development-dd}
+ \end{figure}
+
+It can be observed from in the histogram in Figure \ref{Development-dd},
+that the demand of the building typically falls between two points. One
+low peak representing morning and evening of 30KW and a second peak
+constituting the energy usage in the middle of the day, averaging around
+80KW, but rarely ever exceeding 90KW.
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{Development-a8.eps}
+ \caption{Load Duration Plot of Year Usage Data}
+ \label{Development-a8}
+ \end{figure}
+
+The Load Duration Curve in Figure \ref{Development-a8} takes demand for
+each hour and plots this in descending order, this shows the annual
+demand that can be met for a battery at a given power rating
+\autocite{combined-heat-power-buildings}. For Senate house, a battery
+rated to 40KW would cover, 5000 hours of the year roughly 55\% of the
+years usage.
+
+Taking both graphs together, selecting a battery which covers the mean
+power demand, may act be a good trade off.
+
+\subsection{Definition of New Campus
+Requirements}\label{definition-of-new-campus-requirements}
+
+To fulfil the objectives of this project, an understanding of the design
+of the new campus needed to be assessed. As the building plans are still
+in their early stage, many assumptions about the likely size and use of
+the campus had to be understood in order to create a representative
+energy profile. Table \hl{*Insert Table of campus size/ rooms*} in the
+Appendix shows the predicted new campus size and use stating relevant
+assumptions.
+
+The campus will constitute around 1500 students in halls of residence
+and have around 5000 staff and students on site during term time.
+Although there have been a range of facilities proposed that the
+University campus will house, it is most likely that the building will
+constitute mainly of tutorial rooms, a few lecture halls and offices. A
+meeting with John Brenton \autocite{Jbrentmeet}, made clear that
+creating infrastucure to support postgraduate business studies made the
+most economical sense so is most likely to make up most of the final
+plans.
+
+The energy profile of Senate house will be mostly transferrable to the
+new campus, as it is unlikely the new campus will have any devices that
+will distort the load profile greatly. In addition, the campus is likely
+to have improved efficiency through utilising the latest technologies in
+its construction and services (ventilation, heating e.c.t.). Data on 125
+rooms in halls of residence was also provided, it is likely that this
+will almost be identical to a new build, due to student usage making it
+difficult to manage energy demand further. Using the foot prints of both
+building and adding some additional laboratory data to simulate if these
+creates any spike in energy usage.
+
+The scaling factors were:
+
+\begin{itemize}
+\tightlist
+\item
+  Senate House (7840sqm) - \textbf{7.9x}
+\item
+  Hall data (2761sqm) - \textbf{7.6x}
+\item
+  Lab data (1 Lab Use) - \textbf{4x}
+\end{itemize}
+
+Due to these data files falling under different years and running
+between different dates, the data needed to be adjusted in order to be
+correctly scaled. An algorithm was therefore created to match the date
+shown in figure \ref{Development-fc}.
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{Development-fc.eps}
+ \caption{Logic of Data Aligning Tool To Create New Campus Data}
+ \label{Development-fc}
+ \end{figure}
+
+\hl{Make assumptions very clear}
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[trim = 0 0 0 0, clip, width=0.6\textwidth]{Development-92.eps}
+ \caption{Load Duration Profile for the New Campus}
+ \label{Development-92}
+ \end{figure}
 
 \subsection{Definition of System Architectures /
 Strategies}\label{definition-of-system-architectures-strategies}
-
-\subsubsection{Peak demand Sensing and Smart
-Metering}\label{peak-demand-sensing-and-smart-metering}
-
-\subsubsection{Energy Conversion}\label{energy-conversion}
-
-\subsubsection{Centralised vs
-Decentralised}\label{centralised-vs-decentralised}
-
-\subsubsection{Strategies}\label{strategies}
-
-\textbf{Simple Red Peak Battery Usage}
-
-\textbf{Advanced Strategies}
 
 \section{Validation of Model}\label{validation-of-model}
 

@@ -1808,6 +1808,27 @@
   \field{year}{2015}
 \endentry
 
+\entry{wpMWMD}{misc}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Watson}{W.}%
+     {Matt}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dale}{D.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WMDM1}
+  \strng{fullhash}{WMDM1}
+  \field{howpublished}{Meeting Minutes}
+  \field{title}{Western Power Discussion}
+  \field{month}{03}
+  \field{year}{2017}
+\endentry
+
 \entry{diorio2015economic}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -2044,6 +2065,29 @@
   assessment}
   \field{journaltitle}{IEEE Transactions on Smart Grid}
   \field{year}{2016}
+\endentry
+
+\entry{combined-heat-power-buildings}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {CIBSE}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {CIBSE}%
+  }
+  \strng{namehash}{C1}
+  \strng{fullhash}{C1}
+  \field{isbn}{978-1-906846-30-5}
+  \field{title}{Combined Heat and Power for Buildings - CIBSE AM12: 2013 (2nd
+  Edition)}
+  \verb{url}
+  \verb http://app.knovel.com/hotlink/toc/id:kpCHPBCIB1/combined-heat-power-bui
+  \verb ldings/combined-heat-power-buildings
+  \endverb
+  \field{year}{2013}
 \endentry
 
 \lossort

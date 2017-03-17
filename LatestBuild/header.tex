@@ -15,7 +15,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[british]{babel}
 % ----------NEW BIBLATEX BIBLIOGRAPHY-----------------------------------------------
-\usepackage[backend=bibtex,style = ieee]{biblatex} % Upgrades Bibliography
+\usepackage[eprint=false,backend=bibtex,style = ieee]{biblatex} % Upgrades Bibliography Block Ragged helps break lines in url fixes error
 
 \addbibresource{BibFile.bib} %%% For biblatex
 %e.g to add page number \footfullcite[chapter, p.~215]{AAIB}
@@ -24,6 +24,12 @@
 % Remeber to use \printbibliography in the footer
 % -----------------------------------------------------------------------------------
 % \usepackage{sectsty}
+\usepackage{url}
+
+%%% --- The following two lines are what needs to be added --- %%%
+\setcounter{biburllcpenalty}{7000}
+\setcounter{biburlucpenalty}{8000}
+
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}  %<<<<<<<<< Edit FONT HERE
 % \usepackage{fontspec}
@@ -45,6 +51,7 @@
   \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
 \fi
 \usepackage[fit]{truncate} %Truncates headers that are too long
+\usepackage[headheight=26pt,headsep=0.15cm]{geometry}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \usepackage{extramarks}
@@ -58,12 +65,11 @@
 \usepackage[font ={small,it}]{caption}
 \usepackage{amsfonts,amsthm} % Math packages
 % \usepackage{cite}
-% \usepackage[maxlevel=3]{csquotes}
+\usepackage{csquotes}
 %    \MakeAutoQuote{‘}{’}
 %    \MakeAutoQuote*{“}{”} %corrects quote marks
 \usepackage{enumitem} % resume numbered lists
 \usepackage{multicol} %for mulitple colums in lists
-\usepackage{geometry}
 \usepackage{booktabs} %<<<<<<<<< Table drawing package
 \usepackage[table,xcdraw]{xcolor} %<<<<<<<<< Table drawing package
 \usepackage{svg}
@@ -72,7 +78,7 @@
 \usepackage{changepage} %Allows Adjust width to be used for the document (indenting paragraphs)
 \usepackage{pdfpages} %Allows Pdfpages to be added to the document use \includepdf[pages={1}]{myfile.pdf}
 \usepackage{pdflscape} %Change Pages from Portrait to Landscape
-
+\usepackage{color,soul} %% Highlights text for markup
 % \usepackage[compact]{titlesec}
 \usepackage{titlesec}
 \titlespacing\section{0pt}{8pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
@@ -237,7 +243,7 @@
 \linespread{1.5}
 
 \pagestyle{fancy}
-\lhead{\includegraphics[width = 0.2\textwidth]{\UniLogo}}
+\lhead{\includegraphics[width = 0.15\textwidth]{\UniLogo}}
 % \chead{\AssignmentTitle}
 % \rhead{}
 \lfoot{\StudentNameA}
@@ -245,9 +251,8 @@
 % \rfoot{Page \thepage} %%%% note the footer is swapped when page numbering style changes
 \renewcommand\headrulewidth{0.4pt}
 \renewcommand\footrulewidth{0.4pt}
-
 \setlength\parindent{0pt}
-
+% \setlength{\headheight}{5mm}
 \newcommand{\horrule}[1]{\rule{\linewidth}{#1}}
 
 % -----------------------------------------------------------------------------------
@@ -289,8 +294,8 @@
 %	HEADING SECTION
 %----------------------------------------------------------------------------------------
 		\usefont{OT1}{bch}{b}{n}
-		\normalfont \normalsize \textsc{\University} \\ [10pt]
-		\normalfont \normalsize \textsc{\Faculty} \\ [25pt]
+		\normalfont \normalsize \University \\ [10pt]
+		\normalfont \normalsize \Faculty \\ [25pt]
 %----------------------------------------------------------------------------------------
 %	LOGO SECTION - Adds Univeristy Crest to the Report
 %----------------------------------------------------------------------------------------
@@ -301,7 +306,7 @@
 %----------------------------------------------------------------------------------------
 %	HEADING SECTION
 %----------------------------------------------------------------------------------------
-		\normalfont \normalsize \textsc{\ModuleTitle} \\ [25pt]
+		\normalfont \normalsize \ModuleTitle \\ [25pt]
 %----------------------------------------------------------------------------------------
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
@@ -373,18 +378,18 @@ A paragraph should be written in place of this text, acknowledging all persons w
 \textit{The accompanying research project report entitled:  “\AssignmentTitle” is submitted in the fourth year of study towards an application for the degree of Bachelor of Engineering in Engineering Design at the University of Bristol. The report is based upon independent work by the candidate. All contributions from others have been acknowledged above. The views expressed within the report are those of the author and not of the University of Bristol.}
 \end{quote}
 I hereby declare that the above statements are true.
-\\
-\\Signed (author)
-\\
-\\ ………………………………………………………………………
-\\
-\\ Full Name
-\\
-\\ {\large \StudentNameA}
-\\
-\\ Date
-\\
-\\ {\large \today}
+\\[2\baselineskip]
+Signed (author)
+\\[2\baselineskip]
+ ………………………………………………………………………
+\\[2\baselineskip]
+Full Name
+\\[2\baselineskip]
+{\large \StudentNameA}
+\\[2\baselineskip]
+Date
+\\[2\baselineskip]
+{\large \today}
 
 \newpage
 

@@ -4,16 +4,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1}{\ignorespaces Group Design Project Diagram Showing Relationships Between Individual Projects\relax }}{1}{figure.caption.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces Plot of Battery Prices Reduction for 2010-2016 and Predictions for Future battery Prices \cite {mckBat}\relax }}{9}{figure.caption.2}
+\contentsline {figure}{\numberline {2}{\ignorespaces Plot of Battery Prices Reduction for 2010-2016 and Predictions for Future battery Prices \cite {mckBat}\relax }}{10}{figure.caption.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces Plot of the General Relationship between battery capacity and cycle number \cite {spotnitz2003simulation} \relax }}{10}{figure.caption.3}
+\contentsline {figure}{\numberline {3}{\ignorespaces Plot of the General Relationship between battery capacity and cycle number \cite {spotnitz2003simulation} \relax }}{11}{figure.caption.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4}{\ignorespaces Plot of the Relationship Between Battery Cycle Life and Voltage of Charge \cite {Choi2002130} \relax }}{10}{figure.caption.4}
+\contentsline {figure}{\numberline {4}{\ignorespaces Plot of the Relationship Between Battery Cycle Life and Voltage of Charge \cite {Choi2002130} \relax }}{11}{figure.caption.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5}{\ignorespaces Plot of the Relationship Between Discharge Time and its' Effect on the Rated Capacity of a Battery \cite {Effectso69:online}\relax }}{11}{figure.caption.5}
+\contentsline {figure}{\numberline {5}{\ignorespaces Plot of the Relationship Between Discharge Time and its' Effect on the Rated Capacity of a Battery \cite {Effectso69:online}\relax }}{12}{figure.caption.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6}{\ignorespaces Plot of Depth of Discharge vs Cycle Life \cite {BatteryL10:online}\relax }}{12}{figure.caption.6}
+\contentsline {figure}{\numberline {6}{\ignorespaces Plot of Depth of Discharge vs Cycle Life \cite {BatteryL10:online}\relax }}{13}{figure.caption.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7}{\ignorespaces Plot of the Measured Relationship between battery State of Charge and it's Effect on the Cycle Number lifetime \cite {xu2016modeling}\relax }}{12}{figure.caption.7}
+\contentsline {figure}{\numberline {7}{\ignorespaces Plot of the Measured Relationship between battery State of Charge and it's Effect on the Cycle Number lifetime \cite {xu2016modeling}\relax }}{13}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8}{\ignorespaces Diagram Showing Batteries Catorgised for Their Use Case \cite {Dunn928}\relax }}{14}{figure.caption.8}
+\contentsline {figure}{\numberline {8}{\ignorespaces Plot of Mean Senate House Weekday and Weekend Usage\relax }}{15}{figure.caption.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9}{\ignorespaces Image of Energy Bill For Victoria Rooms\relax }}{15}{figure.caption.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10}{\ignorespaces Difference in Unit Charge Rates\relax }}{16}{figure.caption.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11}{\ignorespaces Plots of Usage and Demand Profile Generation and Histogram of Year Data\relax }}{17}{figure.caption.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12}{\ignorespaces Load Duration Plot of Year Usage Data\relax }}{18}{figure.caption.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {13}{\ignorespaces Logic of Data Aligning Tool To Create New Campus Data\relax }}{19}{figure.caption.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {14}{\ignorespaces Load Duration Profile for the New Campus\relax }}{19}{figure.caption.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {15}{\ignorespaces Diagram Showing Batteries Catorgised for Their Use Case \cite {Dunn928}\relax }}{21}{figure.caption.15}
