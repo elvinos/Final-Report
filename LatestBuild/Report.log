@@ -1,8 +1,8 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.12.3)  17 MAR 2017 12:39
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.12.3)  22 MAR 2017 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Report.tex
+**Report
 (./Report.tex
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
@@ -708,32 +708,39 @@ File: xkeyval.tex 2014/05/09 v2.6d key=value parser (HA)
 \c@mkern=\count314
 )
 \g__file_internal_ior=\read2
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font Avenir-Book does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_Avenir-Book_int=\count315
+\g_fontspec_family_AvenirNext-Regular_int=\count315
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'Avenir-Book(0)' created for font 'Avenir-Book' with options [
-. BoldFont={Avenir-Medium},ItalicFont={Avenir-BookOblique},
-. BoldItalicFont={Avenir-MediumOblique}].
+. Font family 'AvenirNext-Regular(0)' created for font 'AvenirNext-Regular'
+. with options [ BoldFont={AvenirNext-Medium},ItalicFont={AvenirNext-Italic},
+. BoldItalicFont={AvenirNext-MediumItalic}].
 . 
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"Avenir-Book/ICU:"
+. <->"AvenirNext-Regular/ICU:script=latn;language=DFLT;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"AvenirNext-Regular/ICU:script=latn;language=DFLT;+smcp;"
 . 
 . * 'bold' with NFSS spec.:
-. <->"Avenir-Medium/ICU:"
+. <->"AvenirNext-Medium/ICU:script=latn;language=DFLT;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"AvenirNext-Medium/ICU:script=latn;language=DFLT;+smcp;"
 . 
 . * 'italic' with NFSS spec.:
-. <->"Avenir-BookOblique/ICU:"
+. <->"AvenirNext-Italic/ICU:script=latn;language=DFLT;"
+. 
+. * 'italic small caps' with NFSS spec.:
+. <->"AvenirNext-Italic/ICU:script=latn;language=DFLT;+smcp;"
 . 
 . * 'bold italic' with NFSS spec.:
-. <->"Avenir-MediumOblique/ICU:"
+. <->"AvenirNext-MediumItalic/ICU:script=latn;language=DFLT;"
+. 
+. * 'bold italic small caps' with NFSS spec.:
+. <->"AvenirNext-MediumItalic/ICU:script=latn;language=DFLT;+smcp;"
 .................................................
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/truncate/truncate.sty
@@ -1015,7 +1022,7 @@ LaTeX Info: Redefining \textsubscript on input line 1150.
 )
 
 Package scrextend Warning: Using fallback calculation to setup font sizes
-(scrextend)                for basic size `9.5pt' on input line 77.
+(scrextend)                for basic size `9.5pt' on input line 78.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -1222,7 +1229,7 @@ Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
-Package biblatex Info: Redefining '\footcite' on input line 95.
+Package biblatex Info: Redefining '\footcite' on input line 96.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count371
 \lst@gtempboxa=\box77
@@ -1361,13 +1368,13 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
-Package hyperref Info: Option `unicode' set `true' on input line 195.
+Package hyperref Info: Option `unicode' set `true' on input line 196.
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 195.
+Package hyperref Info: Option `breaklinks' set `true' on input line 196.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2008/02/07
@@ -1432,38 +1439,38 @@ Package csquotes Info: Redefining alias 'default' -> 'british'.
 (./Report.aux)
 \openout1 = `Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 275.
-LaTeX Font Info:    ... okay on input line 275.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 275.
-LaTeX Font Info:    ... okay on input line 275.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 275.
-LaTeX Font Info:    ... okay on input line 275.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 275.
-LaTeX Font Info:    ... okay on input line 275.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 275.
-LaTeX Font Info:    ... okay on input line 275.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 275.
-LaTeX Font Info:    ... okay on input line 275.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 275.
-LaTeX Font Info:    ... okay on input line 275.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 275.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 275.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 276.
+LaTeX Font Info:    ... okay on input line 276.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 276.
+LaTeX Font Info:    ... okay on input line 276.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 276.
+LaTeX Font Info:    ... okay on input line 276.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 276.
+LaTeX Font Info:    ... okay on input line 276.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 276.
+LaTeX Font Info:    ... okay on input line 276.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 276.
+LaTeX Font Info:    ... okay on input line 276.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 276.
+LaTeX Font Info:    ... okay on input line 276.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 276.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 276.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 275.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 275.
-LaTeX Font Info:    ... okay on input line 275.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 275.
-LaTeX Font Info:    ... okay on input line 275.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 275.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 275.
+LaTeX Font Info:    ... okay on input line 276.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 276.
+LaTeX Font Info:    ... okay on input line 276.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 276.
+LaTeX Font Info:    ... okay on input line 276.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 276.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 276.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 275.
+LaTeX Font Info:    ... okay on input line 276.
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -1478,8 +1485,8 @@ Package biblatex Warning: Data encoding is 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Report.bbl' found.
 (./Report.bbl)
-Package biblatex Info: Reference section=0 on input line 275.
-Package biblatex Info: Reference segment=0 on input line 275.
+Package biblatex Info: Reference section=0 on input line 276.
+Package biblatex Info: Reference segment=0 on input line 276.
 
 *** you should *not* be loading the inputenc package
 *** XeTeX expects the source to be in UTF8 encoding
@@ -1524,19 +1531,19 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 275.
+(lastpage)             ! on input line 276.
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/Avenir-Book(0)/m/n --> TS1/Avenir-Book(0)/bx/n on i
-nput line 275.
-Package gensymb Info: Math companion symbols declared on input line 275.
-LaTeX Info: Redefining \degree on input line 275.
-LaTeX Info: Redefining \celsius on input line 275.
+(Font)                  TS1/AvenirNext-Regular(0)/m/n --> TS1/AvenirNext-Regula
+r(0)/bx/n on input line 276.
+Package gensymb Info: Math companion symbols declared on input line 276.
+LaTeX Info: Redefining \degree on input line 276.
+LaTeX Info: Redefining \celsius on input line 276.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 275.
-LaTeX Info: Redefining \ohm on input line 275.
-Package gensymb Info: Using \textohm for \ohm on input line 275.
-Package gensymb Info: Using \textmu for \micro on input line 275.
+erthousand on input line 276.
+LaTeX Info: Redefining \ohm on input line 276.
+Package gensymb Info: Using \textohm for \ohm on input line 276.
+Package gensymb Info: Using \textmu for \micro on input line 276.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1548,7 +1555,7 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box85
-Package hyperref Info: Link coloring ON on input line 275.
+Package hyperref Info: Link coloring ON on input line 276.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1558,26 +1565,26 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count394
 )
-LaTeX Info: Redefining \ref on input line 275.
-LaTeX Info: Redefining \pageref on input line 275.
-LaTeX Info: Redefining \nameref on input line 275.
+LaTeX Info: Redefining \ref on input line 276.
+LaTeX Info: Redefining \pageref on input line 276.
+LaTeX Info: Redefining \nameref on input line 276.
 
 (./Report.out) (./Report.out)
 \@outlinefile=\write5
 \openout5 = `Report.out'.
 
 \c@lstlisting=\count395
-LaTeX Info: Redefining \microtypecontext on input line 275.
+LaTeX Info: Redefining \microtypecontext on input line 276.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
 Package microtype Info: Loading generic settings for font family
-(microtype)             `Avenir-Book' (encoding: EU1).
+(microtype)             `AvenirNext-Regular' (encoding: EU1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OT1+bch on input line 296.
+LaTeX Font Info:    Try loading font information for OT1+bch on input line 297.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1bch.fd
@@ -1587,11 +1594,11 @@ File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
 File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
 
 )
-LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 303.
+LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 304.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <9.5> not available
-(Font)              size <9> substituted on input line 303.
+(Font)              size <9> substituted on input line 304.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
@@ -1599,20 +1606,20 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <9.5> not available
-(Font)              size <9> substituted on input line 303.
+(Font)              size <9> substituted on input line 304.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <9.5> not available
-(Font)              size <9> substituted on input line 303.
+(Font)              size <9> substituted on input line 304.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 303.
+LaTeX Font Info:    Try loading font information for U+msa on input line 304.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 303.
+LaTeX Font Info:    Try loading font information for U+msb on input line 304.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1620,75 +1627,75 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for TS1+Avenir-Book(0) on inpu
-t line 303.
-LaTeX Font Info:    No file TS1Avenir-Book(0).fd. on input line 303.
+LaTeX Font Info:    Try loading font information for TS1+AvenirNext-Regular(0) 
+on input line 304.
+LaTeX Font Info:    No file TS1AvenirNext-Regular(0).fd. on input line 304.
 
 
-LaTeX Font Warning: Font shape `TS1/Avenir-Book(0)/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead on input line 303.
+LaTeX Font Warning: Font shape `TS1/AvenirNext-Regular(0)/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead on input line 304.
 
 
 LaTeX Font Warning: Font shape `TS1/cmr/m/n' in size <9.5> not available
-(Font)              size <9> substituted on input line 303.
+(Font)              size <9> substituted on input line 304.
 
 File: TempImg/crestbris.png Graphic file (type QTm)
 <use  "TempImg/crestbris.png" >
 File: TempImg/Arup_logo.png Graphic file (type QTm)
  <use  "TempImg/Arup_logo.png" >
 LaTeX Font Info:    Calculating math sizes for size <19.70305> on input line 33
-0.
+1.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <19.70305> not available
-(Font)              size <20.74> substituted on input line 330.
+(Font)              size <20.74> substituted on input line 331.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13.79207> not available
-(Font)              size <14.4> substituted on input line 330.
+(Font)              size <14.4> substituted on input line 331.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <19.70305> not available
-(Font)              size <20.74> substituted on input line 330.
+(Font)              size <20.74> substituted on input line 331.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13.79207> not available
-(Font)              size <14.4> substituted on input line 330.
+(Font)              size <14.4> substituted on input line 331.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <19.70305> not available
-(Font)              size <20.74> substituted on input line 330.
+(Font)              size <20.74> substituted on input line 331.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13.79207> not available
-(Font)              size <14.4> substituted on input line 330.
+(Font)              size <14.4> substituted on input line 331.
 
 
-LaTeX Font Warning: Font shape `TS1/Avenir-Book(0)/m/n' in size <19.70305> not 
-available
-(Font)              size <20.74> substituted on input line 330.
+LaTeX Font Warning: Font shape `TS1/AvenirNext-Regular(0)/m/n' in size <19.7030
+5> not available
+(Font)              size <20.74> substituted on input line 331.
 
 
-LaTeX Font Warning: Font shape `TS1/Avenir-Book(0)/m/n' in size <13.79207> not 
-available
-(Font)              size <14.4> substituted on input line 330.
+LaTeX Font Warning: Font shape `TS1/AvenirNext-Regular(0)/m/n' in size <13.7920
+7> not available
+(Font)              size <14.4> substituted on input line 331.
 
 [1
 
 ]
 File: TempImg/logobris.png Graphic file (type QTm)
  <use  "TempImg/logobris.png" >
-LaTeX Font Info:    Font shape `EU1/Avenir-Book(0)/m/sl' in size <10> not avail
-able
-(Font)              Font shape `EU1/Avenir-Book(0)/m/it' tried instead on input
- line 394.
+LaTeX Font Info:    Font shape `EU1/AvenirNext-Regular(0)/m/sl' in size <10> no
+t available
+(Font)              Font shape `EU1/AvenirNext-Regular(0)/m/it' tried instead o
+n input line 395.
  [1]
 File: TempImg/logobris.png Graphic file (type QTm)
  <use  "TempImg/logobris.png" > [2]
 (./Report.toc
 
-LaTeX Font Warning: Font shape `TS1/Avenir-Book(0)/m/n' in size <9.5> not avail
-able
+LaTeX Font Warning: Font shape `TS1/AvenirNext-Regular(0)/m/n' in size <9.5> no
+t available
 (Font)              size <9> substituted on input line 19.
 
 File: TempImg/logobris.png Graphic file (type QTm)
@@ -1707,57 +1714,61 @@ File: TempImg/logobris.png Graphic file (type QTm)
 \openout8 = `Report.lot'.
 
 
-Overfull \hbox (4.81627pt too wide) in paragraph at lines 421--421
-[]|\EU1/Avenir-Book(0)/bx/n/9.5 TNUoS\EU1/Avenir-Book(0)/m/n/9.5 :| 
+Overfull \hbox (5.10126pt too wide) in paragraph at lines 422--422
+[]|\EU1/AvenirNext-Regular(0)/bx/n/9.5 TNUoS\EU1/AvenirNext-Regular(0)/m/n/9.5 
+:| 
  []
 
 File: TempImg/logobris.png Graphic file (type QTm)
 <use  "TempImg/logobris.png" > [5]
-File: Img/diagramGroup.eps Graphic file (type eps)
- <Img/diagramGroup.eps>
 File: TempImg/logobris.png Graphic file (type QTm)
+ <use  "TempImg/logobris.png" > [6]
+File: Img/diagramGroup.eps Graphic file (type eps)
 
-<use  "TempImg/logobris.png" > [1
+<Img/diagramGroup.eps>
+File: TempImg/logobris.png Graphic file (type QTm)
+ <use  "TempImg/logobris.png" > [1
 
 ]
 File: TempImg/logobris.png Graphic file (type QTm)
- <use  "TempImg/logobris.png" > [2]
-LaTeX Font Info:    Calculating math sizes for size <7.91676> on input line 573
+
+<use  "TempImg/logobris.png" > [2]
+LaTeX Font Info:    Calculating math sizes for size <7.91676> on input line 574
 .
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5417> not available
-(Font)              size <6> substituted on input line 573.
+(Font)              size <6> substituted on input line 574.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.95837> not available
-(Font)              size <5> substituted on input line 573.
+(Font)              size <5> substituted on input line 574.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5417> not available
-(Font)              size <6> substituted on input line 573.
+(Font)              size <6> substituted on input line 574.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.95837> not available
-(Font)              size <5> substituted on input line 573.
+(Font)              size <5> substituted on input line 574.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5417> not available
-(Font)              size <6> substituted on input line 573.
+(Font)              size <6> substituted on input line 574.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.95837> not available
-(Font)              size <5> substituted on input line 573.
+(Font)              size <5> substituted on input line 574.
 
 
-LaTeX Font Warning: Font shape `TS1/Avenir-Book(0)/m/n' in size <5.5417> not av
-ailable
-(Font)              size <6> substituted on input line 573.
+LaTeX Font Warning: Font shape `TS1/AvenirNext-Regular(0)/m/n' in size <5.5417>
+ not available
+(Font)              size <6> substituted on input line 574.
 
 
-LaTeX Font Warning: Font shape `TS1/Avenir-Book(0)/m/n' in size <3.95837> not a
-vailable
-(Font)              size <5> substituted on input line 573.
+LaTeX Font Warning: Font shape `TS1/AvenirNext-Regular(0)/m/n' in size <3.95837
+> not available
+(Font)              size <5> substituted on input line 574.
 
 File: TempImg/logobris.png Graphic file (type QTm)
 <use  "TempImg/logobris.png" > [3]
@@ -1803,17 +1814,23 @@ File: TempImg/logobris.png Graphic file (type QTm)
 <use  "TempImg/logobris.png" > [13]
 
 LaTeX Warning: Reference `Development-of-Model-Advantages-and-Barriers-Assessme
-nt' on page 14 undefined on input line 1133.
+nt' on page 14 undefined on input line 1139.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1167--1175
+Missing character: There is no • in font ectt1000!
+Missing character: There is no – in font ectt1000!
+Missing character: There is no • in font ectt1000!
+Missing character: There is no • in font ectt1000!
+Missing character: There is no • in font ectt1000!
+File: TempImg/logobris.png Graphic file (type QTm)
+<use  "TempImg/logobris.png" > [14]
+Underfull \hbox (badness 10000) in paragraph at lines 1194--1202
 
  []
 
 File: Img/Development-c4.eps Graphic file (type eps)
 <Img/Development-c4.eps>
 File: TempImg/logobris.png Graphic file (type QTm)
- <use  "TempImg/logobris.png" > [14]
+ <use  "TempImg/logobris.png" > [15]
 File: Img/Development-38.png Graphic file (type QTm)
 
 <use  "Img/Development-38.png" >
@@ -1821,9 +1838,9 @@ File: Img/Development-50.eps Graphic file (type eps)
  <Img/Development-50.eps>
 File: TempImg/logobris.png Graphic file (type QTm)
 
-<use  "TempImg/logobris.png" > [15]
+<use  "TempImg/logobris.png" > [16]
 File: TempImg/logobris.png Graphic file (type QTm)
- <use  "TempImg/logobris.png" > [16]
+ <use  "TempImg/logobris.png" > [17]
 File: Img/Development-dd.eps Graphic file (type eps)
 
 <Img/Development-dd.eps>
@@ -1831,55 +1848,115 @@ File: Img/Development-a8.eps Graphic file (type eps)
  <Img/Development-a8.eps>
 File: TempImg/logobris.png Graphic file (type QTm)
 
-<use  "TempImg/logobris.png" > [17]
+<use  "TempImg/logobris.png" > [18]
 File: TempImg/logobris.png Graphic file (type QTm)
- <use  "TempImg/logobris.png" > [18]
+ <use  "TempImg/logobris.png" > [19]
 File: Img/Development-fc.eps Graphic file (type eps)
 
 <Img/Development-fc.eps>
 File: Img/Development-92.eps Graphic file (type eps)
  <Img/Development-92.eps>
-File: TempImg/logobris.png Graphic file (type QTm)
 
-<use  "TempImg/logobris.png" > [19]
-File: TempImg/logobris.png Graphic file (type QTm)
- <use  "TempImg/logobris.png" > [20]
-File: Img/battypes.eps Graphic file (type eps)
+LaTeX Warning: Reference `Representative-Demand-Profile' on page 20 undefined o
+n input line 1404.
 
-<Img/battypes.eps>
+File: TempImg/logobris.png Graphic file (type QTm)
+<use  "TempImg/logobris.png" > [20]
 File: TempImg/logobris.png Graphic file (type QTm)
  <use  "TempImg/logobris.png" > [21]
+File: TempImg/logobris.png Graphic file (type QTm)
+
+<use  "TempImg/logobris.png" > [22]
+File: TempImg/logobris.png Graphic file (type QTm)
+ <use  "TempImg/logobris.png" > [23]
+File: TempImg/logobris.png Graphic file (type QTm)
+
+<use  "TempImg/logobris.png" > [24]
+Underfull \hbox (badness 10000) in paragraph at lines 1677--1679
+
+ []
+
+File: TempImg/logobris.png Graphic file (type QTm)
+<use  "TempImg/logobris.png" > [25]
+File: Img/SRTS2.eps Graphic file (type eps)
+ <Img/SRTS2.eps>
+File: Img/SRPB2.eps Graphic file (type eps)
+ <Img/SRPB2.eps>
+File: TempImg/logobris.png Graphic file (type QTm)
+
+<use  "TempImg/logobris.png" > [26]
+File: Img/SPA2.eps Graphic file (type eps)
+ <Img/SPA2.eps>
+Invalid UTF-8 byte or sequence at line 1800 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1800 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1800 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1800 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1800 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1800 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1800 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1800 replaced by U+FFFD.
+File: Img/SRTSPB5ed2.eps Graphic file (type eps)
+ <Img/SRTSPB5ed2.eps>
+File: TempImg/logobris.png Graphic file (type QTm)
+
+<use  "TempImg/logobris.png" > [27]
+File: Img/SRNPV1.eps Graphic file (type eps)
+ <Img/SRNPV1.eps>
+File: TempImg/logobris.png Graphic file (type QTm)
+
+<use  "TempImg/logobris.png" > [28]
+
+Package caption Warning: \label without proper \caption on input line 1881.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `BestNPVTable' on page 29 undefined on input line 1846
+.
+
+File: TempImg/logobris.png Graphic file (type QTm)
+<use  "TempImg/logobris.png" > [29]
+File: Img/DOD1.eps Graphic file (type eps)
+ <Img/DOD1.eps>
+File: TempImg/logobris.png Graphic file (type QTm)
+
+<use  "TempImg/logobris.png" > [30]
+File: Img/battypes.eps Graphic file (type eps)
+ <Img/battypes.eps>
+File: TempImg/logobris.png Graphic file (type QTm)
+
+<use  "TempImg/logobris.png" > [31]
 File: Img/battab.eps Graphic file (type eps)
  <Img/battab.eps>
 File: TempImg/logobris.png Graphic file (type QTm)
 
-<use  "TempImg/logobris.png" > [22
+<use  "TempImg/logobris.png" > [32
 
 ]
 File: TempImg/logobris.png Graphic file (type QTm)
- <use  "TempImg/logobris.png" > [23
+ <use  "TempImg/logobris.png" > [33
 
 ]
 File: TempImg/logobris.png Graphic file (type QTm)
 
-<use  "TempImg/logobris.png" > [24]
+<use  "TempImg/logobris.png" > [34]
 File: TempImg/logobris.png Graphic file (type QTm)
- <use  "TempImg/logobris.png" > [25]
+ <use  "TempImg/logobris.png" > [35]
 File: TempImg/logobris.png Graphic file (type QTm)
 
-<use  "TempImg/logobris.png" > [26]
-Missing character: There is no ‐ in font Avenir Book/OT!
+<use  "TempImg/logobris.png" > [36]
+Missing character: There is no ‐ in font Avenir Next Regular/OT:script=latn;lan
+guage=DFLT;!
 File: TempImg/logobris.png Graphic file (type QTm)
- <use  "TempImg/logobris.png" > [27]
+ <use  "TempImg/logobris.png" > [37]
 
 AED: lastpage setting LastPage
 File: TempImg/logobris.png Graphic file (type QTm)
-<use  "TempImg/logobris.png" > [28]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1440.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1440.
+<use  "TempImg/logobris.png" > [38]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1953.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1953.
  (./Report.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1440.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1440.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1953.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1953.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1891,20 +1968,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'Report.run.xml'.
 \openout1 = `Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38130 strings out of 493734
- 680419 string characters out of 6146348
- 1159222 words of memory out of 5000000
- 40935 multiletter control sequences out of 15000+600000
- 18973 words of font info for 95 fonts, out of 8000000 for 9000
+ 38302 strings out of 493734
+ 685421 string characters out of 6146348
+ 1196665 words of memory out of 5000000
+ 41096 multiletter control sequences out of 15000+600000
+ 19005 words of font info for 99 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 61i,16n,96p,10425b,8842s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,17n,96p,10421b,14236s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Report.pdf (34 pages).
+Output written on Report.pdf (45 pages).

@@ -2067,6 +2067,18 @@
   \field{year}{2016}
 \endentry
 
+\entry{ZeroDMod80:online}{online}{}
+  \field{title}{Zero-D Modelling Approach with ANSYS Products | Val{\'e}rie
+  Gelbgras | Pulse | LinkedIn}
+  \verb{url}
+  \verb https://www.linkedin.com/pulse/zero-d-modelling-approach-ansys-products
+  \verb -val%C3%A9rie-gelbgras
+  \endverb
+  \field{urlday}{17}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
+\endentry
+
 \entry{combined-heat-power-buildings}{book}{}
   \name{author}{1}{}{%
     {{}%
@@ -2088,6 +2100,66 @@
   \verb ldings/combined-heat-power-buildings
   \endverb
   \field{year}{2013}
+\endentry
+
+\entry{triad15}{report}{}
+  \field{title}{Triads Dates and Times 2014 - 2015}
+  \verb{url}
+  \verb http://www2.nationalgrid.com/UK/Industry-information/System-charges/Ele
+  \verb ctricity-transmission/Transmission-Network-Use-of-System-Charges/Transm
+  \verb ission-Charges-Triad-Data/
+  \endverb
+  \list{institution}{1}{%
+    {National Grid}%
+  }
+  \field{type}{techreport}
+  \field{year}{2015}
+\endentry
+
+\entry{getreuer5685writing}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Getreuer}{G.}%
+     {Pascal}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GP1}
+  \strng{fullhash}{GP1}
+  \field{title}{Writing fast Matlab code}
+  \verb{url}
+  \verb URL http://www.mathworks.com/matlabcentral/fileexchange/5685
+  \endverb
+  \field{journaltitle}{Mathworks File Exchange 5685}
+  \field{year}{2009}
+\endentry
+
+\entry{LiveData90:online}{online}{}
+  \field{title}{Live Data | Sustainability at Princeton}
+  \verb{url}
+  \verb http://sustain.princeton.edu/lab/live-data
+  \endverb
+  \list{institution}{1}{%
+    {Princeton Univeristy}%
+  }
+  \field{urlday}{18}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
+\endentry
+
+\entry{UnitedKi95:online}{online}{}
+  \field{title}{United Kingdom Inflation Rate | 1989-2017 | Data | Chart |
+  Calendar}
+  \verb{url}
+  \verb http://www.tradingeconomics.com/united-kingdom/inflation-cpi
+  \endverb
+  \list{institution}{1}{%
+    {Trading Economics}%
+  }
+  \field{year}{2017}
+  \field{urlday}{22}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
 \endentry
 
 \lossort

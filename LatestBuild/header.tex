@@ -31,6 +31,7 @@
 \setcounter{biburlucpenalty}{8000}
 
 \usepackage{amssymb,amsmath}
+\numberwithin{figure}{section} %%%%% <<<<<< Puts Figure Numbering into Sections 
 \usepackage{ifxetex,ifluatex}  %<<<<<<<<< Edit FONT HERE
 % \usepackage{fontspec}
 % \setmainfont{Times New Roman}
@@ -41,12 +42,12 @@
   \ifxetex
     \usepackage{mathspec}
     \setmainfont[
- BoldFont={Avenir-Medium},ItalicFont={Avenir-BookOblique},
- BoldItalicFont={Avenir-MediumOblique}]{Avenir-Book}
+ BoldFont={AvenirNext-Medium},ItalicFont={AvenirNext-Italic},
+ BoldItalicFont={AvenirNext-MediumItalic}]{AvenirNext-Regular}
   \else
   % Font Package for XeLatex
     \usepackage{fontspec}
-    \setmainfont{Avenir-Light}
+    \setmainfont{AvenirNext-Regular}
   \fi
   \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
 \fi

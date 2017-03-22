@@ -49,10 +49,10 @@ The aim of this individual project is to investigate the feasibility of using an
 \newpage
 # Background and Summary of Key Work and References
 
-The following literature review provides a comprehensive overview of current research towards using Energy Storage Systems (ESS) to reduce peaks in energy demand and lower utility costs for the consumer. Peak demand reduction is synonymous with peak shaving; the ability to control energy usage from a supplier during intervals of high demand, to limit or reduce demand charges \cite{schneiderRECPS}, \cite{baldorPS}. As this project is investigating reducing the peak demand charge for the University of Bristol, section \ref{peak-demand-charges}, provides an overview of the Univerity's energy bill, detailing which charges are effected by peak demand. Section \ref{current-peak-demand-management-methods-and-energy-storage-systems-usage} evaluates traditional methods of peak shaving, covering a brief look at ESSs current usage. Section \ref{peak-shaving-systems-literature-review} includes a broad range of research of ESSs in different case studies, optimising the system architecture and analysis on ESSs financial return on investment (ROI). This research will help in define system architectures for modelling. Finally section \ref{peak-shaving-technologies---electrical-storage-system-ess} analyses the applicability of different ESSs, down-selecting to leave a shortlist of ESSs to be modelled.
+The following literature review provides a comprehensive overview of current research towards using Energy Storage Systems (ESS) to reduce peaks in energy demand and lower utility costs for the consumer. Peak demand reduction is synonymous with peak shaving; the ability to control energy usage from a supplier during intervals of high demand, to limit or reduce demand charges \cite{schneiderRECPS}, \cite{baldorPS}. As this project is investigating reducing the peak demand charge for the University of Bristol, section \ref{peak-demand-charges}, provides an overview of the University's energy bill, detailing which charges are effected by peak demand. Section \ref{current-peak-demand-management-methods-and-energy-storage-systems-usage} evaluates traditional methods of peak shaving, covering a brief look at ESSs current usage. Section \ref{peak-shaving-systems-literature-review} includes a broad range of research of ESSs in different case studies, optimising the system architecture and analysis on ESSs financial return on investment (ROI). This research will help in define system architectures for modelling. Finally section \ref{peak-shaving-technologies---electrical-storage-system-ess} analyses the applicability of different ESSs, down-selecting to leave a shortlist of ESSs to be modelled.
 
 ## Peak Demand Charges
-The University of Bristol's infrastructure, spans across three sites; the City Centre, Stoke Bishop and Langford. Across these locations, the majority of facilities receive separate energy bills, allowing a high degree of granularity in the understanding energy charges \cite{Jbrentmeet}. The Univerisity receives charges bundled together under four distinct themes \cite{Jbrentmeet}, these have been ranked below based on the effect a peak-shaving system could have on the charge.
+The University of Bristol's infrastructure, spans across three sites; the City Centre, Stoke Bishop and Langford. Across these locations, the majority of facilities receive separate energy bills, allowing a high degree of granularity in the understanding energy charges \cite{Jbrentmeet}. The University receives charges bundled together under four distinct themes \cite{Jbrentmeet}, these have been ranked below based on the effect a peak-shaving system could have on the charge.
 
 \begin{enumerate}
 \item \textbf{Distribution Use of System (DUoS)} - This bill includes the capacity charge; where the customer pays for a maximum demand level in kW \cite{Deconstr52:online}. The capacity charge is set higher than the actual maximum demand, reducing the risk of breaching this threshold. If breached, the customer incurs substantial penalties, and the supplier increases the threshold for the next billing period. By levelling off peaks in energy demand, the capacity charge threshold can decrease. The capacity charge will be the key focus for the proposed peak-shaving system.
@@ -78,7 +78,7 @@ There are a limited number of peak shaving ESS solutions available commercially.
 Acknowledging limitations in commercial peak-shaving ESSs, understanding current research is crucial to designing efficient system architectures. Research is grouped, highlighting each section's significance, identifying areas for further research in work package 2.
 
 ### Forecasting and the Use of ESS in Load Shifting
-Using energy pricing forecasts, an ESS can be switched on to shift energy costs; purchasing energy at a cheaper rate, using this energy during peak times. Looking at the gap in energy prices, demand charges and investment costs for an ESS, NaS, Li-ion and Flow batteries, a basic on/off algorithm to shift energy purchasing from peak to off-peak times does not produce a viable return on investment (ROI) \cite{7555795}.  \cite{7555793} highlights that billing peak periods were directly correlated with peak demand, requiring an even larger ESS to offset this demand. \cite{5590194} used real hourly spot prices to decide the best times to turn on and off Vanadium Redox Batteries (VRB) and  Polysulfide Bromide Batteries (PSB). Through sequential quadratic programming (SQP), battery sizes were optimised, finding PSB's had a better business case for load shifting. The fundamental differences between \cite{7555795} and \cite{5590194}, were energy bills targeted and the granularity of the pricing data used. \cite{6938948} evaluated different control strategies combining many forecasts to reduce errors in peak shaving over a monthly period. Weighted and lowest error forecasts were the best strategies for an energy management system and should be added to the system architecture if forecasting is used. \cite{Bennett2015122} added a real-time operator to create an intelligent scheduling system based on a house to forecast. This system significantly improved the state of charge of the battery, freeing more energy for use in reducing peaks, highlighting that forecasts combined with real-time information can increase the performance of the system further. Work-package 2 will, therefore, look at using weighted and lowest error forecasts for an ESS, further understanding the implications of battery health, whilst work-package 3 will determine if the Universities energy usage data is responsive enough for a real time intelligent scheduling system.
+Using energy pricing forecasts, an ESS can be switched on to shift energy costs; purchasing energy at a cheaper rate, using this energy during peak times. Looking at the gap in energy prices, demand charges and investment costs for an ESS, NaS, Li-ion and Flow batteries, a basic on/off algorithm to shift energy purchasing from peak to off-peak times does not produce a viable return on investment (ROI) \cite{7555795}.  \cite{7555793} highlights that billing peak periods were directly correlated with peak demand, requiring an even larger ESS to offset this demand. \cite{5590194} used real hourly spot prices to decide the best times to turn on and off Vanadium Redox Batteries (VRB) and Polysulfide Bromide Batteries (PSB). Through sequential quadratic programming (SQP), battery sizes were optimised, finding PSB's had a better business case for load shifting. The fundamental differences between \cite{7555795} and \cite{5590194}, were energy bills targeted and the granularity of the pricing data used. \cite{6938948} evaluated different control strategies combining many forecasts to reduce errors in peak shaving over a monthly period. Weighted and lowest error forecasts were the best strategies for an energy management system and should be added to the system architecture if forecasting is used. \cite{Bennett2015122} added a real-time operator to create an intelligent scheduling system based on a house to forecast. This system significantly improved the state of charge of the battery, freeing more energy for use in reducing peaks, highlighting that forecasts combined with real-time information can increase the performance of the system further. Work-package 2 will, therefore, look at using weighted and lowest error forecasts for an ESS, further understanding the implications of battery health, whilst work-package 3 will determine if the Universities energy usage data is responsive enough for a real time intelligent scheduling system.
 
 ### Supply Levelling
 Supply levelling is the most common use for ESS \cite{iearoadmapes}, using large batteries to reduce power fluctuations brought by the use of renewable technologies \cite{7324861}, \cite{7564619}. Supply levelling works by storing excess supply, reducing peaks in the grid rather than in demand. The technology is, therefore, similar to peak shaving. \cite{Allik20161116} looked at improving supply for a residential home. Shiftable water heating was identified to account for 50% of household electricity use, being modelled as the primary storage device. Excess load from wind turbines was used to heat water in excess supply periods bypassing an inverter significantly improving energy losses. This research is supported by \cite{Leadbetter2012685}. Minimising conversion through inverters makes a large difference in the efficiency of the system. An investigation into energy conversion and, using heat as a secondary storage method will be performed in work-package 2.
@@ -86,7 +86,7 @@ Supply levelling is the most common use for ESS \cite{iearoadmapes}, using large
 ### Battery Sizing and Financial Modelling
 Numerous studies, analysing the business cases for ESSs have been conducted. \cite{7555795} and \cite{7555793} model the use ESSs broadly, to reduce the cost of all energy charges, revealing that the ROI is unlikely to be feasible beyond 2020. Papers including \cite{1300158} and \cite{6175723} evaluated financial models for particular case studies, showing that bespoke solutions achieved greater peak shaving reductions than returns promised by current generic products \cite{abbpeakshave}. \cite{7555795}, \cite{7555793}, \cite{1300158}, \cite{6175723} and \cite{20164002874437} all present a strong arguments that a bespoke solution for the University will provide a better business case for ESS than generic commercial technology.
 
-Investigating the benefits of a decentralised system, reducing peaks on a small scale rather than using one large central ESS,  \cite{6604477} analysed both peak shaving and battery longevity for a large data centre.  Through both experimentation and modelling,  \cite{6604477} showed that when regarding the batteries lifespan, the ability to regulate load through a series of batteries can be more favourable than a centralised system. Reaserach conducted by \cite{6348200} and \cite{Demonstr51:online} also both support using a decentralised system. A simulation of the impact of lithium-ion batteries operated under a peak-shaving control algorithm identified cost-optimal battery configurations and their impact on grid demand, revealing that small short duration batteries were more favourable and cost effective for the customer, further supported by \cite{20164002874437}. The model for this project will assess if this is also the case for a University facility understanding that a few rooms such as labs contribute to the majority of peak loads.
+Investigating the benefits of a decentralised system, reducing peaks on a small scale rather than using one large central ESS,  \cite{6604477} analysed both peak shaving and battery longevity for a large data centre.  Through both experimentation and modelling,  \cite{6604477} showed that when regarding the batteries lifespan, the ability to regulate load through a series of batteries can be more favourable than a centralised system. Research conducted by \cite{6348200} and \cite{Demonstr51:online} also both support using a decentralised system. A simulation of the impact of lithium-ion batteries operated under a peak-shaving control algorithm identified cost-optimal battery configurations and their impact on grid demand, revealing that small short duration batteries were more favourable and cost effective for the customer, further supported by \cite{20164002874437}. The model for this project will assess if this is also the case for a University facility understanding that a few rooms such as labs contribute to the majority of peak loads.
 
 \cite{20160601898032}, \cite{Levron201280} all \cite{5371839} all show alternate ways of optimising the battery sizing configurations. \cite{5371839}, used a non-numeric modelling method, focusing on ultra-capacitors to find the optimal ESS. The results emphasised the constraint of storage capacity, showing an exponential decrease in value gained after a particular size of ESS. Finding this size for different University scenarios will be the primary focus of this project's model.  \cite{Levron201280} created an analytical model, using energy bands to regulate peak load, giving an optimum storage size for a given system;  this was a straightforward and efficient method of modelling battery usage. \cite{20160601898032} looked specifically at Vanadium Redox Flow Batteries (VRFB) arguing it benefits over other ESS methods, producing a MATLAB/Simulink for a residential use case, showing that VRFB can regulate its frequency efficiently, due to its fast response time, while still performing peak-shaving services. This project proposes using a similar modelling technique to \cite{20160601898032}, incorporating more ESSs.
 
@@ -108,11 +108,18 @@ By removing energy storage methods that would not be appropriate for the system 
 
 ## Battery Capacity Modelling
 
-## Battery Selection - Telsa Power-pack 2
+## Battery Selection - Tesla Power-pack 2
+
+Selected Tesla due to lots of readily available information on pricing and sizes
+**Other Competitors**
+* Eos
+* BYD
+
+\hl{Very limited information on their costs, technology still maturing (Eos) Can assume that competition will continue to drive the price down, unsure about UK distribution} 
 
 \newpage
 
-# Development of Model Advantages and Barriers Assessment
+# Battery Storage Technology Key Advantages and Challenges
 
 This section discusses and defines how the model was created and the process used to generate results.
 
@@ -133,7 +140,7 @@ It is important to understand how a battery system can best be utilised to maxim
     * Reducing peak load, reduces losses on the network. There is a green argument for running diesel generators in peak times. Batteries are a highly more sustainable.
     * Ensures self consumption of renewables
 
-**Barriers**
+**Challlenges**
 
 * Costs of Purchase too high:
     * Installation Costs too high, too complex - \hl{difficulty of retrofitting?}
@@ -156,7 +163,7 @@ It is important to understand how a battery system can best be utilised to maxim
 ## Battery Economics
 The main objective of this project is to create a business case for using a battery system to reduce energy bills. Ultimately the model aims to produce the information required to justify whether investing in batteries is feasible and advise on the best battery to buy based on it's capacity and it's power rating. Due to the readily available commercial information of Tesla's Power-pack 2, this battery system was used to model financial feasibility and  optimal product.
 
-There are 3 ways the model will evaluate the value of the battery system, these are: *pay-back period*, *total-savings* (over a designated period of time) and *net present value* (calculated for different discount rates). Each of these methods results will be compared to crediting the merits and pitfuls of each to understand which battery system is the optimum for the system.
+There are 3 ways the model will evaluate the value of the battery system, these are: *pay-back period*, *total-savings* (over a designated period of time) and *net present value* (calculated for different discount rates). Each of these methods results will be compared to crediting the merits and pitfalls of each to understand which battery system is the optimum for the system.
 
 **NPV Calculation:**
 As the battery is a large up front cost, it is likely that the battery will be purchased on financing this means that interest on the loan has to be paid each year reducing the battery value. Additionally the battery will degrade in performance over time, this is key to understanding the value of the product over its life time. Using an Initial return rate \hl{Add return rate calc here} the maximum discount rate can be found for a few batteries (using the extremes). This can then be used to set different discount rates, where 0 is used to illustrate the payback of the battery. Even with the battery degrading, it can be predicted that the battery will continue to degrade until failure.
@@ -189,7 +196,7 @@ The below figure shows the typical profile a Li-ion battery follows as it degrad
   \label{batCapGen}
 \end{figure}
 
-After the battery degrades below 80\% of it's new maximum capacity, the battery is regarded to be at its' end of life phase. It is important to note that there potential for a large amount of capacity to be delivered beyond this point, however as seen in figure \ref{batCapGen}, the battery tends to degrade a lot quicker. There are also issues with power degrade
+After the battery degrades below 80\% of it's new maximum capacity, the battery is regarded to be at its' end of life phase. It is important to note that there potential for a large amount of capacity to be delivered beyond this point, however as seen in figure \ref{batCapGen}, the battery tends to degrade a lot quicker. There are also issues with power degradation
 
 The literature review revealed these factors to have the greatest effect on the rate in which the battery decays:
 
@@ -238,13 +245,31 @@ The literature review revealed these factors to have the greatest effect on the 
 
 Understanding the key design parameters highlighted in section \ref{Development-of-Model-Advantages-and-Barriers-Assessment}. The model was created to capture as many of these drivers to maximise the models validity. Data was obtained for Senate house (a large University office/study space building). This data was manipulated to create a representative energy profile for the Senate and then the New Campus.
 
+\hl{Overview of the final system Diagram}
+
 ## Model Development Requirements
 
-### Fixed vs Variable Optimisation Model
+### 0 vs 3D Modelling Approach
+
+\hl{The 0D modelling approach is a technique widely used in the development cycle of a product, typically in the early steps of the cycle. The objective of the 0D model is to define the main characteristics and performance of the products. A 3D model is implemented later in the product development cycle to get a detailed analysis, to verify the accuracy of the 0D model and to predict risks and failures. In a 0D model, the system dynamics is a function of the time while in a 3D model, the system dynamics is a function of the time and the space. A 0D model is much simpler and faster to solve than a 3D model. This enables to run a large number of simulations and explore a large design space for our product.} [@ZeroDMod80:online] Due to the level of accuracy required to achieve this reports objectives in the model and the timeframe that the model had to be constructed in a 0D model was created using the variables stated in section \ref{input-parameters-and-multi-battery-simulation}.
 
 ### Code Optimisation
+
+\hl{A time-based iterative approach, based around a zero dimensional approach, has been selected to model a large variety of different batteries. Running the simulation through time requires calculating large matrices which are number of days $\times$ 1440 (minutes in a day). The model should be optimised for performance to ensure that running times are minimised. This will help to improve model development and reduce data collection time. Possible methods to optimise the performance of MATLAB scripts are:
+• Vectorisation – data can be stored and manipulated within multidimensional arrays. Using vector operations, rather than manually moving and manipulating data inside the array, can greatly improve model speed.
+• Avoiding heavy processing MATLAB functions such as the linear interpolation function. Instead, simplified versions can be developed to perform the same task.
+• Initialising variables within the model. All arrays should be initialised within the memory. This prevents MATLAB from needing to create extra space within the memory each time a value is entered into an array. This is especially important when dealing with large datasets, as it can prevent running out of memory.
+• Parallel processing for loops can be used for independent repeating tasks. This can be applied when multiple batteries as each loop is independent of the other.}
+
 ### User Interface
+
+\hl{The model developed through this research project is likely to be used in the group project in the following year. Consequently, it is important that the model is easy to run and use. A range of inputs are required for each lagoon which should be easily configured and managed. This will also improve ease of data collection for this project and reduce the risk of introducing a systemic error, associated with the user entering incorrect inputs. Model inputs should therefore be largely removed from the MATLAB script and kept within input files.
+A level of intelligence should also be built into the model to determine if the user inputs are valid. This would increase the robustness of the model and prevent errors from occurring within the model. It will also help to improve the stability of the model, as incorrect data will be less likely to be inputted. However, this requirement is likely to be more relevant in the following year, when multiple users are generating data from the energy model. It is important that the model is able to handle a range of variable input conditions}
+
 ### Ease of Development
+\hl{Due to the nature of mathematical modelling, it is essential the model is structured to allow for development and expansion as the project progresses. This allows functionality to be added to the model without a large amount of upfront work. It also improves the speed at which changes can be implemented within the model.
+The use of functions within the script allows elements of the code to be re-used across the model. Nested functions (functions defined in the body of a parent function) can also be used when a large number of variables are required to pass back and forth between functions. This also provides modularity within the function and can reduce the amount of repeated code. It is important that a function based approach is taken through the development of the model in this research project due to the expected size and complexity of the model. Without this, the model is likely to have a poor structure and will be much harder to develop and debug.}
+
 
 ## Creation of Senate House Billing Model
 
@@ -343,20 +368,226 @@ Due to these data files falling under different years and running between differ
 
 ## Definition of System Architectures / Strategies
 
+Defining how the batteries would run is imperative to understanding their economic feasibility. This section will define the logic used to define the operation of the battery and how the model was created to represent this.
+
+Using the "live demand data", created in section \ref{Representative-Demand-Profile}, a Matlab script was created simulate through a lifetime use case of the the battery for both Senate house and the new campus energy profiles. A script was created which duplicated these data input files for the length of simulation (in years), checking that each year began on the next day in the week from the end of the last year. Making sure dates aligned is imperative to making sure results were valid as the difference in energy usage between weekdays and weekends, shifts the total savings into a 7 year cycle pattern. Energy usage and demand data was then run through a second function which applied three strategies understanding battery performance from a technical and economical standpoint.
+
+### Red Rate Avoidance
+
+As describe in earlier sections, the battery was limited to being switched on only during red rate periods. This period is always  between 5 and 7 on weekdays and has assumed to remain the same for the entirety of the batteries lifetime. During this period the battery was allowed to drain itself at a rate up to it's maximum output power. This required demand and usage data to be checked simultaneously, to make sure the battery had remaining capacity and was not over loaded. If the load exceeded its maximum value the supply of energy was capped at this value. As the battery was used, capacity was decreased proportionally until live usage exceeded the remaining capacity and the battery was drained to its minimum capacity and switched off. Or the rate rate period elapsed.
+
+The battery was then set to begin charging at a set rate when the red rate period was entered a green rate period. The charging rate was set based on the amount of charge required divided over the length of the green rate period. Early discussion of battery life cycle optimisation suggested that charging at a lower speed, particularly during the last 10% of charge, made a large impact on the battery lifetime. It is assumed here that smart charging techniques trickling (seen on most modern smartphones), would be incorporated into the battery. However the only value which will effect the outputs of this model is the capacity when the next red rate period is entered, therefore not necessary in this model.
+
+This repeats for the run-length of the simulation, measuring the amount of money saved against the original costs of unit rate charges.
+
+### Triad Avoidance
+
+To correctly understand the effects of TRIAD avoidance in the model, the dates correlating to each day needed to be correctly applied and matched against corresponding days. Using [@triad15], the dates: 4/12/14, 19/01/15, 02/02/15 were used as aligning with the original Senate data used as a master for the new campus. These dates were used for the sequential years for days TRIADS would likely fall. Their corresponding days of the week were checked to make sure they did not fall weekends and adjusted accordingly if found to be the case. It is assumed here that daily variation in energy usage is negligible and instead energy trends are seen only on a monthly basis. This means that it does not matter if the TRIAD lands on a Monday or a Friday, and instead the date corresponds best with predicted weather pattern- the only variable likely to cause observable differences on a calendar data (any other variables have been ignored, particularly as these will cancel out over time).
+
+These periods were all between 5 and 7 corresponding with the battery strategy already in place. Using these dates and the time of 5:30, the TRIAD cost was calculated based on energy demand at this time. Battery usage was then measured against the TRIAD cost to understand the reduction in energy demand delivered by the battery. The reduction in TRIAD rate was a factor of the batteries max power supply and not capacity. As the battery would only need to run for a few minutes to offset this charge.
+
+At the end of each year in the simulation the three TRIAD costs were averaged to find the total cost. This was then spread evenly over the next year in the simulation, representing how TRIAD billing is split across each monthly energy bill.  
+
+### Battery Degradation Modelling
+
+As highlighted in section \ref{battery-lifetime-assessment---understanding-battery-degradation} discusses the different variables which can effect a batteries cycle life. An approximation of the batteries was taken, taking into account the effect of each of these variables and placing a battery usage strategy in place. The rated battery cycle life is taken to be the number of full cycles a battery can complete before it has degraded to 80% of it's original capacity. This figure was used as it is the best metric for how a battery should perform based on a normal use case. The model uses this assumption to degrade the battery by the fraction of it's cycle life that it has charged up by. For each charging iteration the new max capacity becomes slightly smaller, reducing the size of the cycle. A counter is then run summing up the amount the battery has charged. When this equals the current maximum, a complete cycle has been fulfilled. The effect of this method means that the battery will degrade faster the longer it has been applied. This follows the mean trend of battery cycle life shown in figure \ref{batCapGen}.
+
+Any assumptions made about battery degradation were based on battery operation and not the batteries chemistry. Assumptions were made on what constitutes "normal working parameters", alleviating extremes in modes that have an exponential effect on how the battery degrades.
+To reduce wear on the battery, the battery was confined to work within 10-90% of it current maximum capacity, allowing a maximum depth of discharge of 80%. Draining the battery can cause detrimental effects on the whilst overcharging can also do the same. Working within these two parameters follows similar principles applied by Tesla in their electric cars \hl{add reference here}. The battery was never run above it's demand maximum (max power KW), however no factor was used to degrade the battery quicker if it operated at this factor (a known cause of wear). As the battery was rated at this value, it should be designed to cope at this level of use for no longer than 2 hours a day.
+
+ Temperature was also assumed to remain within expected bounds. Britain only experiences hot days a few times a year and rarely drops below freezing, making it a better climate for battery operational temperatures than the states where average temperatures are a lot hotter. Using the two strategies defined above means the battery is only ever discharging or charging 5 days a week, with some charge on a Saturday mornings dependent on the battery selected. This allows the battery too cool down and perform any life enhancing cycling activities if relevant \hl{Consider how these two days could be used to improve the batteries lifetime}.   
+
+The model was run until either the runtime reached it's end or the battery reached it's end of life value of 80%. This meant answer were comparable. It is worth noting that there are examples of batteries being used beyond their end of life cycle. \hl{This is being seen by Nissan/ Honda in recycling their car batteries to use in homes}, as there are little associated costs with batteries after they have been installed if the battery has payed itself back, the battery will continue to generate profit. However as there is a lot of unpredictability about whether the battery will fail, this has not been regarded in the model and instead seen as the asset no-longer holding any more value.
+
+\hl{Diagram of Battery Cycling Degradation}
+
+### Battery Efficiencies
+
+Battery efficiency was regarded in the model by multiplying the energy drawn when charging by the additional loses caused inefficiencies. This assumptions was made as it is likely that the battery once charged can supply what it has stored, although some losses will be incurred when transforming back to AC again. It is assumed that the efficiency figure regards both transformations. Efficiency gains could also be achieved by designing the system so it primarily sends power to DC first without transforming. Efficiency however does not play a huge part in improving costs savings due to the difference between charging in green periods and the red rate being so significant.
+
+### Input Parameters and Multi-Battery Simulation
+
+In order to understand the optimum battery type for a given scenario, and then infer the total savings that the battery could generate; a large array of different batteries with different power ratings and capacities was modelled. This required iterating the model numerous times. To reduce computation time, parallel computing was implemented to iterate each discrete battery scenario in the 0D model.
+
+The following Operational Parameters Were Used to Generate the Output Results Discussed in this report. Values stated as variables were varied per battery.
+\begin{table}[H]
+\begin{tabular}{p{4.3cm}p{8cm}}
+\textbf{Upfront Costs}:& Variable\\
+\textbf{Max Power}:& Variable\\
+\textbf{Upfront Costs}:& Variable\\
+\textbf{Depth Of Discharge \textit{(DoD)}}:& 80\% \\
+\textbf{Cycle Life}:& 5000 [@TeslaPow57:online]\\
+\textbf{Max Charge}:& $\frac{1-\text{DoD}}{2+\text{DoD}} \times$ CurrentCapacity\\
+\textbf{Min Charge}:& $\frac{1-\text{DoD}}{2} \times$ Current Capacity\\
+\textbf{End Life Value}:& 80\%\\
+\textbf{Additional Costs}:& £0 \\
+\textbf{Charge Rate}:& Max Power $\times$ 0.4 (In kWh per Half Hour)\\
+\textbf{TRIAD Days}:& 04-Dec-2014, 19-Jan-2015, 02-Feb-2015\\
+\textbf{TRIAD Rate}:& £33.55  (price per KW)\\
+\textbf{Unit Rate}:&  6.832p\\
+\textbf{Red Rate}:&  24.41p\\
+\textbf{Amber Rate}:&  0.287p\\
+\textbf{Green Rate}:&  0.161p\\
+\textbf{Usage Variation $\sigma$}:&  $\frac{\text{Max Value + Mean Value}}{2}$ (For minute by minute granularity)
+\end{tabular}
+\label{inputparam}
+\caption{Table Showing the Input Parameters of the Model}
+\end{table}
+
+The following diagram depicts the model of the entire multi-battery system.
+
+\hl{Large system Diagram of the Logic behind the model}
+
+ \hl{It was important that the model was as clear and simple as possible. To improve clarity within the model, structures were used to group variables. The benefit of using structures is the ability to pass them into a function. Using structures throughout the Lagoon Energy Model function and Multiple Lagoon Model script allowed all the required variables to be passed between the function and script using one structure. This greatly improved the structure and clarity of the model script.}
+
+## Performance Optimisation of Battery Storage Model
+
+[@getreuer5685writing]
+
+* Use Profiler \hl{Within MATLAB, the performance of a code can be measured in the amount of time it takes to run. The MATLAB profiler is a useful tool which records the amount of time spend in the different functions called within a script. The profiler can be used to identify bottlenecks within the model.}
+* Array Preallocation
+* Vectorisation
+* Reference Wildcards
+* Delete Sub Matrices
+* Convert to column vectors
+* Parallel Computing For loops
+* Minimised using MATLAB functions (linear interpolation etc.)
+* Used single instead of double integers (half size of memory allocation). \hl{The default storage method for data within MATLAB is a double-precision floating point number (Mathworks, 2016). This method of representing a number within CPU memory is able handle very large values, however requires 64 bits per number. By storing numbers as a single-precision data type, only 32 bits are required, reducing the data size by a half. This helps to manage memory within the model.}
+* DRY coding technique
+
 # Validation of Model
 
-## Sensitivity Check
+## Data File
+
+By using the model with real data first taken from Senate house, the tool which creates live data could be validated through integration and direct comparison to the original usage data. As no data could be gathered on how the demand profile looks for Senate house, assumptions were made on the type of operations the building fulfils (see the table below); this was compared to demand data at Princeton [@LiveData90:online].  
+
+## Model
+
+\hl{ADD Model validation thoughts, short as Assumptions hope to capture why the model is valid based on what has been used, validation table (excel) place simple calculation in body, additional thoughts on sensitivity analysis}
+
+## Limitations / Assumptions
+
+\hl{Create Full Table of Assumptions - ADD TOO HERE}
+
+* Office buildings are unlikely to have highly peaky demand profiles as there is no large devices that could cause spikes
+* Red rate times remain the same for the entirety of the batteries lifetime
+* Normal distribution of energy demand between each half hour period
+    * Sigma = average between mean of data and max of data
+* Trickle charging and minimum charge rate employed
+* Daily Variation- negligible
+    * Other variation in energy use ignored
+    * Weather the only contributor worth noting
+    * TRIAD dates kept as close as possible to the original (no weekends)     
+* Battery operation assumptions
+  * Does not overheat
+  * Run within normal working parameters
+* Battery chemistry assumptions
+    * Cycle life rating of battery indicates degradation in normal use case
+* Battery efficiency losses lost on charging
+    * Figure quotes both battery transformation
 
 # Results
-## Senate House Battery Strategy and Sizing
-### Simple
+This project aims to evaluate whether the value gained from purchasing batteries outweighs its large upfront costs and other challenges that battery technology faces. This section analyses the data gathered from zero-dimensional model and discusses the plausibility of using a battery and which battery is optimum based on a demand profile for both Senate House and the new University campus.
 
-### Advanced
-## New Campus Battery Strategy and Sizing
-### Simple
-### Advanced
+## Senate House Battery Optimisation
 
-# Discussion of Results
+\hl{
+  * Graphs of NPV, Total Savings and Payback Time
+  * Discussion on installation costs
+  * Optimum battery to choose
+}
+
+## New Campus Battery Optimisation
+
+Using the input values defined in section \ref{definition-of-new-campus-requirements}, the model was used generated results for 113 different battery types. Due to the size demand profile of the battery requiring  up to \hl{xkW} in a during a red rate period, and requiring a capacity of up to \hl{ykWh}, meant that many different solutions were plausible for providing the most value. By simulating for a range of batteries over a period of time, key trends between capacity and max power could be seen. A 25 year period was selected to evaluate the battery performance over. It is expected that after this period of time, technology will have significantly changed, refurbishments on the buildings will be under consideration and unpredictability on the long term use of the batteries will be reduced. The following results will talk through the three key value measurements discussed in section \ref{battery-economics}.
+
+### Total Savings and Payback Period
+
+Due to the 25 year limit placed on the batteries, the largest batteries did not necessarily deliver the greatest savings due to their high purchase price not being converted into additional savings from the battery strategies having no further load to be shifted. Figure \ref{SRTS2} shows the parabolic shape with a local maximum between the battery size and the total savings for a 25 year period. For the new campus, a battery size of around 2000 kWh appeared to be the best choice battery to select. The max power needs to be very high, with a 1.2-1.3 MW power response, to access these maximum total savings.
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{SRTS2.eps}
+ \caption{Battery Size Vs Total Savings}
+ \label{SRTS2}
+\end{figure}
+
+Looking at the payback period shown in Figure \ref{SRPB2}, a different story is told. The correct combination of max power and battery size is required to get a payback period between 6.3 and 8 years. Battery Sizes all remain below 2000kWh and provided that the battery size is paired with the correct maximum power, the shortest payback period can be accessed. After the 2000kWh mark, capacity rather than max power has the greatest effect in increasing the payback time.
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{SRPB2.eps}
+ \caption{Graph of Battery Size vs PayBack Time}
+ \label{SRPB2}
+\end{figure}
+
+Figures \ref{SPA2} and \ref{SRTSPB5} look to use a graphical approach, of choosing the optimum battery system based on both its capacity and power rating.
+
+\begin{figure}[H]
+\centering
+\includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{SPA2.eps}
+\caption{Graph Showing Top 30 Batteries with Fitted Curves for both Payback Time and Total Savings}
+\label{SPA2}
+\end{figure}
+
+A small region either-side of where the two plots cross in Figure \ref{SPA2}, can be approximated to be the optimum battery battery parameters. A designer aiming to select a battery based on these two parameters would look here to make a selection then find the nearest corresponding battery on the market that fits these values. It is apparent that the is a very steep drop off in total savings for batteries that fall outside these bounds. For both max power and total capacity selecting a battery with a lower rating than this bound will minimise the payback time, whilst selecting above this region will increase the payback time exponentially.
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{SRTSPB5ed2.eps}
+ \caption{Comparison Between Fit Curves for Payback Period and Total Savings}
+ \label{SRTSPB5}
+ \end{figure}
+
+ Payback period is important measure when evaluating the investments risk. The longer the pay back period the more time there is for the battery to fail. For the Tesla Power-pack modelled, the batteries have a 10 year warranty. These reduces the risk significantly if the investment were to fail before this period. There are other risks associated with long payback periods are  energy pricing changing significantly reducing the value that the battery creates. Energy contracts typically last no longer than 4 years,\hl{find reference} in which billing structure could result in the batteries value dropping to zero - \hl{add sensitivity analysis}. Knowing that $\frac{2}{3}$ of the investment has been paid back as opposed to only a $\frac{1}{2}$ or less can have dramatic effects on the risk of the investment. These factors should be considered when choosing the design region of battery selection.
+
+### NPV
+
+An alternate way which tries to quantify risk, is by using net present value. Three rates of 3\%, 7\% and 12\% were selected to understand the value of the different batteries. Figure \ref{SRNPV1}, shows the NPV of the different batteries at these different rates.
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{SRNPV1.eps}
+ \caption{Net Present value at Different Discount Rates - Comparison}
+ \label{SRNPV1}
+\end{figure}
+
+For discount rates of 3\% and 7\% the battery with the highest value was the same, having a power rating  of 1100 kW and a capacity of 2090kWh. When the discount rate is increased much above 7\%, it can be seen that the number of batteries that have a positive value is significantly reduced. The best value battery also becomes smaller rated to only 900kW and 1710kWh.
+
+Selecting an appropriate discount rate is therefore key for deciding which is the best investment if using net present value. As the battery will degrade each year until it reaches its end of life value, it could be argued that the value of the asset decreases proportionally with this the remaining life of the battery. Looking at the the optimum battery at a discount rate of 7\% (see Table \ref{BestNPVTable} below), it can be seen that the specific battery ran for 4904 cycles. Based on this assumption the value of the battery would be 98% of it's original rate, this works out at a discount rate of roughly 3.92\%. As this will be different for each batteries the discount rate based on remaining value alone must approximate all batteries a value of 3\% therefore seems fair. Discount rate also takes into account inflation. For the UK this rate has varied between  -0.1\% and 3.5\% for the last 5 years \cite{UnitedKi95:online}.An approximate value of 2\% could be added to the discount rate to incorporate how money now is worth more than money later.
+
+Finally discount rates can be used to incorporate interests on loans. As the battery would be a large one off payment that could be included in the mortgage on the new campus. This would keep the interest rate low, which can be approximated to 2\%. Using these three approximations gives a discount rate of around 7\% shown in figure \ref{SRNPV1}.
+
+### Discussion on Optimum Battery
+Below is a table showing the results of the battery which held the best NPV at a discount rate of 7\%:
+\begin{table}[H]
+\begin{tabular}{p{3.4cm}p{3cm}p{3cm}}
+\textit{Parameter} & \textit{NPV Value} & \textit{Best Value}\\
+\textbf{Battery Power Rating}:& 1100 kW\\
+\textbf{Battery Capacity}:& 2090 kWh\\
+\textbf{Total Saved}:& £1,953,706 & £1,966,697\\
+\textbf{Payback Period}:& 7.0959 Years & 6.3562 Years\\
+\textbf{Mean DoD}:& 31.5759\% \\
+\textbf{Cycles}:& 4904\\
+\textbf{Years}:& 25\\
+\end{tabular}
+\label{BestNPVTable}
+\caption{Table Showing the Best Battery Results based on a Net Present Value of 7\%}
+\end{table}
+
+Comparing the results between Net Present Value and the Total Saving Vs Payback plots (see Figure \ref{SRTSPB5}),shows that the recommendation of NPV at 7\% is larger than the recommendation from the total saving payback plot. This suggests that at this discount rate, total savings is worth more than a reduced payback time. 
+
+### Battery Usage and Secondary Analysis
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{DOD1.eps}
+\caption{Depth of Discharge For Battery Lifetime}
+ \label{DOD1}
+ \end{figure}
+
+
+* Battery depth of discharge can vary greatly depending on the power rating and capacity, a trend can be seen as two separate
 
 # Conclusions and Future Work
 ## Conclusions

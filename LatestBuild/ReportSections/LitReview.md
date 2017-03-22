@@ -61,4 +61,11 @@ By removing energy storage methods that would not be appropriate for the system 
 
 ## Battery Selection - Tesla Power-pack 2
 
+Selected Tesla due to lots of readily available information on pricing and sizes
+**Other Competitors**
+* Eos
+* BYD
+
+\hl{Very limited information on their costs, technology still maturing (Eos) Can assume that competition will continue to drive the price down, unsure about UK distribution} 
+
 \newpage
