@@ -101,7 +101,6 @@ Due to the way the model was created some secondary analysis could be conducted 
  \label{DOD1}
  \end{figure}
 
- It can be observed from Figure \ref{DOD1} that the 
+ It can be observed from Figure \ref{DOD1} that batteries whose capacity if less than 3000kWh, fall into two categories; one of high mean depth of discharge between 70-80\% and one with a mean depth of discharge around 50\%. This is a result of the relationship between capacity and max power, limiting the possible depth of discharge that the battery could reach in the two hour period that the battery is run.
 
-
-* Battery depth of discharge can vary greatly depending on the power rating and capacity, a trend can be seen as two separate
+ It is recommended that the designer should consult this graph in order to gauge how accurate the degradation estimate may be.

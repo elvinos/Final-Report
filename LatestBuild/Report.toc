@@ -14,33 +14,31 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{List of Acronyms}{v}{Doc-Start}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Aims and Objectives}{1}{section.1}
+\contentsline {section}{\numberline {1}Project Introduction and Objectives}{1}{section.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}Individual Project Aim}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.1}Individual Project Introduction}{1}{subsection.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2}Objectives}{2}{subsection.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Background and Summary of Key Work and References}{3}{section.2}
+\contentsline {section}{\numberline {2}Background and Summary of Key Work and Reference}{3}{section.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Peak Demand Charges}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.1}~How Reducing the University's Energy Bill Increases Sustainability}{3}{subsection.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Current Peak Demand Management Methods and Energy Storage Systems Usage}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.2}University Energy Charges}{3}{subsection.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Peak Shaving Systems Literature Review}{4}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.3}Current Peak Demand Management Methods and Energy Storage Systems Usage}{4}{subsection.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1}Forecasting and the Use of ESS in Load Shifting}{5}{subsubsection.2.3.1}
+\contentsline {subsection}{\numberline {2.4}Peak Shaving Systems Literature Review}{5}{subsection.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.2}Supply Levelling}{5}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.4.1}Forecasting and the Use of ESS in Load Shifting}{6}{subsubsection.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.3}Battery Sizing and Financial Modelling}{5}{subsubsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.4.2}Supply Levelling}{6}{subsubsection.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Peak Shaving Technologies - Electrical Storage System (ESS)}{6}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.3}Battery Sizing and Financial Modelling}{6}{subsubsection.2.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Previous Bristol University Work IODICUS}{7}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.5}Peak Shaving Technologies - Electrical Storage System (ESS)}{7}{subsection.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6}Battery Capacity Modelling}{7}{subsection.2.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7}Battery Selection - Tesla Power-pack 2}{7}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.6}Battery Selection - Tesla Power-pack 2}{8}{subsection.2.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Battery Storage Technology Key Advantages and Challenges}{8}{section.3}
 \defcounter {refsection}{0}\relax 
@@ -48,7 +46,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}Battery Costing}{10}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Battery Lifetime Assessment - Understanding Battery Degradation}{10}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}Battery Lifetime Assessment - Understanding Battery Degradation}{11}{subsection.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Battery Model Definition}{14}{section.4}
 \defcounter {refsection}{0}\relax 
@@ -106,10 +104,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {6.2.4}Battery Usage and Secondary Analysis}{30}{subsubsection.6.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Conclusions and Future Work}{30}{section.7}
+\contentsline {section}{\numberline {7}Conclusions and Future Work}{31}{section.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Conclusions}{30}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.1}Conclusions on Modelling Tool}{31}{subsection.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}Future Work}{30}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.2}Conclusions on Results}{31}{subsection.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Appendices}{31}{section.8}
+\contentsline {subsection}{\numberline {7.3}Future Work}{32}{subsection.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Appendices}{33}{section.8}

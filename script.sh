@@ -7,7 +7,7 @@ date=`date +"%m-%d-%y-%H%M"`
 cd ~/Documents/University/Year\ 4/Design\ Project\ 4/Final\ Report/LatestBuild/ReportSections
 
 # Gather the files which together constitute a dissertation into one place. Add Section Files Here/ Aims.md Background.md Content.md > sectionbuild.md
-cat ~/Documents/University/Year\ 4/Design\ Project\ 4/Final\ Report/LatestBuild/ReportSections/Introduction.md LitReview.md Development.md Validation.md Results.md Conclusion.md Appendix.md > sectionbuild.md
+cat ~/Documents/University/Year\ 4/Design\ Project\ 4/Final\ Report/LatestBuild/ReportSections/Introduction.md LitReview.md Technology.md Development.md Validation.md Results.md Conclusion.md Appendix.md > sectionbuild.md
 
 # Copy into the build folder
 cp  sectionbuild.md ~/Documents/University/Year\ 4/Design\ Project\ 4/Final\ Report/LatestBuild/sectionbuild.md

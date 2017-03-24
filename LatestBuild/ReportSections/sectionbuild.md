@@ -1,94 +1,126 @@
-# Aims and Objectives
+# Project Introduction and Objectives
 
-The announcement of the new £300million University of Bristol Campus in Temple Quarter \cite{November58:online}, presents an exciting new opportunity for digital innovations in sustainable energy. The government's 2020 smart meter rollout, is the first step for creating a smart energy grid, key to achieving a low-carbon, sustainable and efficient energy for the UK \cite{SmartEne79:online}. The UK's vision corresponds to the University of Bristol's new strategy, seeking to boost its world-class research capacity and promote innovation in policy to increase sustainability \cite{universi93:online}. The creation of a world-leading sustainable digital campus is an attractive means for the University to achieve its vision. Consequently, the aim of this group project is to bring a explore of new digital technologies reducing both energy costs and energy usage, uniting these themes to set a new frontier in campus's sustainability.
+The announcement of the new £300million University of Bristol Campus in Temple Quarter \cite{November58:online}, presents an exciting new opportunity for digital innovations in sustainable energy. The government's 2020 smart meter rollout, is the first step for creating a smart energy grid. This is key for the UK to achieve a low-carbon, sustainable and efficient energy system for the future \cite{SmartEne79:online}. The UK's vision is mirrored in the University of Bristol's new strategy, as it seeks to boost its world-class research capacity and promote innovation in policy, to increase sustainability \cite{universi93:online}. The creation of a world-leading campus is an attractive means for the University to realise its vision. Consequently, the aim of this group project is to explore new digital technologies, to reduce both energy costs and energy usage to set a precedent in university campus sustainability.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\textwidth]{diagramGroup.eps}
+\includegraphics[width=1\textwidth]{GroupDiav2.eps}
 \caption{Group Design Project Diagram Showing Relationships Between Individual Projects}
 \vspace{-20pt}
 \label{groupDia}
 \end{figure}
 
-Figure \ref{groupDia} shows how the separate subjects of the project are split, where research in Occupancy Sensing, Smart Metering and Building Services will evaluate how energy usage in the new campus can be optimised. Smart Thermal Grid, Energy Pricing and Peak Demand Reduction, all analyse methods of reducing the University's energy costs. Where new energy pricing structures coupled with peak demand reduction technologies, can reduce the load on the grid, helping support sustainable energies. The 5^th^ year group project will unite these themes, creating a smart "brain" through combining usage data with new technologies and strategies, providing a business case to develop sustainable energy services on the new campus, pushing the University to meet it's carbon neutral 2030 goal \cite{universi93:online}.
+Figure \ref{groupDia} describes the relationships between the individual project themes, where research in occupancy sensing, smart metering and building services will evaluate how energy usage in the new campus can be optimised. Projects looking at smart thermal grids, energy system interactions and peak demand reduction, analyse methods to reduce the university's energy costs; providing financial incentives to increase the campus' sustainability. The 5^th^ year group project will unite this research, creating a smart "brain" \cite{pbmeet} through combining usage data with new technologies and strategies, providing a business case to develop sustainable energy services on the new campus, pushing the University to meet it is carbon neutral 2030 goal \cite{universi93:online}.
 
-## Individual Project Aim
+## Individual Project Introduction
 
-The aim of this individual project is to investigate the feasibility of using an energy storage system (ESS) to reduce charges related to peak energy demand for the University of Bristol, implemented in the new Temple Quarter campus. Within the project, the University’s peak demand charges will be analysed and simulated, modelling the bespoke energy requirements of the campus. Different peak-shaving system architectures will then be modelled against this usage and charge data, finding an optimum solution for the system's design concerning the system's capital cost against savings made from energy bills. This model will provide a comparison between using a decentralised system, for room by room use, or a centralised system, being applied to the whole building. The outputs of the project for 5^th^ year will be a flexible model which produces an optimum peak-shaving system architecture for a given University scenario, providing a cost benefit analysis of using energy storage.
+This project report investigates the feasibility of using energy storage systems (ESS) to reduce energy charges for the University of Bristol. This will be implemented in the new Temple Quarter campus, seeking to provide a comprehensive cost based analysis for investing in energy storage technology. By focusing on reducing charges related to peak demand, (periods where load on the grid is greatest \cite{WhatisPe67:online}) overall campus sustainability will rise. Within the project, the university’s energy profile and billing structure are analysed and simulated, which defines the bespoke energy requirements of the new campus. A comprehensive technology study of the different ESSs evaluated the feasibility of various systems, down-selecting the most appropriate battery for modelling. Through further evaluation of how the selected battery system would function, a model was designed to simulate battery system strategies. To find an optimum solution for the system's design concerning the system's capital cost against savings made from energy bills.
+
+The overall outputs of the project for use in the $5^{th}$ year group design project are:
+
+* _Energy Profile Tool_:  to build and understand the new university campus’ Demand
+* _Optimised Battery System Model_: producing best storage solutions based on energy profile tool
+* _Cost Based Analysis Business Case_:  for investing in battery storage technology
 
 ## Objectives
 
+To achieve the projects outputs, the following detailed objectives were defined:
+
 **Literature Review**
 \begin{enumerate}
-\item Perform a detailed literature review, and market analysis of energy storage systems used to reduce peak energy demands, highlighting relevant modelling techniques and limitations.
-\item Investigate different energy storage solutions, looking at their applicability to a University peak-shaving system, comparing parameters such as; power-ratings, discharge times, charge times and costs.
+\item Perform a detailed literature review, and market analysis of current energy storage technologies and modelling conducted in evaluating using ESS to reduce peak energy demands, highlighting relevant techniques and limitations.
+\item Investigate the applicability of different energy storage solutions for use in the University's new campus, comparing parameters such as; power-ratings, capacity, discharge times and costs to down-select a battery system for modelling.
 \end{enumerate}
 
-**Definition of System Architectures**
+**Definition of System Strategies**
 \begin{enumerate}[resume]
-\item Define peak-shaving system architectures, establishing the key performance variables. This objective will include an investigation of peak demand sensing, smart metering usage, energy storage health monitoring, energy conversion, methods to split supply between an energy storage system and the mains and a comparison between decentralised and centralised energy storage models.
-
+\item Define battery system strategies, establishing the key performance variables. This objective will include an investigation into measuring the performance of the battery system over time and evaluation of the best methods of using the battery.
 \end{enumerate}
 
 **Modelling and Analysis**
 \begin{enumerate}[resume]
-\item Analyse the University’s current peak demand charges; understanding the University’s current demand charge structure and collecting typical energy usage data. Parameters such as time of day and sources of energy peaks will be incorporated.
-\item Produce a simulation to optimise the peak-shaving system, comparing metrics including; unit cost and reduction in peak kWh charges based on University billing structure. This model will provide a comparative analysis of the different system architectures. The model will detail savings against the University’s current peak demand charges, being comprised of three stages:
+\item Analyse the university’s current peak demand charges; understanding the university’s current demand charge structure and collecting typical energy usage data.  
+\item Create a tool to generate demand profile (kW) from half-hourly usage (kWh) data provided defining energy profile of the new campus.
+\item Create a model simulating the use of battery strategies to change the energy demand profile of the new campus, comprising of three stages:
 \begin{enumerate}
-\item A simulation of the University's a normal energy use case and peak demand charges, for use as a datum.
-\item Inclusion of energy storage systems, simulating logic and detailing any prediction methods.
-\item An assessment of the use of peak load shedding, supply levelling and forecasting to improve the performance of the model.
+\item A simulation of using the battery system against a current university building, analysing the effect of the system for use as a datum.
+\item A simulation of using the battery system in the new university campus
+\item An assessment on the optimum battery design to select based on the new campus's energy profile
 \end{enumerate}
 \end{enumerate}
 
 **Evaluation**
 \begin{enumerate}[resume]
-\item Evaluate results of the simulation, concluding on the effectiveness of different peak-shaving system architectures against particular scenarios. A cost-based analysis will be used to measure the feasibility of the different energy storage systems for the University.
+\item Evaluate results of the simulation, concluding on the effectiveness of different battery systems. A cost-based analysis will be used to measure the feasibility of the different energy storage systems for the university comparing the value of the system against current challenges in using the new technology.
 \end{enumerate}
 
-\newpage
-# Background and Summary of Key Work and References
+# Background and Summary of Key Work and Reference
 
-The following literature review provides a comprehensive overview of current research towards using Energy Storage Systems (ESS) to reduce peaks in energy demand and lower utility costs for the consumer. Peak demand reduction is synonymous with peak shaving; the ability to control energy usage from a supplier during intervals of high demand, to limit or reduce demand charges \cite{schneiderRECPS}, \cite{baldorPS}. As this project is investigating reducing the peak demand charge for the University of Bristol, section \ref{peak-demand-charges}, provides an overview of the University's energy bill, detailing which charges are effected by peak demand. Section \ref{current-peak-demand-management-methods-and-energy-storage-systems-usage} evaluates traditional methods of peak shaving, covering a brief look at ESSs current usage. Section \ref{peak-shaving-systems-literature-review} includes a broad range of research of ESSs in different case studies, optimising the system architecture and analysis on ESSs financial return on investment (ROI). This research will help in define system architectures for modelling. Finally section \ref{peak-shaving-technologies---electrical-storage-system-ess} analyses the applicability of different ESSs, down-selecting to leave a shortlist of ESSs to be modelled.
+The following literature review provides a comprehensive overview of using Energy Storage Systems (ESS) to lower energy costs. Using batteries in this manner is still novel, with a broad range of ESSs and use strategies available for evaluation, where their use in different situations can produce dramatically different results. By having a comprehensive understanding, the scenario, the best strategies and energy storage technologies for the new university campus are determined. This section is broken down into the following:
 
-## Peak Demand Charges
-The University of Bristol's infrastructure, spans across three sites; the City Centre, Stoke Bishop and Langford. Across these locations, the majority of facilities receive separate energy bills, allowing a high degree of granularity in the understanding energy charges \cite{Jbrentmeet}. The University receives charges bundled together under four distinct themes \cite{Jbrentmeet}, these have been ranked below based on the effect a peak-shaving system could have on the charge.
+* \ref{how-reducing-the-universitys-energy-bill-increases-sustainability} - How Reducing the University's Energy Bill Increases Sustainability
+* \ref{university-energy-charges} - Background into the University of Bristol's current energy billing structure
+* \ref{current-peak-demand-management-methods-and-energy-storage-systems-usage} - An understanding of the current methods of reducing energy bills through peak demand management and evaluation of the university's current methods
+*  \ref{peak-shaving-systems-literature-review} - An overview of research conducted into using energy storage system to reduce bills; including a variety of different case studies and analysis on ESSs financial return on investment (ROI). This research will highlight specific areas to be investigated in section \ref{battery-storage-technology-key-advantages-and-challenges}how
+* \ref{peak-shaving-technologies---electrical-storage-system-ess} -  Analysis of the applicability of different ESSs, down-selecting the most viable candidate for modelling
+
+## How Reducing the University's Energy Bill Increases Sustainability
+
+The UK's energy grid uses many methods of generating the power to meet demand. This energy comes from both clean (hydro, wind solar e.t.c.) and dirty energy (coal, gas e.t.c.). Due to the nature of most clean technologies, these sources are used to meet the UK's base load (power usage during off-peak periods) \cite{GBNation22:online}. When there are periods of the day when energy usage is higher, (peak- demand) additional fast-acting dirty sources like combined cycle gas turbines are used to meet this demand \cite{Reducing94:online}. These periods of a high spike in demand are charged much more significantly, for this reason, highlighted in \cite{7555793}. ESS proposes a new way of levelling out load on the grid, reducing the need for fast, responsive dirty technologies to be used. The reduction in emissions for the university by using energy storage technologies to reduce peak demand can reduce between 250 - 360gCO2/kWh \cite{Part1Att26:online}, while having the potential to save the University a significant amount of money.
+
+## University Energy Charges
+The University of Bristol's infrastructure spans across three sites; the City Centre, Stoke Bishop and Langford. Across these locations, the majority of facilities receive separate energy bills, allowing a high degree of granularity in the understanding energy charges \cite{Jbrentmeet}. The University receives charges bundled together under four distinct themes \cite{Jbrentmeet}, described below discussing how using batteries could reduce this cost.
 
 \begin{enumerate}
-\item \textbf{Distribution Use of System (DUoS)} - This bill includes the capacity charge; where the customer pays for a maximum demand level in kW \cite{Deconstr52:online}. The capacity charge is set higher than the actual maximum demand, reducing the risk of breaching this threshold. If breached, the customer incurs substantial penalties, and the supplier increases the threshold for the next billing period. By levelling off peaks in energy demand, the capacity charge threshold can decrease. The capacity charge will be the key focus for the proposed peak-shaving system.
-\item \textbf{Transmission Network Use of System (TNUoS)} - These come from three half-hour periods when the UK's National Grid demand is greatest, referred to as Triads. These dates lie between November and February and must be separated by at least ten days during the financial year \cite{TriadsWh7:online}. The average max peak demand across the three Triads \cite{TNUoSTra99:online}, is multiplied by a tariff for the respective zone in cost per kW \cite{TNUoScha93:online}. Combined they become the TNUoS charge, added to the customer's end of year bill. The University has become quite good at forecasting these periods \cite{Jbrentmeet}, making it possible to schedule ESSs to reduce peaks during these periods.
-\item \textbf{Unit Charge} - Unit charges come at three different rates, green, amber and red \footcite[See page 27 of][]{SWEB201492:online}, depending on the time of day. Energy costs during red periods are significantly higher (between 5pm-7pm). For Western Power (University's current supplier), there is a 17000\% increase in price during these periods \footcite[25.405 p/kWh in red periods against 0.147p/kWh in green periods][]{SWEB201492:online}. The unit charge will decrease as a consequence of reducing peak demand, where an ESS should only charge in green periods.
-\item \textbf{Feed-In Tariff (FIT)} - Based on feeding back energy to the grid. Peak-shaving will not be applicable.
+\item \textbf{Distribution Use of System (DUoS)} - This section of the bill includes the capacity charge and unit charges.
+\begin{enumerate}
+\item \textbf{Unit Charge} - Unit charges come at three different rates, green, amber and red \footcite[See page 27 of][]{SWEB201492:online}, depending on the time of day. Energy costs during red periods are significantly higher (between 5pm-7pm). For Western Power (University's current supplier), there is a 17000\% increase in price during these periods \footcite[25.405 p/kWh in red periods against 0.147p/kWh in green periods][]{SWEB201492:online}. Reducing unit charge will be the main method of reducing peak demand charges, where an ESS should be used during Red rate periods and charge in only green periods. Unit Charges make up 22\% of the bill  (see Figure \ref{Development-38}).
+\item \textbf{Capacity Charge} - this is where the customer pays for a maximum demand level in kW \cite{Deconstr52:online}. The capacity charge is set higher than the actual maximum demand, reducing the risk of breaching this threshold. If breached, the customer incurs substantial penalties, and the supplier increases the threshold for the next billing period. By levelling off peaks in energy demand, the capacity charge threshold can decrease. Capacity charges make up a 4\% of the monthly bill  (see Figure \ref{Development-38}) where the risk surpassing the threshold exceeds any savings seen through implementing an ESS.
+\end{enumerate}
+\item \textbf{Transmission Network Use of System (TNUoS)} - These come from three half-hour periods when the UK's National Grid demand is greatest, referred to as TRIADs. These dates lie between November and February and must be separated by at least ten days during the financial year \cite{TriadsWh7:online}. The average max peak demand across the three Triads \cite{TNUoSTra99:online}, is multiplied by a tariff for the respective zone in cost per kW \cite{TNUoScha93:online}. Combined they become the TNUoS charge, added to the customer's end of year bill. The University has become quite good at forecasting these periods \cite{Jbrentmeet}, making it possible to schedule ESSs to reduce peaks during these periods. To effectively mitigate this charge, an ESS must be able to provide substantial power demand (kW). TRIADS currently encapsulate 7\% of the monthly bill ( see Figure \ref{Development-38}).
+\item \textbf{Feed-In Tariff (FIT)} - Based on feeding back energy to the grid. Dependent on the battery system selected, there is potential to increases the value of the ESS by leveraging this charge. This charge is highly complex and frequently changing so will not be evaluated in this project.
 \end{enumerate}
 
 ## Current Peak Demand Management Methods and Energy Storage Systems Usage
 
-Traditionally there are two methods for reducing peak demand for industrial complexes \cite{schneiderRECPS}. These are:
+The term "peak demand reduction" is synonymous with peak shaving; the ability to control energy usage during intervals of high demand, to limit or reduce demand charges \cite{schneiderRECPS}, \cite{baldorPS}. Traditionally there are two methods for reducing peak demand for industrial complexes \cite{schneiderRECPS}. These are:
 
-* **Load Shedding**: This is reducing energy usage, by switching off certain systems during periods of peak demand \cite{6199851}. An intelligent scheduling system or a simple forecasting tool can be used to execute load shedding \cite{Reducing37:online}, where systems can be switched off autonomously or manually. Often load shedding is calculated daily using a schedule to set a fixed maximum energy limit  \cite{6938948}.
-    * *Limitations*: Forecasting errors can significantly reduce the effectiveness of this system, where reactive methods are often better \cite{6938948}. Due to the free flow of staff and students at the University's facilities, predicting peak demands accurately can become a greater challenge.
-* **On-site Generation**: Adding off-the-grid capacity to the consumer \cite{schneiderRECPS}. The University currently uses some generators to reduce red zone unit charges, supported by \cite{shen2016} showing that fuel costs of running a diesel generators are lower than energy purchased in red zone rates. If a good return on investment is found from purchasing the asset, a diesel generator may be feasible to be used alongside an ESS during these periods.
-    * *Limitations*: The University currently has 0.5MW of PhotoVoltaic (PV) installed using nearly all available space \cite{Jbrentmeet}. These PV's provide only 0.5\% of the total energy demand, meaning the use of on-site generation to offset peak demand has a negligible effect in flattening the University's demand if used directly.
+* **Load Shedding**: This is reducing energy usage, by switching off certain systems during periods of peak demand \cite{6199851}. An intelligent scheduling system or a simple forecasting tool can be used to execute load shedding \cite{Reducing37:online}, where systems are switched off autonomously or manually. Often load shedding is calculated daily using a schedule to set a fixed maximum energy limit  \cite{6938948}.Load shedding predictions methods will be useful in defining the strategy that the energy storage system will use.
+    * *Limitations*: Forecasting errors can significantly reduce the effectiveness of this system, where reactive methods are often better \cite{6938948}. Getting university staff and students to change their usage habits, to shift load in peak times appears unfeasible and potentially more costly \cite{Jbrentmeet}. Experiments conducted by the University of Copenhagen have further supported this opinion \cite{copenmeet}.
+* **On-site Generation**: Adding off-the-grid capacity to the consumer \cite{schneiderRECPS}. The University currently uses some generator to reduce TRIAD charges. Generators are run roughly ten times a year during periods when the UK's energy load is greatest. \cite{shen2016} shows research supporting the financial feasibility of running diesel generators during these times. Due to the environmental impact of using diesel generators, an ESS would act as an improved replacement for this method for reducing TRIAD charges.
+    * *Limitations*: The University currently has 0.5MW of PhotoVoltaic (PV) installed using nearly all available space \cite{Jbrentmeet}. These PV's provide only 0.5\% of the total energy demand, meaning the use of on-site generation to offset peak demand has a negligible effect in flattening the University's demand. Pairing batteries with PV as a method of supply levelling appears unfeasible in the context of the University.
 
-In addition to these limitations, statistics such as "40% of energy use in the campus comes from 5% of the space, predominantly labs” \cite{brentemail}, make the University campus a unique case study for peak demand shaving, where energy storage systems appear more attractive than traditional techniques.
+In addition to these limitations, statistics such as "40% of energy consumption in the campus comes from 5% of the space, predominantly labs” \cite{brentemail}, make the University campus a unique case study for peak demand saving, where energy storage systems appear more attractive than traditional techniques.
 
-There are a limited number of peak shaving ESS solutions available commercially. ABB offers energy-storage, smart-grid products, which perform load levelling at grid level \cite{abbpeakshave}. These systems are designed primarily for supply levelling, using forecasting methods and large ESSs to offset excess energy supply produced from renewable energies \cite{5559470}, rather than focusing on reducing its customers energy bills. One Cycle Control have created technologies to regulate peak-load and mitigate peak demand charges for commercial/industrial facilities using Li-ion batteries \cite{peakload38:online}. The technologies proved effective at reducing peak demand charges, but highlight that the steep cost of the ESSs reduces the system's financial feasibility \cite{Demonstr51:online}. Being able to sense peak loads and respond actively will maximise the performance of the system, while the ESS chosen will have the greatest effect on the systems cost. Section \ref{peak-shaving-technologies---electrical-storage-system-ess} evaluates these two different technologies.
+IODICUS, is a current University project, looking at reducing energy costs, by improving the amount of sensing data around the university's usage. This project produced middleware for an IoT deployment of energy sensors/actuators, and software to explore the resulting ‘big data’ of the sensors \cite{priestemail}.  Although the project did not evaluate using ESSs, the outcome of improving sensing data will help to improve the chosen ESS performance.
+
+There are a limited number of commercially available solutions that use ESSs to reduce peak loads directly. ABB offers energy-storage, smart-grid, products which perform load levelling at grid level \cite{abbpeakshave}. These systems are designed primarily for supply levelling, using forecasting methods and extensive ESSs to offset excess energy supply produced from renewable energies \cite{5559470}, rather than focusing on reducing its customer's energy bills. One Cycle Control have created technologies to regulate peak-load and mitigate peak demand charges for commercial/industrial facilities using Li-ion batteries \cite{peakload38:online}. The technologies proved effective at reducing peak demand charges, but highlight that the steep cost of the ESSs reduces the system's financial feasibility \cite{Demonstr51:online}. Being able to sense peak loads and respond actively will maximise the performance of the system, while the ESS chosen will have the greatest effect on the systems cost. Section \ref{peak-shaving-technologies---electrical-storage-system-ess} evaluates these two different technologies. Based on there being no direct commercial solution this report sets to understand the components required to create an effective energy storage solution for reducing the university's new campus energy bills.
 
 ##  Peak Shaving Systems Literature Review
-Acknowledging limitations in commercial peak-shaving ESSs, understanding current research is crucial to designing efficient system architectures. Research is grouped, highlighting each section's significance, identifying areas for further research in work package 2.
+Acknowledging limitations in commercial peak-shaving ESSs, it is crucial to understand current research in using ESS technology to design an efficient system architecture. Research is grouped, highlighting each section's significance and relevance to the development of the modelling the energy storage system.
 
 ### Forecasting and the Use of ESS in Load Shifting
-Using energy pricing forecasts, an ESS can be switched on to shift energy costs; purchasing energy at a cheaper rate, using this energy during peak times. Looking at the gap in energy prices, demand charges and investment costs for an ESS, NaS, Li-ion and Flow batteries, a basic on/off algorithm to shift energy purchasing from peak to off-peak times does not produce a viable return on investment (ROI) \cite{7555795}.  \cite{7555793} highlights that billing peak periods were directly correlated with peak demand, requiring an even larger ESS to offset this demand. \cite{5590194} used real hourly spot prices to decide the best times to turn on and off Vanadium Redox Batteries (VRB) and Polysulfide Bromide Batteries (PSB). Through sequential quadratic programming (SQP), battery sizes were optimised, finding PSB's had a better business case for load shifting. The fundamental differences between \cite{7555795} and \cite{5590194}, were energy bills targeted and the granularity of the pricing data used. \cite{6938948} evaluated different control strategies combining many forecasts to reduce errors in peak shaving over a monthly period. Weighted and lowest error forecasts were the best strategies for an energy management system and should be added to the system architecture if forecasting is used. \cite{Bennett2015122} added a real-time operator to create an intelligent scheduling system based on a house to forecast. This system significantly improved the state of charge of the battery, freeing more energy for use in reducing peaks, highlighting that forecasts combined with real-time information can increase the performance of the system further. Work-package 2 will, therefore, look at using weighted and lowest error forecasts for an ESS, further understanding the implications of battery health, whilst work-package 3 will determine if the Universities energy usage data is responsive enough for a real time intelligent scheduling system.
+Using energy price forecasts, an ESS can be switched on to shift energy costs; purchasing energy at a cheaper rate, using this energy during peak times. Due to the gap in energy prices, demand charges and investment costs for an ESS, NaS, Li-ion and Flow batteries, a basic on/off algorithm to shift energy purchasing from peak to off-peak times has not been proven to meet a viable return on investment (ROI) \cite{7555795}. This Italian case study had very different pricing schemes to the university, meaning further investigation may find that this technique is feasible. \cite{5590194} used real hourly spot prices to decide the best times to turn on and off Vanadium Redox Batteries (VRB) and Polysulfide Bromide Batteries (PSB). Through sequential quadratic programming (SQP), battery sizes were optimised, finding PSB's had a better business case for load shifting. The fundamental differences between \cite{7555795} and \cite{5590194}, were the energy saving strategy and granularity of the pricing data used. \cite{6938948} evaluated different control strategies combining many forecasts to reduce errors in peak shaving over a monthly period. Weighted and lowest error forecasts were the best strategies for an energy management system and should be added to the system strategy if forecasting is used. \cite{Bennett2015122} added a real-time operator to create an intelligent scheduling system for home prediction. This system significantly improved the state of charge of the battery, freeing more energy for use in reducing peaks, highlighting that forecasts combined with real-time information can increase the performance of the system further.  Modelling development will research:
+
+* the implications of battery health on the lifetime value of the battery, for the battery selected
+*  understand if the University's energy usage data is responsive enough for a real-time intelligent scheduling system
 
 ### Supply Levelling
-Supply levelling is the most common use for ESS \cite{iearoadmapes}, using large batteries to reduce power fluctuations brought by the use of renewable technologies \cite{7324861}, \cite{7564619}. Supply levelling works by storing excess supply, reducing peaks in the grid rather than in demand. The technology is, therefore, similar to peak shaving. \cite{Allik20161116} looked at improving supply for a residential home. Shiftable water heating was identified to account for 50% of household electricity use, being modelled as the primary storage device. Excess load from wind turbines was used to heat water in excess supply periods bypassing an inverter significantly improving energy losses. This research is supported by \cite{Leadbetter2012685}. Minimising conversion through inverters makes a large difference in the efficiency of the system. An investigation into energy conversion and, using heat as a secondary storage method will be performed in work-package 2.
+Supply levelling is the most common use for ESS \cite{iearoadmapes}, using large batteries to reduce power fluctuations brought by the use of renewable technologies \cite{7324861}, \cite{7564619}. Supply levelling works by storing excess supply, reducing peaks in the grid rather than in demand. The technology is, therefore, similar to peak demand shaving. \cite{Allik20161116} looked at improving supply for a residential home. Shiftable water heating was identified to account for 50% of household electricity use, so was used as the primary storage device. Excess load from wind turbines was used to heat water in excess supply periods bypassing an inverter improved energy losses. \cite{Leadbetter2012685} supports this research. Minimising conversion through inverters makes a large difference in the efficiency of the system. Modelling development will therefore investigate:
+
+* the effect energy conversion on the ESS performance
+* using heat as a secondary storage method
 
 ### Battery Sizing and Financial Modelling
-Numerous studies, analysing the business cases for ESSs have been conducted. \cite{7555795} and \cite{7555793} model the use ESSs broadly, to reduce the cost of all energy charges, revealing that the ROI is unlikely to be feasible beyond 2020. Papers including \cite{1300158} and \cite{6175723} evaluated financial models for particular case studies, showing that bespoke solutions achieved greater peak shaving reductions than returns promised by current generic products \cite{abbpeakshave}. \cite{7555795}, \cite{7555793}, \cite{1300158}, \cite{6175723} and \cite{20164002874437} all present a strong arguments that a bespoke solution for the University will provide a better business case for ESS than generic commercial technology.
+There are numerous studies, analysing the business cases for ESSs. \cite{7555795} and \cite{7555793} model the use ESSs broadly, to reduce the cost of all energy charges, revealing that the ROI is unlikely to be feasible beyond 2020. Papers including \cite{1300158} and \cite{6175723} evaluated financial models for particular case studies, showing that bespoke solutions achieved greater peak shaving reductions than returns promised by current generic products \cite{abbpeakshave}. \cite{7555795}, \cite{7555793}, \cite{1300158}, \cite{6175723} and \cite{20164002874437} all present a strong arguments that a bespoke solution for the University will provide a better business case for ESS than generic commercial technology.
 
-Investigating the benefits of a decentralised system, reducing peaks on a small scale rather than using one large central ESS,  \cite{6604477} analysed both peak shaving and battery longevity for a large data centre.  Through both experimentation and modelling,  \cite{6604477} showed that when regarding the batteries lifespan, the ability to regulate load through a series of batteries can be more favourable than a centralised system. Research conducted by \cite{6348200} and \cite{Demonstr51:online} also both support using a decentralised system. A simulation of the impact of lithium-ion batteries operated under a peak-shaving control algorithm identified cost-optimal battery configurations and their impact on grid demand, revealing that small short duration batteries were more favourable and cost effective for the customer, further supported by \cite{20164002874437}. The model for this project will assess if this is also the case for a University facility understanding that a few rooms such as labs contribute to the majority of peak loads.
+Investigating the benefits of a decentralised system, reducing peaks on a small scale rather than using one large central ESS,  \cite{6604477} analysed both peak shaving and battery longevity for a large data centre.  Through both experimentation and modelling,  \cite{6604477} showed that when regarding the batteries lifespan, the ability to regulate load through a series of batteries can be more favourable than a centralised system. Research conducted by \cite{6348200} and \cite{Demonstr51:online} also both support using a decentralised system. A simulation of the impact of lithium-ion batteries operated under a peak-shaving control algorithm identified cost-optimal battery configurations and their impact on grid demand, revealing that small short duration batteries were more favourable and cost effective for the customer, further supported by \cite{20164002874437}.
 
-\cite{20160601898032}, \cite{Levron201280} all \cite{5371839} all show alternate ways of optimising the battery sizing configurations. \cite{5371839}, used a non-numeric modelling method, focusing on ultra-capacitors to find the optimal ESS. The results emphasised the constraint of storage capacity, showing an exponential decrease in value gained after a particular size of ESS. Finding this size for different University scenarios will be the primary focus of this project's model.  \cite{Levron201280} created an analytical model, using energy bands to regulate peak load, giving an optimum storage size for a given system;  this was a straightforward and efficient method of modelling battery usage. \cite{20160601898032} looked specifically at Vanadium Redox Flow Batteries (VRFB) arguing it benefits over other ESS methods, producing a MATLAB/Simulink for a residential use case, showing that VRFB can regulate its frequency efficiently, due to its fast response time, while still performing peak-shaving services. This project proposes using a similar modelling technique to \cite{20160601898032}, incorporating more ESSs.
+\cite{20160601898032}, \cite{Levron201280} all \cite{5371839} all show alternate ways of optimising the battery sizing configurations. \cite{5371839}, used a non-numeric modelling method, focusing on ultra-capacitors to find the optimal ESS. The results emphasised the constraint of storage capacity, showing an exponential decrease in value gained after a particular size of ESS. Finding the required battery size and power for different University scenarios will be the primary focus of this project's model.  \cite{Levron201280} created an analytical model, using energy bands to regulate peak load, giving an optimum storage size for a given system;  this was a straightforward and efficient method of modelling battery usage. \cite{20160601898032} looked specifically at Vanadium Redox Flow Batteries (VRFB) arguing benefits over other ESS methods, producing a MATLAB/Simulink for a residential use case, showing that VRFB can regulate its frequency efficiently, due to its fast response time, while still performing peak-shaving services. This project proposes using a similar modelling technique to \cite{20160601898032}, incorporating more ESSs. This research highlights:
+
+* modelling techniques to consider when developing the optimal configuration of the battery to purchase
+* that the model should assess the effect of labs on the energy profile of the building, to see if there is a business case for purchasing multiple batteries than just one
+
 
 ## Peak Shaving Technologies - Electrical Storage System (ESS)
 
@@ -98,26 +130,15 @@ The selected Electrical Storage System (ESS) will govern the cost and feasibilit
     * Pumped Hydroelectric Storage (PHS), Compressed Air Energy Storage (CAES) and Cryogenic Energy Storage (CES) are the conventional technologies for high generation above 100MW. All these methods are on a scale too large to be considered for this project.
     * Large-scale batteries, flow batteries, fuel cells, solar fuels, CES and Thermal Energy Storage (TES) are suitable for medium-scale energy management with capacities of 10 – 100 MW. These are appropriate for consideration for this project.
 * **Power quality:** fast response times improve power quality allowing techniques such as the instantaneous voltage drop, flicker mitigation and short duration uninterrupted power supply
-    * Flywheels, Batteries, Superconducting Magnetic Energy Storages (SMES), capacitors and ultra-capacitors have millisecond response time lower for storage sizes less than 1 MW - suitable perhaps in addition to large scale battery. Flywheel efficiency is too low for operational use, so has been removed from this study.
+    * Flywheels, Batteries, Superconducting Magnetic Energy Storages (SMES), capacitors and ultracapacitors have millisecond response time lower for storage sizes less than 1 MW - suitable perhaps in addition to large scale battery. Flywheel efficiency is too low for operational use, so has been removed from this study.
 * **Bridging power:** Relatively fast response (< 1 s) but also have relatively long discharge time (hours). The typical power rating for these types of applications is about 100 kW – 10 MW.
     * Batteries, flow batteries \cite{flowbatstan}, fuel cells and Metal-Air Cells\cite{Chen2009291}, \cite{batuni}.
 
-By removing energy storage methods that would not be appropriate for the system a table was created \footnote{See table \ref{battabs}, in the Appendices} comparing ESSs. Batteries along with capacitors provide the response time \cite{Choudar201521} and efficiencies required to make the system justifiable, where only rechargeable batteries were compared. From section \ref{battery-sizing-and-financial-modelling} a model of a University peak demand reduction system will need to compare different battery parameters along with their cost, to optimise the model.
-
-## Previous Bristol University Work IODICUS
-
-## Battery Capacity Modelling
+By removing energy storage methods that would not be appropriate for the system a table was created \footnote{See table \ref{battabs}, in the Appendices} comparing ESSs. Batteries along with capacitors provide the response time \cite{Choudar201521} and efficiencies required to make the system justifiable, where only rechargeable batteries were compared.
 
 ## Battery Selection - Tesla Power-pack 2
 
-Selected Tesla due to lots of readily available information on pricing and sizes
-**Other Competitors**
-* Eos
-* BYD
-
-\hl{Very limited information on their costs, technology still maturing (Eos) Can assume that competition will continue to drive the price down, unsure about UK distribution} 
-
-\newpage
+Due to the maturity of the technology, the fast frequency response in delivering power, Li-ion batteries were selected as the most viable option for achieving the project's aims.  Due readiness in information around performance and price, the Tesla Powerpack 2 was chosen for this model; where competitors EOS and BYD lacked information about their pricing structures making it difficult to validate any results the model would produce. The model will use Teslas current costs but will evaluate the effect of competition and improvements in  Li-ion performance in driving costs down further.
 
 # Battery Storage Technology Key Advantages and Challenges
 
@@ -125,40 +146,14 @@ This section discusses and defines how the model was created and the process use
 
 It is important to understand how a battery system can best be utilised to maximise it's effect. The following section will highlight the advantages and barriers of using a battery system. Understanding the advantages will highlight the best way to design a system architectures which leverages these points. It is this report objective to create strong arguments to how the system will overcome barriers to entry, laying out how all the assumptions in the model overcome these issues and address any qualitative issues in the following section
 
-**Advantages**
 
-* Reducing Electricity Bills:
-    * Reducing the DUoS Charges
-    * Reducing Triad Charges
-    * Playing on the frequency response market (beyond project scope)
-    * Reducing capacity charges
-* Supply Levelling:
-    * Leveraging maximum use of PV's and other renewable energy sources
-    * Providing a fully predictable energy profile for new building.  Useful in negotiating price when new power capacity has to be installed ( very relevant to the new Bristol campus), saves paying for the new connection. \cite{wpMWMD}
-* Emergency Power: Providing backup generation in the case of power cuts. Can support crucial systems alleviating risks associated with loss of power
-* Sustainability:
-    * Reducing peak load, reduces losses on the network. There is a green argument for running diesel generators in peak times. Batteries are a highly more sustainable.
-    * Ensures self consumption of renewables
+\begin{table}[H]
+\centering
+\includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{AdChallTab2.pdf}
+\caption{Showing the Advantages and Challenges of Using Energy Storage}
+\label{AdChalltab}
+\end{table}
 
-**Challlenges**
-
-* Costs of Purchase too high:
-    * Installation Costs too high, too complex - \hl{difficulty of retrofitting?}
-    * Unit Price of the battery is too high - (kWh)
-    * Additional equipment cost, inverters
-    * Maintenance cost
-* Lifetime/ longevity of the battery too low, replacement costs/ dismantling cost make battery installation unfeasible
-    * Unpredictability in cycle life of the battery may mean that lifetime is much lower than all good predictions
-* Finance not feasible
-    * Loan Interest > Savings
-    * Negative NPV
-* Frequent change of regulation may mean that costs shift to reduce battery savings, use for reducing DUoS is still favoured by energy companies. May change if lots of people take up using batteries in this manner.
-* Barriers to entry
-    * Laws/ regulations
-    * Penalisation from energy companies
-* Negative environmental effects: Uses of large scale quantities may be hold undesired environmental risks
-* Risk of injury/ explosion. Large batteries that overload, hold a very high risk of explosion. Battery system monitoring is key to ensuring the battery operates with in it's limits
-* Technology still maturing, Li-ion batteries have not been used in this manner before, for extended periods of time
 
 ## Battery Economics
 The main objective of this project is to create a business case for using a battery system to reduce energy bills. Ultimately the model aims to produce the information required to justify whether investing in batteries is feasible and advise on the best battery to buy based on it's capacity and it's power rating. Due to the readily available commercial information of Tesla's Power-pack 2, this battery system was used to model financial feasibility and  optimal product.
@@ -575,23 +570,57 @@ Below is a table showing the results of the battery which held the best NPV at a
 \caption{Table Showing the Best Battery Results based on a Net Present Value of 7\%}
 \end{table}
 
-Comparing the results between Net Present Value and the Total Saving Vs Payback plots (see Figure \ref{SRTSPB5}),shows that the recommendation of NPV at 7\% is larger than the recommendation from the total saving payback plot. This suggests that at this discount rate, total savings is worth more than a reduced payback time. 
+Comparing the results between Net Present Value and the Total Saving Vs Payback plots (see Figure \ref{SRTSPB5}),shows that the recommendation of NPV at 7\% is larger than the recommendation from the total saving payback plot. This suggests that at this discount rate, total savings is worth more than a reduced payback time.
 
 ### Battery Usage and Secondary Analysis
 
+Due to the way the model was created some secondary analysis could be conducted on how the battery was run over it's lifetime. By measuring the batteries usage on weekdays, the mean depth of discharge could be measured. Based on the research conducted in section \ref{battery-lifetime-assessment---understanding-battery-degradation}, it is believed that the battery will wear much quicker when its average depth of discharge is higher, than when the depth of discharge is kept smaller. Figure \ref{DOD1} shows the relationship between depth of discharge and the battery type.
+
 \begin{figure}[H]
  \centering
- \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{DOD1.eps}
+ \includegraphics[trim = 0 0 0 0, clip, width=0.8\textwidth]{DOD1.eps}
 \caption{Depth of Discharge For Battery Lifetime}
  \label{DOD1}
  \end{figure}
 
+ It can be observed from Figure \ref{DOD1} that batteries whose capacity if less than 3000kWh, fall into two categories; one of high mean depth of discharge between 70-80\% and one with a mean depth of discharge around 50\%. This is a result of the relationship between capacity and max power, limiting the possible depth of discharge that the battery could reach in the two hour period that the battery is run.
 
-* Battery depth of discharge can vary greatly depending on the power rating and capacity, a trend can be seen as two separate
+ It is recommended that the designer should consult this graph in order to gauge how accurate the degradation estimate may be.
 
 # Conclusions and Future Work
-## Conclusions
+
+## Conclusions on Modelling Tool
+
+* This project set out to create multiple tools that would be useful in both evaluating the value of a battery system whilst being flexible tools that can be used in the 5th year group project.
+* _Energy Profile Tool:_  to build and understand the New University Campus’s Demand
+* _Optimised Battery System Model:_ producing best storage solutions based on energy profile tool
+* _Business case:_ for battery technology investment
+
+
+
+## Conclusions on Results
+
+* Model confirms that it is financially feasible to purchase and use a battery to reduce energy bills
+* Optimum battery can be selected using different values metrics based on the usage profile inputed.
+* A 7 year payback period is lower than warranty on the battery, eliminating any risks in incorrectly modelling the batteries degradation
+* After the battery has paid itself back there is nothing stopping it continuing to run until it ceases to function. Little maintenance is required after its is installed, so nearly all savings are instantly realised, this means the battery could theoretically continue to generate savings for the lifetime of the building (50 years)
+* Due to the modular design of the Tesla Powerpack, after the system is initially installed it is feasible to swap the batteries out after they have worn out.
+* The simulation is ran for a long period of time (25 years), there is a large amount of unpredictability particular in energy tariffs, that could dramatically alter the value of the battery system over it's life time. \hl{the sensitivity study showed.....}.
+
+\hl{Refer Back To Challenges and Compare how these challenges are either overcome or still barriers}
+
+* _Costs of Purchase too high_: the model proves that this barrier has been over come. As the battery will be purchased as an asset along with the buildings, land and other equipment that will be purchased for the new campus, it can be assumed that a very low interest rate will be taken on the battery.
+* _Lifetime/ longevity of the battery too low_: Model of degradation shows that the lifetime of Li-ion is now feasible based on the battery being run in a controlled manner optimising it's longevity.
+* _Frequent change of regulation and barriers to entry_: This is still the largest barrier to entry. Discussions with Western Power \cite{wpMWMD}, noted that DUoS prices are very likely to change over this period. Due to the added flexibility that fast frequency response energy storage methods such as Li-ion batteries bring, it is in the energy suppliers interest to encourage customer to purchase this technology rather than penalise this. Much of further change in regulation may therefore support using Li-ion batteries, which could increase the batteries value further in the future.
+* _Negative environmental effects:_  \hl{expand further using references } \cite{daniels2013financial}
+* _Technology still maturing_, Li-ion batteries have not been used in this manner before, for extended periods of time. However Tesla has been using batteries for over 10 years and has gathered some of the best minds to understand how their batteries will function. A lot of research around Li-ion has been conducted showing that on a smaller scale the technology is mature enough. The nature of scaling should have no additional effects on the batteries performance. As the way in which the battery will be operated is well modelled, using strategies working in the batteries design parameters no undesired load scenarios should be place on the battery.
+
 ## Future Work
+
+* Can apply this model directly into 5th year, using the data tool to understand energy demand on a range of different sources including heat and gas. Transferrable to evaluating smart thermal grids with the use of CHP
+* Further development of the degradation model and testing, to validate assumptions, work to be completed with Tesla
+* Evaluate other methods such as frequency response to determine if additional value can be created
+* Model the value of having a fixed demand profile for the new campus could have in reducing it's connection fee (there will be large upfront costs incurred on building the supply lines for the new campus, if this can be reduced by using batteries, how much could be saved ?)
 
 \newpage
 \section{Appendices}
