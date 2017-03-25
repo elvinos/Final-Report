@@ -18,9 +18,9 @@ This project report investigates the feasibility of using energy storage systems
 
 The overall outputs of the project for use in the $5^{th}$ year group design project are:
 
+* _Cost Based Analysis Business Case_:  for investing in battery storage technology
 * _Energy Profile Tool_:  to build and understand the new university campus’ Demand
 * _Optimised Battery System Model_: producing best storage solutions based on energy profile tool
-* _Cost Based Analysis Business Case_:  for investing in battery storage technology
 
 ## Objectives
 

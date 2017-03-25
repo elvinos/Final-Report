@@ -1,32 +1,42 @@
 
 # Battery Model Definition
 
-Understanding the key design parameters highlighted in section \ref{Development-of-Model-Advantages-and-Barriers-Assessment}. The model was created to capture as many of these drivers to maximise the models validity. Data was obtained for Senate house (a large University office/study space building). This data was manipulated to create a representative energy profile for the Senate and then the New Campus.
+Through understanding the key design parameters highlighted in section \ref{battery-storage-technology-key-advantages-and-challenges}, a viable model of the battery system was defined. Data was obtained for Senate house (a large University office/study space building). This data was manipulated to create a characteristic energy demand and usage profiles for Senate; then developing insights from this into creating a representative New Campus energy profile. This section will define how the model was created, talking through the methodology used and any assumptions made. Figure \ref{SystemLogic1} describes an overview of the primary inputs, process and outputs of the model, discussed in greater detail in this section.
 
-\hl{Overview of the final system Diagram}
+\begin{figure}[H]
+ \centering
+ \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{SystemLogic1.eps}
+ \caption{Diagram Showing Key Inputs and Outputs of Model}
+ \label{SystemLogic1}
+ \end{figure}
 
 ## Model Development Requirements
 
-### 0 vs 3D Modelling Approach
+A distinct set of modelling requirements were essential to ensuring that a functional model was created which corresponded to the project's objectives. By building a flexible, simple model, any unnecessary complexity was removed. This increased performance in execution, sparing both time and computational expense. A robust set of requirements also provides a basis for assessing the completeness of work. The following section defines these requirements.
 
-\hl{The 0D modelling approach is a technique widely used in the development cycle of a product, typically in the early steps of the cycle. The objective of the 0D model is to define the main characteristics and performance of the products. A 3D model is implemented later in the product development cycle to get a detailed analysis, to verify the accuracy of the 0D model and to predict risks and failures. In a 0D model, the system dynamics is a function of the time while in a 3D model, the system dynamics is a function of the time and the space. A 0D model is much simpler and faster to solve than a 3D model. This enables to run a large number of simulations and explore a large design space for our product.} [@ZeroDMod80:online] Due to the level of accuracy required to achieve this reports objectives in the model and the timeframe that the model had to be constructed in a 0D model was created using the variables stated in section \ref{input-parameters-and-multi-battery-simulation}.
+### Zero-Dimensional vs. Three-Dimensional Modelling Approach
+
+The zero-dimensional modelling approach is a technique widely used in the development cycle of a product, typically in the early stages. The objective of the zero-dimensional model is to define the key features and performance of the products, providing a detailed snapshot rather than a complete picture [@ZeroDMod80: online]. Three-dimensional models are implemented later in the product's development cycle where detailed analysis is necessary; this is done to predict any potential risks and failures before product production. In a zero-dimensional model, the system dynamics is a function of the time while in a three-dimensional model, the system dynamics is a function of the time and space. For this reason, a zero-dimensional model is much simpler and faster to solve, still providing an accurate picture; enabling a much large number of simulations.  This report assesses the value and feasibility of using battery systems, a zero-dimensional model is more appropriate, allowing for more battery configurations and strategies to be simulated.
 
 ### Code Optimisation
 
-\hl{A time-based iterative approach, based around a zero dimensional approach, has been selected to model a large variety of different batteries. Running the simulation through time requires calculating large matrices which are number of days $\times$ 1440 (minutes in a day). The model should be optimised for performance to ensure that running times are minimised. This will help to improve model development and reduce data collection time. Possible methods to optimise the performance of MATLAB scripts are:
-• Vectorisation – data can be stored and manipulated within multidimensional arrays. Using vector operations, rather than manually moving and manipulating data inside the array, can greatly improve model speed.
-• Avoiding heavy processing MATLAB functions such as the linear interpolation function. Instead, simplified versions can be developed to perform the same task.
-• Initialising variables within the model. All arrays should be initialised within the memory. This prevents MATLAB from needing to create extra space within the memory each time a value is entered into an array. This is especially important when dealing with large datasets, as it can prevent running out of memory.
-• Parallel processing for loops can be used for independent repeating tasks. This can be applied when multiple batteries as each loop is independent of the other.}
+A time-based iterative modelling method, based on a zero-dimensional approach, was selected to model a large variety of different battery specifications. Running the simulation through time requires calculating large matrices:
+\begin{align*}
+\text{Length of Simulation}  \times 1440 (\text{minutes in a day})
+\end{align*}
+The model should be optimised for performance to minimise running times; helping improve the model performance and reduce data collection time, allowing for a greater amount of different battery specifications to be modelled. Possible methods to optimise the performance of MATLAB model are:
+
+* _Vectorisation_: storing data within multidimensional arrays and using vector operations, can improve model performance.
+*  _Variable Initailisation_: all matrices should be initialised to reduce memory.
+* _MATLAB Function Reduction_: functions such as linear interpolation are. These should be recreated and simplified, recreating the task more efficiently.
+* _Parallel Processing_: use multiple cores on the processor to iterate through independent battery specifications in large multi-battery simulations.
 
 ### User Interface
 
-\hl{The model developed through this research project is likely to be used in the group project in the following year. Consequently, it is important that the model is easy to run and use. A range of inputs are required for each lagoon which should be easily configured and managed. This will also improve ease of data collection for this project and reduce the risk of introducing a systemic error, associated with the user entering incorrect inputs. Model inputs should therefore be largely removed from the MATLAB script and kept within input files.
-A level of intelligence should also be built into the model to determine if the user inputs are valid. This would increase the robustness of the model and prevent errors from occurring within the model. It will also help to improve the stability of the model, as incorrect data will be less likely to be inputted. However, this requirement is likely to be more relevant in the following year, when multiple users are generating data from the energy model. It is important that the model is able to handle a range of variable input conditions}
+There is a strong likelihood of using this model for next year's group design project. The modelling functions outlined in the project's outputs, should operate independently from each other and work with a broad range of data. Being able to manipulate the model easily will mean others will be able to use the tools developed, making the model much more useful. The model, consequently, must allow for a range of inputs, which should be easily configurable. Desing the model in this way, will also simplify data collection reduce the risk of introducing a systemic error, associated with the user entering incorrect inputs or false logic. Dates and times of the energy usage data inputted in the model will have a large effect on the results. It is important therefore that the model can read data files and use their dates, to create accurate runtime usage data. This function on its own will be useful for the group in the following year so has been set as a secondary output of this project.  Being able to manipulate lots of data files easily will simplify the creation of detailed energy profiles for the new campus. The data outputted by the model must be clear and easy to interpreted by any user, with minimal post-processing; this will improve the model's ability to be a design tool is choosing optimum strategies and battery specifications.
 
 ### Ease of Development
-\hl{Due to the nature of mathematical modelling, it is essential the model is structured to allow for development and expansion as the project progresses. This allows functionality to be added to the model without a large amount of upfront work. It also improves the speed at which changes can be implemented within the model.
-The use of functions within the script allows elements of the code to be re-used across the model. Nested functions (functions defined in the body of a parent function) can also be used when a large number of variables are required to pass back and forth between functions. This also provides modularity within the function and can reduce the amount of repeated code. It is important that a function based approach is taken through the development of the model in this research project due to the expected size and complexity of the model. Without this, the model is likely to have a poor structure and will be much harder to develop and debug.}
+Due to the nature of mathematical modelling, it is essential the model remain structured to allow for expansion as the project progresses. Model development will start simply and then be built upon, incorporating more strategies, and more detailed methods for modelling battery degradation; where each function will improve the validity of the results. Developing the model in this format will enhance the speed at which changes can be implemented within the model, allowing different strategies to be tested quickly. A  function based approach must be taken throughout the development process to allow the model reach to its expected size and complexity. Without functions, the model will have a poor structure,  becoming much harder to develop and debug.
 
 
 ## Creation of Senate House Billing Model
@@ -116,14 +126,6 @@ Due to these data files falling under different years and running between differ
  \end{figure}
 
 \hl{Make assumptions very clear}
-
-\begin{figure}[H]
- \centering
- \includegraphics[trim = 0 0 0 0, clip, width=0.6\textwidth]{Development-92.eps}
- \caption{Load Duration Profile for the New Campus}
- \label{Development-92}
- \end{figure}
-
 ## Definition of System Architectures / Strategies
 
 Defining how the batteries would run is imperative to understanding their economic feasibility. This section will define the logic used to define the operation of the battery and how the model was created to represent this.

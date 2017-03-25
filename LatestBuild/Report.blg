@@ -13,52 +13,52 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 14591 items from 5000.
+Reallocated field_info (elt_size=4) to 15147 items from 5000.
 Database file #1: Report-blx.bib
 Database file #2: BibFile.bib
-Warning--I didn't find a database entry for "pbmeet"
+Warning--I didn't find a database entry for "ZeroDMod80"
 Biblatex version: 2.8
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 68 entries,
+You've used 72 entries,
             6047 wiz_defined-function locations,
-            1598 strings with 54926 characters,
-and the built_in function-call counts, 230781 in all, are:
-= -- 7544
-> -- 13325
-< -- 2032
-+ -- 8518
-- -- 8643
-* -- 14252
-:= -- 17949
+            1620 strings with 55338 characters,
+and the built_in function-call counts, 244398 in all, are:
+= -- 7984
+> -- 14320
+< -- 2162
++ -- 9310
+- -- 9394
+* -- 14754
+:= -- 19150
 add.period$ -- 0
-call.type$ -- 68
-change.case$ -- 791
-chr.to.int$ -- 766
-cite$ -- 134
-duplicate$ -- 24112
-empty$ -- 22570
-format.name$ -- 3781
-if$ -- 46159
+call.type$ -- 72
+change.case$ -- 848
+chr.to.int$ -- 844
+cite$ -- 142
+duplicate$ -- 25465
+empty$ -- 23872
+format.name$ -- 3874
+if$ -- 48631
 int.to.chr$ -- 0
-int.to.str$ -- 148
+int.to.str$ -- 157
 missing$ -- 0
-newline$ -- 1832
-num.names$ -- 2490
-pop$ -- 21302
+newline$ -- 1903
+num.names$ -- 2608
+pop$ -- 22546
 preamble$ -- 1
-purify$ -- 1025
+purify$ -- 1086
 quote$ -- 0
-skip$ -- 11663
+skip$ -- 12277
 stack$ -- 0
-substring$ -- 5899
-swap$ -- 8237
-text.length$ -- 1657
+substring$ -- 6382
+swap$ -- 8679
+text.length$ -- 1739
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2567
+type$ -- 2719
 warning$ -- 0
-while$ -- 1552
+while$ -- 1648
 width$ -- 0
-write$ -- 1763
+write$ -- 1830
 (There was 1 warning)

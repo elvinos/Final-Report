@@ -70,6 +70,22 @@
   \field{urlyear}{2016}
 \endentry
 
+\entry{pbmeet}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cooper}{C.}%
+     {Peter}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CP1}
+  \strng{fullhash}{CP1}
+  \field{howpublished}{Personal Communications}
+  \field{title}{Project Meeting With Arup}
+  \field{month}{11}
+  \field{year}{2016}
+\endentry
+
 \entry{WhatisPe67:online}{online}{}
   \field{title}{What is Peak Demand?}
   \verb{url}
@@ -1915,6 +1931,41 @@
   \field{year}{2015}
 \endentry
 
+\entry{NetPrese35:online}{online}{}
+  \field{title}{Net Present Value - NPV}
+  \verb{url}
+  \verb http://www.investopedia.com/terms/n/npv.asp
+  \endverb
+  \list{institution}{1}{%
+    {Investopedia}%
+  }
+  \field{year}{2017}
+  \field{urlday}{24}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
+\endentry
+
+\entry{xxxdvi44:online}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lyuu}{L.}%
+     {5~Prof. Yuh-Dauh}{.~P. Y.-D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LPYD1}
+  \strng{fullhash}{LPYD1}
+  \field{howpublished}{Lecture Slides}
+  \field{title}{Numerical Methods For Yields}
+  \verb{url}
+  \verb https://www.csie.ntu.edu.tw/~lyuu/finance1/2005/20050302.pdf
+  \endverb
+  \field{year}{205}
+  \field{urlday}{24}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
+\endentry
+
 \entry{diorio2015economic}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -2018,10 +2069,41 @@
   \field{pages}{441\bibrangedash 451}
   \field{title}{An analytical model for predicting the remaining battery
   capacity of lithium-ion batteries}
+  \verb{url}
+  \verb http://dx.doi.org/10.1109/DATE.2003.1253775
+  \endverb
   \field{volume}{14}
   \field{journaltitle}{IEEE Transactions on Very Large Scale Integration (VLSI)
   Systems}
   \field{year}{2006}
+\endentry
+
+\entry{Powerpac95:online}{online}{}
+  \field{title}{Powerpack | Commercial and Utility Energy Storage Solutions}
+  \verb{url}
+  \verb https://www.tesla.com/en_GB/powerpack
+  \endverb
+  \list{institution}{1}{%
+    {Telsla}%
+  }
+  \field{year}{2017}
+  \field{urlday}{25}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
+\endentry
+
+\entry{WeatherA0:online}{online}{}
+  \field{title}{Weather Averages for London, United Kingdom}
+  \verb{url}
+  \verb http://www.holiday-weather.com/london/averages/
+  \endverb
+  \list{institution}{1}{%
+    {Holiday Weather}%
+  }
+  \field{year}{2017}
+  \field{urlday}{25}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
 \endentry
 
 \entry{Choi2002130}{article}{}
@@ -2151,18 +2233,6 @@
   assessment}
   \field{journaltitle}{IEEE Transactions on Smart Grid}
   \field{year}{2016}
-\endentry
-
-\entry{ZeroDMod80:online}{online}{}
-  \field{title}{Zero-D Modelling Approach with ANSYS Products | Val{\'e}rie
-  Gelbgras | Pulse | LinkedIn}
-  \verb{url}
-  \verb https://www.linkedin.com/pulse/zero-d-modelling-approach-ansys-products
-  \verb -val%C3%A9rie-gelbgras
-  \endverb
-  \field{urlday}{17}
-  \field{urlmonth}{03}
-  \field{urlyear}{2017}
 \endentry
 
 \entry{combined-heat-power-buildings}{book}{}

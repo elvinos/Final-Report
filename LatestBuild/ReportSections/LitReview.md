@@ -84,3 +84,9 @@ By removing energy storage methods that would not be appropriate for the system 
 ## Battery Selection - Tesla Power-pack 2
 
 Due to the maturity of the technology, the fast frequency response in delivering power, Li-ion batteries were selected as the most viable option for achieving the project's aims.  Due readiness in information around performance and price, the Tesla Powerpack 2 was chosen for this model; where competitors EOS and BYD lacked information about their pricing structures making it difficult to validate any results the model would produce. The model will use Teslas current costs but will evaluate the effect of competition and improvements in  Li-ion performance in driving costs down further.
+
+\begin{figure}{H}
+\caption{Tesla Powerpack 2 Specification}
+  \centering
+     \includegraphics[trim = 0 0 0 0, clip, width=0.49\textwidth]{PP2spec.pdf}
+\end{figure}
