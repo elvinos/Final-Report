@@ -3,29 +3,26 @@
 
 ## Data File
 
-By using the model with real data first taken from Senate house, the tool which creates live data could be validated through integration and direct comparison to the original usage data. As no data could be gathered on how the demand profile looks for Senate house, assumptions were made on the type of operations the building fulfils (see the table below); this was compared to demand data at Princeton [@LiveData90:online].  
+By using the model with real data first taken from Senate house, the tool which creates live data could be validated through integration and direct comparison to the original usage data. As no data could be gathered on how the demand profile looks for Senate house, assumptions were made on the type of operations the building fulfils (see the table below); this was compared to demand data at Princeton [@LiveData90:online]. Section \ref{battery-model-definition} describes how the model was initially tested on Senate House to validate whether the model produced expected results. After being validated on Senate House the model was then run of the new campus energy profile.
 
-## Model
+## Assumptions and Limitations
+Table \ref{BatterAssump}, summarises all the assumptions discussed in section \ref{battery-model-definition}. To create a valid model, all assumptions must be based on logical expectations on all parameters that may effect the system, thereby using the following assumptions, the model is validated.
 
-\hl{ADD Model validation thoughts, short as Assumptions hope to capture why the model is valid based on what has been used, validation table (excel) place simple calculation in body, additional thoughts on sensitivity analysis}
+\begin{table}[H]
+\vspace{-10pt}
+\caption{Showing All Assumptions Made for Simulation}
+\vspace{-5pt}
+ \centering
+ \includegraphics[trim = 0 0 0 0, clip, width=0.95\textwidth]{assumpp1.pdf}
+ \label{BatterAssump}
+ \vspace{-30pt}
+ \end{table}
 
-## Limitations / Assumptions
+ \begin{table}[H]
+ \vspace{0pt}
+  \centering
+  \includegraphics[trim = 0 0 0 0, clip, width=0.95\textwidth]{assumpp2.pdf}
+  \vspace{-20pt}
+  \end{table}
 
-\hl{Create Full Table of Assumptions - ADD TOO HERE}
-
-* Office buildings are unlikely to have highly peaky demand profiles as there is no large devices that could cause spikes
-* Red rate times remain the same for the entirety of the batteries lifetime
-* Normal distribution of energy demand between each half hour period
-    * Sigma = average between mean of data and max of data
-* Trickle charging and minimum charge rate employed
-* Daily Variation- negligible
-    * Other variation in energy use ignored
-    * Weather the only contributor worth noting
-    * TRIAD dates kept as close as possible to the original (no weekends)     
-* Battery operation assumptions
-  * Does not overheat
-  * Run within normal working parameters
-* Battery chemistry assumptions
-    * Cycle life rating of battery indicates degradation in normal use case
-* Battery efficiency losses lost on charging
-    * Figure quotes both battery transformation
+ The model is limited to working to these parameters only. Section \ref{ease-of-development}, set an objective for the model to be developed so these parameters can be easily changed, allowing for the model to be easily customised to work with a different set of assumptions. Peaks in demand being higher than modelled, energy pricing changing and DOD and discharge rate effect on capacity all have high levels of uncertainty in the model. These were sensitivity checked to understand the effects of these assumptions being incorrect.

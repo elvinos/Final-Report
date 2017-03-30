@@ -1,0 +1,55 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {british}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Group Design Project Diagram Showing Relationships Between Individual Projects\relax }}{1}{figure.caption.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Plot of Li-ion Battery Prices 2010-2016 \cite {mckBat}\relax }}{8}{figure.caption.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Plot of the General Relationship Between Battery Capacity and Cycle Number Extracted From \cite {spotnitz2003simulation} \relax }}{9}{figure.caption.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Plot of Depth of Discharge vs Rated Capacity, Interpolated From \cite {BatteryL10:online}\relax }}{10}{figure.caption.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Plot of the Relationship Between Discharge Time and Rated Capacity, Interpolated from \cite {Effectso69:online}\relax }}{10}{figure.caption.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Relationship Between State of Charge and Cycle Life \cite {xu2016modeling}\relax }}{11}{figure.caption.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagram Showing Key Inputs, Processes and Outputs of Model\relax }}{11}{figure.caption.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Plot of Mean Senate House Weekday and Weekend Usage, and Difference in Unit Charge Rates\relax }}{13}{figure.caption.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Plots of Usage and Demand Profile Generation and Histogram of Year Data\relax }}{14}{figure.caption.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Logic of Energy Profile Tool Create New Campus Data\relax }}{16}{figure.caption.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Showing Battery Degradation\relax }}{17}{figure.caption.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Logic Diagram For Multi-battery Simulation\relax }}{19}{figure.caption.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Histogram Showing Red Periods Total Daily Usage Frequency\relax }}{21}{figure.caption.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Time Spent at Power Demand Level\relax }}{21}{figure.caption.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Battery Size Vs Total Savings\relax }}{22}{figure.caption.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Graph of Battery Size vs PayBack Time\relax }}{22}{figure.caption.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Graph Showing Top 40 Batteries with Fitted Curves for both Payback Time and Total Savings\relax }}{23}{figure.caption.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Comparison Between Fit Curves for Payback Period and Total Savings\relax }}{23}{figure.caption.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Net Present value at Different Discount Rates - Comparison\relax }}{24}{figure.caption.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Depth of Discharge For Battery Lifetime\relax }}{25}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Expected Capacity Offset Due to Discharge Rate and Depth of Discharge\relax }}{25}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Showing the Expected Effect of Depth of Discharge and Discharge Time on Predicted Cycle Life\relax }}{26}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Diagram Showing Batteries Catorgised for Their Use Case \cite {Dunn928}\relax }}{30}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Image of Energy Bill For Victoria Rooms\relax }}{32}{figure.caption.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Plot of the Relationship Between Battery Cycle Life and Voltage of Charge \cite {Choi2002130} \relax }}{33}{figure.caption.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Load Duration Plot of Year Usage Data\relax }}{33}{figure.caption.29}

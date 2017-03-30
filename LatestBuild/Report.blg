@@ -13,52 +13,52 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 15147 items from 5000.
+Reallocated field_info (elt_size=4) to 16259 items from 5000.
 Database file #1: Report-blx.bib
 Database file #2: BibFile.bib
-Warning--I didn't find a database entry for "ZeroDMod80"
+Warning--I didn't find a database entry for "Powerpac95:online"
 Biblatex version: 2.8
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 72 entries,
+You've used 80 entries,
             6047 wiz_defined-function locations,
-            1620 strings with 55338 characters,
-and the built_in function-call counts, 244398 in all, are:
-= -- 7984
-> -- 14320
-< -- 2162
-+ -- 9310
-- -- 9394
-* -- 14754
-:= -- 19150
+            1665 strings with 57210 characters,
+and the built_in function-call counts, 276660 in all, are:
+= -- 9280
+> -- 16481
+< -- 2525
++ -- 11045
+- -- 10969
+* -- 16168
+:= -- 21780
 add.period$ -- 0
-call.type$ -- 72
-change.case$ -- 848
-chr.to.int$ -- 844
-cite$ -- 142
-duplicate$ -- 25465
-empty$ -- 23872
-format.name$ -- 3874
-if$ -- 48631
+call.type$ -- 80
+change.case$ -- 1052
+chr.to.int$ -- 991
+cite$ -- 158
+duplicate$ -- 28627
+empty$ -- 26784
+format.name$ -- 4163
+if$ -- 54758
 int.to.chr$ -- 0
-int.to.str$ -- 157
+int.to.str$ -- 178
 missing$ -- 0
-newline$ -- 1903
-num.names$ -- 2608
-pop$ -- 22546
+newline$ -- 2090
+num.names$ -- 2913
+pop$ -- 25082
 preamble$ -- 1
-purify$ -- 1086
+purify$ -- 1309
 quote$ -- 0
-skip$ -- 12277
+skip$ -- 13809
 stack$ -- 0
-substring$ -- 6382
-swap$ -- 8679
-text.length$ -- 1739
+substring$ -- 7887
+swap$ -- 9746
+text.length$ -- 1922
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2719
+type$ -- 3021
 warning$ -- 0
-while$ -- 1648
+while$ -- 1831
 width$ -- 0
-write$ -- 1830
+write$ -- 2009
 (There was 1 warning)

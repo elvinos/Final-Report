@@ -1,216 +1,177 @@
 
 # Battery Model Definition
 
-Through understanding the key design parameters highlighted in section \ref{battery-storage-technology-key-advantages-and-challenges}, a viable model of the battery system was defined. Data was obtained for Senate house (a large University office/study space building). This data was manipulated to create a characteristic energy demand and usage profiles for Senate; then developing insights from this into creating a representative New Campus energy profile. This section will define how the model was created, talking through the methodology used and any assumptions made. Figure \ref{SystemLogic1} describes an overview of the primary inputs, process and outputs of the model, discussed in greater detail in this section.
-
+Through understanding the key design parameters for reducing the impact of challenges set in section \ref{battery-storage-technology-key-advantages-and-challenges}, a viable model of the battery system was defined. Data was obtained for Senate House (a 7-storey University office/study building). This was used to create a characteristic demand and usage profile for Senate; then manipulated to create a representative energy profile for the New Campus. This section will define how the model was created, discussing the methodology and any assumptions made. Figure \ref{SystemLogic1} describes an overview of the primary inputs, processes and outputs of the model.
 \begin{figure}[H]
  \centering
- \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{SystemLogic1.eps}
- \caption{Diagram Showing Key Inputs and Outputs of Model}
+   \vspace{-7pt}
+ \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{SystemLogic1.eps}
+  \vspace{-10pt}
+ \caption{Diagram Showing Key Inputs, Processes and Outputs of Model}
  \label{SystemLogic1}
+ \vspace{-30pt}
  \end{figure}
 
 ## Model Development Requirements
 
-A distinct set of modelling requirements were essential to ensuring that a functional model was created which corresponded to the project's objectives. By building a flexible, simple model, any unnecessary complexity was removed. This increased performance in execution, sparing both time and computational expense. A robust set of requirements also provides a basis for assessing the completeness of work. The following section defines these requirements.
+A distinct set of modelling requirements were essential to ensure that a functional model was created which corresponded to the project's objectives. By building a flexible, simple model, any unnecessary complexity was removed; sparing both time and computational expense. A robust set of requirements also provided a basis for assessing the completeness of work. The following section defines these requirements.
 
-### Zero-Dimensional vs. Three-Dimensional Modelling Approach
+### Zero-Dimensional vs. Three-Dimensional Modelling
 
-The zero-dimensional modelling approach is a technique widely used in the development cycle of a product, typically in the early stages. The objective of the zero-dimensional model is to define the key features and performance of the products, providing a detailed snapshot rather than a complete picture [@ZeroDMod80: online]. Three-dimensional models are implemented later in the product's development cycle where detailed analysis is necessary; this is done to predict any potential risks and failures before product production. In a zero-dimensional model, the system dynamics is a function of the time while in a three-dimensional model, the system dynamics is a function of the time and space. For this reason, a zero-dimensional model is much simpler and faster to solve, still providing an accurate picture; enabling a much large number of simulations.  This report assesses the value and feasibility of using battery systems, a zero-dimensional model is more appropriate, allowing for more battery configurations and strategies to be simulated.
+The zero-dimensional modelling approach is a technique used in the development cycle of a product, typically in the early stages. Zero-dimensional models are used to understand general performance of a system [@ZeroDMod80:online]. Instead three-dimensional models are implemented when detailed analysis is needed. The system dynamics of a zero-dimensional model are a function of the time while a three-dimensional model is a function of the time and space. For this reason, a zero-dimensional models are simpler and faster at generating solutions; enabling a much large number of simulations to be run.  As multiple battery systems and strategies are being evaluated, zero-dimensional modelling method was used.
 
-### Code Optimisation
+### Code Optimisation and Ease of Development
 
-A time-based iterative modelling method, based on a zero-dimensional approach, was selected to model a large variety of different battery specifications. Running the simulation through time requires calculating large matrices:
-\begin{align*}
-\text{Length of Simulation}  \times 1440 (\text{minutes in a day})
-\end{align*}
-The model should be optimised for performance to minimise running times; helping improve the model performance and reduce data collection time, allowing for a greater amount of different battery specifications to be modelled. Possible methods to optimise the performance of MATLAB model are:
-
-* _Vectorisation_: storing data within multidimensional arrays and using vector operations, can improve model performance.
-*  _Variable Initailisation_: all matrices should be initialised to reduce memory.
-* _MATLAB Function Reduction_: functions such as linear interpolation are. These should be recreated and simplified, recreating the task more efficiently.
-* _Parallel Processing_: use multiple cores on the processor to iterate through independent battery specifications in large multi-battery simulations.
+A time-based iterative modelling method, based on a zero-dimensional approach, was selected to model a large variety of different battery specifications. Running the simulation through time requires performing  calculations on large matrices. The model should be optimised for performance to minimise running times; helping improve the model performance and reduce data collection time, allowing for a greater amount of different battery specifications to be modelled \footnote{See section \ref{input-parameters-and-multi-battery-simulation} the methods used to create optimised code}. It is essential that the model remains structured to allow for expansion as the project progresses. A function based approach must be taken throughout the development process to allow the model reach to its expected size and complexity. Without functions, structure will be poor increasing the difficulty in further develop and debugging.
 
 ### User Interface
 
-There is a strong likelihood of using this model for next year's group design project. The modelling functions outlined in the project's outputs, should operate independently from each other and work with a broad range of data. Being able to manipulate the model easily will mean others will be able to use the tools developed, making the model much more useful. The model, consequently, must allow for a range of inputs, which should be easily configurable. Desing the model in this way, will also simplify data collection reduce the risk of introducing a systemic error, associated with the user entering incorrect inputs or false logic. Dates and times of the energy usage data inputted in the model will have a large effect on the results. It is important therefore that the model can read data files and use their dates, to create accurate runtime usage data. This function on its own will be useful for the group in the following year so has been set as a secondary output of this project.  Being able to manipulate lots of data files easily will simplify the creation of detailed energy profiles for the new campus. The data outputted by the model must be clear and easy to interpreted by any user, with minimal post-processing; this will improve the model's ability to be a design tool is choosing optimum strategies and battery specifications.
-
-### Ease of Development
-Due to the nature of mathematical modelling, it is essential the model remain structured to allow for expansion as the project progresses. Model development will start simply and then be built upon, incorporating more strategies, and more detailed methods for modelling battery degradation; where each function will improve the validity of the results. Developing the model in this format will enhance the speed at which changes can be implemented within the model, allowing different strategies to be tested quickly. A  function based approach must be taken throughout the development process to allow the model reach to its expected size and complexity. Without functions, the model will have a poor structure,  becoming much harder to develop and debug.
-
+There is a strong likelihood of using this model for next year's group design project. The modelling functions outlined in the project's outputs, should operate independently from each other, working with a broad range of data. Being able to manipulate the model easily will mean others will be able to use the tools developed, making the model much more useful. The model, consequently, must allow for a range of inputs, which should be easily configurable. Design the model in this way, will also simplify data collection reduce the risk of introducing a systemic error, associated with the user entering incorrect inputs or false logic. Dates and times of the energy usage data inputted in the model will have a large effect on the results. It is important therefore that the model can read data files and use their dates, to create accurate runtime usage data. The data outputted by the model must be clear and easy to interpreted by any user, with minimal post-processing; this will improve the model's ability to be a design tool.
 
 ## Creation of Senate House Billing Model
 
-Data was received for Senate house, giving usage in kWh for the previous half hour period. A bill was also provided for a months energy use at the Victoria rooms (another Bristol University building used for lecturing, offices and teaching classes). A meeting with John Brenton \hl{add reference} clarified that billing profiles for both buildings were identical.
+In order to validate the results of the model before testing on the new campus, the model was developed for use Senate House.
 
-In order to gauge the size and power requirements needed for a building the size of Senate house, a minute by minute usage profile needed to be created and then cross checked against a representative bill to understand how the different charges are broken down and highlight charges to target the design of the battery system architecture too.
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \begin{center}
+    \vspace{-5pt}
+ \includegraphics[trim = 0 0 110 0, clip, width=0.49\textwidth]{wkendwkday.eps}
+  \end{center}
+  \vspace{-10pt}
+  \caption{Plot of Mean Senate House Weekday and Weekend Usage, and Difference in Unit Charge Rates}
+  \vspace{-20pt}
+  \label{wkendwkday}
+\end{wrapfigure}
 
-Using the half hourly usage data of senate house for a year, usage plots were created for different days in the year. It was clear that the was a major difference between energy demand during the weekend and during the week, shown in \ref{Development-c4}. Total energy consumption was 3 times greater over the weekdays than the weekend.  When creating at usage data, it was imperative to make sure that weekday's and weekend matched completely in order to give an accurate representation about the energy usage.  
- \begin{figure}[H]
- \centering
- \includegraphics[trim = 50 50 30 50, clip, width=0.5\textwidth]{Development-c4.eps}
- \caption{Plot of Mean Senate House Weekday and Weekend Usage}
- \label{Development-c4}
- \end{figure}
- This data was good at giving a rough estimation of the battery size needed to produce some impact on the Universities energy bills.
+Data for Senate House, was provided; describing half-hourly usage between 10/08/2014 and 10/08/2015. A bill was also provided for a months energy usage at the Victoria rooms \footnote{A Bristol University building used for lecturing, offices and teaching classes, see Figure \{Development-38} for the Bill provided}. A meeting with John Brenton \cite{Jbrentmeet} clarified that billing profiles for both buildings were identical. In order to gauge the size and power requirements of a battery system for Senate House, a minute by minute energy profile was required. Corresponding this energy profile with a bill identified how energy consumption correlated with the cost, allowing quick sensitivity calculations to select strategies likely to would have the greatest impact.
+
+Using this data, plots were used to visualise key trends in energy consumption, such as the variation of used based on time of day and period in the year. It was clear that the was a major difference between energy demand during the weekend and during the week, shown in \ref{wkendwkday}, where total energy consumption was found to be three times greater over weekdays than the weekend. It was vital all these trends were replicated when the usage file was manipulated.
 
 ### Representative Bill Creation
-\begin{figure}[H]
- \centering
- \includegraphics[trim = 0 0 0 0, clip, width=0.5\textwidth]{Development-38.png}
- \caption{Image of Energy Bill For Victoria Rooms}
- \label{Development-38}
- \end{figure}
-Figure \ref{Development-38} shows a typical electricity bill for a University building. It is clear the red unit rates make up the largest part of the DUoS Charge and roughly 20\% of that months total recorded charges. Instead capacity charges made up only 4\% of the total bill. This realisation meant that the focus of the model would be to start by reducing the red rate charge through load shifting, and explore other charges if this proved to not be effective to offset investment costs. Figure \ref{Development-50} highlights the significance of the different unit costs.
 
-\begin{figure}[H]
- \centering
- \includegraphics[trim = 0 0 0 0, clip, width=0.5\textwidth]{Development-50.eps}
- \caption{Difference in Unit Charge Rates}
- \label{Development-50}
- \end{figure}
-
-Using this data a model was created taking into account DUoS charges and multiplying them by their respective rate. This charge makes up and large % of the total bill showing roughly how much the unit rate costs.
-
-To achieve this, the date of the usage data was scanned to find which day the bill began, then assigning the next 6 days, to be either weekdays or weekends. This was important as there are different DUoS rate at different times of day between weekdays and weekends. Creating a counter that loops through each half hour period, logic can be applied to categorise each half hour period into their respective unit rate. Total units consumed in red, amber and green periods were found allowing for some simple calculations to find the effect of load shifting. By shifting the load in red units to green rate charges, a significant saving could be made. By measuring the amount of units consumed in red periods gave a good estimation for the size range of the battery that would be required.
+Section \ref{university-energy-charges} described the components of the energy bill. It's clear that Red rate charges are a significant charge which an ESS can target, incorporating ~20\% of the bill. To highlight the significance of the Red rate charge, Figure \ref{wkendwkday} shows the difference in DUoS rates. A preliminary model was designed to target Red rate charges only through load shifting. Using Senate's half-hourly data, each DUoS rate charges and unit charges was calculated. The energy profile was scanned to find which day the bill began, assigning each day as a weekends or weekday, crucial as Red rate charges aren't applicable on weekends. By creating a counter that looped through each half hour period, logic was be applied to categorise each half hour period into their respective unit rate. Total units consumed in Red, Amber and Green periods were found, where simple calculations revealed the the effect of load shifting could have. This crude model captured 79\% of the monthly energy bill charges.
 
 ## Representative Demand Profile
-The second performance parameter of the battery is the maximum power it can supply, rated in kW. By applying to much load on a battery can ultimately cause it to fail, severely reducing the batteries cycle life. As there was no demand data available, a few assumption had to be made in order to generate an valid demand profile. First the half hourly usage data was split into a minute by minute representation, creating points at every minute by finding the gradient and constant between two points then splitting the distant into 30 equidistant points. This produced an identical graph to the fit, applied by Matlab. However as each point int he original graph represented usage for the previous 30 minutes, this was divided by 30 to give the usage per minute This can be validated by summing all the points and compare to the original graph.
 
-This profile however assumes that all usage varies linearly between time periods. In reality this is not true. To generate a more realistic demand profile. The start, end and midpoint between two values were used as means in which a random number with a normal distribution was applied to give normally distributed values in intervals of 10 minutes, modelling how usage varies randomly minute by minute but holding the trend of the original data. Scaling by two, coverts usage from kWH into demand KW. This graph was then validated by integrating the area of the graph and comparing it against the summation of the original data. A standard deviation $\sigma$, was then selected which would fairly represent the change in usage. After trailing with a range of different scales of data, $\sigma$ was set to the mean between the average usage and max usage. This gave a fair, but conservative representation of how energy usage may look.
+To simulate how a battery performs, power and capacity must be considered. Applying too much load on a battery can severely reduce the batteries cycle life, discussed in section \ref{battery-lifetime-assessment---understanding-battery-degradation}. Due to the lack of available demand data for the University, assumptions were made to generate a valid demand profile based on the original half-hourly usage profile.
 
-__*Assumptions:*__ Usage will have a peaky profile due to a large number of people in the buildings , switching numerous devices on and off frequently. For an office style building like Senate it is unlikely that there is any large equipment that could cause a major spike in demand.
+First, the usage data was broken down into a minute by minute representation. Through using linear interpolation, an identical looking graph of the original data was created, containing 1440 points representing each minute, see Figure \ref{sendem}. This graph was then downscaled to give usage per minute (validated by summing all the points and comparing to the original data).
 
-The demand profile could then be plotted as both as histogram and as a cumulative distribution plot, identifying the typical demand of Senate house over the year, as well as the max demand the building experiences. Figures  \ref{Development-dd} and  \ref{Development-a8} show the demand profile of the building.
+This crude profile, however, assumed that all usage varies linearly between time periods. In reality, this is not true. A more realistic demand profile was then created by finding the midpoint between values and assigning a random normally distributed number, in intervals of 10 minutes. Choosing an interval too small would deviate the total usage away from the original, while too big would subdue the shape of the graph. This method modelled how usage varied randomly minute by minute, similar to items being turned on and off frequently in a building, but held the original data's consumption trend.  A standard deviation $\sigma$ was then selected which would fairly represent the change in usage over time. For $\sigma$ to be valid for a variety of different magnitudes in data, the value was trailed against a range of different data sizes. It was found that by assigning $\sigma$ as a function of average usage and max usage, gave a fair, but conservative representation of how energy usage may look. Scaling by a factor of 2, converted usage from kWh to demand kW; producing a graph showing the peaky nature of energy demand for Senate House. By integrating the area under the demand curve, this graph was validated against the original data.
+
+**Assumptions**: Usage will have a peaky profile due to a large number of people in the buildings, switching numerous devices on and off frequently. For an office style building like Senate, it is unlikely that there is any high-energy-consuming equipment that could cause a major spike in demand.
+
 \begin{figure}[H]
  \centering
- \includegraphics[trim = 140 80 140 20, clip, width=0.95\textwidth]{Development-dd.eps}
+   \vspace{-5pt}
+ \includegraphics[trim = 0 0 0 0 clip, width=0.8\textwidth]{sendem.eps}
+  \vspace{-10pt}
  \caption{Plots of Usage and Demand Profile Generation and Histogram of Year Data}
- \label{Development-dd}
+ \label{sendem}
+ \vspace{-25pt}
  \end{figure}
 
-It can be observed from in the histogram in Figure \ref{Development-dd}, that the demand of the building typically falls between two points. One low peak representing morning and evening of 30KW and a second peak constituting the energy usage in the middle of the day, averaging around 80KW, but rarely ever exceeding 90KW.
+To fully understand the energy profile of the Senate house, histogram and as a cumulative distribution plots \footnote{See Figure \ref{loadprofile} in the appendix to see Senate House's load profile} were used to identify the typical demand of Senate House sees over the year, as well as the max demand the building experiences [@combined-heat-power-buildings]. Figure \ref{sendem} shows the demand profile of Senate House, providing insight into what requirements a battery system may need. It can be observed from in the histogram, that the demand of the Senate House typically falls between two points. One low peak representing morning and evening of 30KW and a second peak constituting the energy usage in the middle of the day, averaging around 80KW, but rarely ever exceeding 90KW. Insights from the load profile also identified a battery rated to 40KW would cover, 5000 hours of the year roughly 55\% of the year's usage.
 
-\begin{figure}[H]
- \centering
- \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{Development-a8.eps}
- \caption{Load Duration Plot of Year Usage Data}
- \label{Development-a8}
- \end{figure}
+## Definition of the New Temple Quarter Campus
 
- The Load Duration Curve in Figure \ref{Development-a8} takes demand for each hour and plots this in descending order, this shows the annual demand that can be met for a battery at a given power rating [@combined-heat-power-buildings]. For Senate house, a battery rated to 40KW would cover, 5000 hours of the year roughly 55% of the years usage.
+Understanding the outline of new campus was required to create a valid assumption of its energy profile. At the time of writing, no building plans were available. Instead many assumptions about the likely size and use of the campus were used to create a representative energy profile \footnote{See Table ? In the appendix for a breakdown of how the new campus was sized}.
 
- Taking both graphs together, selecting a battery which covers the mean power demand, may act be a good trade off.
+The campus will be designed for ~1500 resident students, having ~5000 staff and students on site during term. A range of facilities have been proposed for Temple Quarter Campus, however it is likely that the campus will constitute largely of tutorial rooms, a few lecture halls and offices. A meeting with John Brenton [@Jbrentmeet], made clear that creating an infrastructure to support postgraduate business studies made the most economical sense, and is likely to influence the Campus's design.
 
-## Definition of New Campus Requirements
-
-To fulfil the objectives of this project, an understanding of the design of the new campus needed to be assessed. As the building plans are still in their early stage, many assumptions about the likely size and use of the campus had to be understood in order to create a representative energy profile. Table \hl{*Insert Table of campus size/ rooms*} in the Appendix shows the predicted new campus size and use stating relevant assumptions.
-
-The campus will constitute around 1500 students in halls of residence and have around 5000 staff and students on site during term time. Although there have been a range of facilities proposed that the University campus will house, it is most likely that the building will constitute mainly of tutorial rooms, a few lecture halls and offices. A meeting with John Brenton [@Jbrentmeet], made clear that creating infrastucure to support postgraduate business studies made the most economical sense so is most likely to make up most of the final plans.
-
-The energy profile of Senate house will be mostly transferrable to the new campus, as it is unlikely the new campus will have any devices that will distort the load profile greatly. In addition, the campus is likely to have improved efficiency through utilising the latest technologies in its construction and services (ventilation, heating e.c.t.). Data on 125 rooms in halls of residence was also provided, it is likely that this will almost be identical to a new build, due to student usage making it difficult to manage energy demand further. Using the foot prints of both building and adding some additional laboratory data to simulate if these creates any spike in energy usage.
-
-The scaling factors were:
+As tutorial rooms and office are similar to Senate House, It is assumed that the energy profile of Senate House will be transferrable to the new campus. It is unlikely the new campus will have any equipment that will distort the load profile greatly; where the campus is likely to have improved efficiency through employing the latest technologies in its construction and services (HVAC). Data on 125 rooms in halls of residence was also provided, with a higher degree of certainty of its applicability to the new campus. Footprints of both buildings were combined with laboratory data, testing the effects labs may have on any large spikes in energy usage. The final scaling factors used were:
 
 * Senate House (7840sqm) - **7.9x**
 * Hall data (2761sqm) - **7.6x**
 * Lab data (1 Lab Use) - **4x**
 
-Due to these data files falling under different years and running between different dates, the data needed to be adjusted in order to be correctly scaled. An algorithm was therefore created to match the date shown in figure \ref{Development-fc}.
+### Energy Profile Tool
+
+Due to energy usage data files beginning on different dates and running for various periods of time, these records required adjustment to be correctly scaled and combined. To fully meet the project's outputs and modelling requirements, a program was created to manipulate various half-hour energy use files. An algorithm was set up to read the data dates and then convert this data into realistic demand profile. To simulate lifetime energy usage, copies of the energy profile were concatenated for the length of simulation, checking that each year began on the next day in the week from the end of the previous year. It was imperative that dates aligned, to make sure results were valid as the difference in energy usage between weekdays and weekends (see section \ref{creation-of-senate-house-billing-model}), could cause the total savings to vary on a seven-year cycle pattern. Figure \ref{EnergyProfileTool} outlines the logic of this program.
 
 \begin{figure}[H]
  \centering
- \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{Development-fc.eps}
- \caption{Logic of Data Aligning Tool To Create New Campus Data}
- \label{Development-fc}
+ \includegraphics[trim = 0 0 0 0, clip, width=0.85\textwidth]{EnergyProfileTool.eps}
+ \caption{Logic of Energy Profile Tool Create New Campus Data}
+ \label{EnergyProfileTool}
+ \vspace{-20pt}
  \end{figure}
 
-\hl{Make assumptions very clear}
-## Definition of System Architectures / Strategies
+## Definition of System Strategies
 
-Defining how the batteries would run is imperative to understanding their economic feasibility. This section will define the logic used to define the operation of the battery and how the model was created to represent this.
+To fully understand the value of using battery storage, a representative simulations of how the battery would operate is required. This section defines the logic define the battery's operation. The model calculates both economical and technical battery performance based on the chosen battery strategies. The following section will discuss why the final strategies were selected, detailing their development.
 
-Using the "live demand data", created in section \ref{Representative-Demand-Profile}, a Matlab script was created simulate through a lifetime use case of the the battery for both Senate house and the new campus energy profiles. A script was created which duplicated these data input files for the length of simulation (in years), checking that each year began on the next day in the week from the end of the last year. Making sure dates aligned is imperative to making sure results were valid as the difference in energy usage between weekdays and weekends, shifts the total savings into a 7 year cycle pattern. Energy usage and demand data was then run through a second function which applied three strategies understanding battery performance from a technical and economical standpoint.
+### Red Rate Charge Avoidance Strategy
 
-### Red Rate Avoidance
+As outlined in section \ref{representative-bill-creation}, using energy consumed during Red rate periods was considerably more expensive than Amber and Green periods, making it a prime strategy. By switching the battery on during Red rate periods, then charging during Green periods, cost savings of up to 20\% could be made. Currently, for the University, Red rates apply between 5 and 7 PM on weekdays making it simple to forecast, alleviating the need for complex prediction systems highlighted in section \ref{forecasting-and-the-use-of-ess-in-load-shifting}. During this period the battery would be drained at a rate up to its maximum output power; requiring demand and usage data to be checked simultaneously. If the load exceeded max power, energy supply was capped at this value. The battery would continue to be drained until either its minimum capacity was reached, or the Red rate period elapsed. The battery would then be fully charged during green ensuring all capacity was available for the next Red rate period is entered. This method was repeated for the run-length of the simulation.
 
-As describe in earlier sections, the battery was limited to being switched on only during red rate periods. This period is always  between 5 and 7 on weekdays and has assumed to remain the same for the entirety of the batteries lifetime. During this period the battery was allowed to drain itself at a rate up to it's maximum output power. This required demand and usage data to be checked simultaneously, to make sure the battery had remaining capacity and was not over loaded. If the load exceeded its maximum value the supply of energy was capped at this value. As the battery was used, capacity was decreased proportionally until live usage exceeded the remaining capacity and the battery was drained to its minimum capacity and switched off. Or the rate rate period elapsed.
+### Triad Avoidance Strategy
 
-The battery was then set to begin charging at a set rate when the red rate period was entered a green rate period. The charging rate was set based on the amount of charge required divided over the length of the green rate period. Early discussion of battery life cycle optimisation suggested that charging at a lower speed, particularly during the last 10% of charge, made a large impact on the battery lifetime. It is assumed here that smart charging techniques trickling (seen on most modern smartphones), would be incorporated into the battery. However the only value which will effect the outputs of this model is the capacity when the next red rate period is entered, therefore not necessary in this model.
+To correctly understand the effects of TRIAD avoidance in the model, TRIAD dates needed to be correctly identified. Using [@triad15], the dates: 4/12/14, 19/01/15, 02/02/15 were used; aligning with the original Senate House data set as the as a master template for the new campus (discussed in section \ref{energy-profile-tool}). These dates were used for the sequential years in the simulation as they were typical days in which TRIADS would fall. From observation, it was assumed that there was no increase in the University's usage during TRIAD periods, allowing for any day within that week to be used. To make sure these dates did not fall on fall weekends, days were checked and adjusted accordingly. It is assumed that daily variation in energy usage is negligible and instead energy trends are seen only on a monthly basis.
 
-This repeats for the run-length of the simulation, measuring the amount of money saved against the original costs of unit rate charges.
+It was observed that TRIAD times all fell into Red rate periods, corresponding with the Red rate avoidance battery strategy. Using these dates and the time of 5:30, the TRIAD cost was calculated based on energy demand (kW). Battery usage was then measured against the TRIAD cost to understand the reduction in energy demand delivered by the battery. The reduction in TRIAD rate was a factor of the batteries max power supply and not capacity; due to the battery would only need to run for a few minutes to offset this charge.
 
-### Triad Avoidance
+At the end of each year in the simulation, usage on the three TRIAD dates were averaged to find the total cost. This was then spread evenly over the next year in the simulation, representing how TRIAD billing is split across each monthly energy bill.
 
-To correctly understand the effects of TRIAD avoidance in the model, the dates correlating to each day needed to be correctly applied and matched against corresponding days. Using [@triad15], the dates: 4/12/14, 19/01/15, 02/02/15 were used as aligning with the original Senate data used as a master for the new campus. These dates were used for the sequential years for days TRIADS would likely fall. Their corresponding days of the week were checked to make sure they did not fall weekends and adjusted accordingly if found to be the case. It is assumed here that daily variation in energy usage is negligible and instead energy trends are seen only on a monthly basis. This means that it does not matter if the TRIAD lands on a Monday or a Friday, and instead the date corresponds best with predicted weather pattern- the only variable likely to cause observable differences on a calendar data (any other variables have been ignored, particularly as these will cancel out over time).
+### Battery Control Strategy
 
-These periods were all between 5 and 7 corresponding with the battery strategy already in place. Using these dates and the time of 5:30, the TRIAD cost was calculated based on energy demand at this time. Battery usage was then measured against the TRIAD cost to understand the reduction in energy demand delivered by the battery. The reduction in TRIAD rate was a factor of the batteries max power supply and not capacity. As the battery would only need to run for a few minutes to offset this charge.
+The importance of optimising battery longevity was highlighted in \ref{forecasting-and-the-use-of-ess-in-load-shifting} and \ref{battery-sizing-and-financial-modelling}. Section \ref{battery-degradation-parameters}, discussed the different variables which can affect a battery's longevity. An approximation of the battery degradation was taken, taking into account the effect of each of these variables as a battery control strategy.
 
-At the end of each year in the simulation the three TRIAD costs were averaged to find the total cost. This was then spread evenly over the next year in the simulation, representing how TRIAD billing is split across each monthly energy bill.  
+The rated battery cycle life is taken to be the number of full cycles a battery can complete before it degrades to 80% of its original capacity \footnote{This is quoted to be 5000 cycles for the Tesla Powerpack, see Figure \ref{pp2tab}}. This figure was used as a measure for how the battery should perform based on a normal use case. Using this assumption, the battery was degraded proportionally by the fraction of its current cycle. \begin{wrapfigure}{r}{0.26\textwidth}
+\vspace{-25pt}
+  \begin{center}
+\includegraphics[trim = 0 0 0 0, clip, width=0.25\textwidth]{BatteryImage.pdf}
+  \end{center}
+  \caption{Showing Battery Degradation}
+   \label{BatteryImage}
+   \vspace{-30pt}
+\end{wrapfigure}
+For each charging iteration, the new max capacity became slightly smaller, reducing the size of the cycle. A counter was used to sum each charge, resetting when its value equalled the current cycle size; signifying one complete cycle. Using this method, battery's were degraded on their on their use, degrading quicker as they deterioted. This followed the battery cycle degradation trend shown in figure \ref{batCapGen}.
 
-### Battery Degradation Modelling
+By using the cycle-life metric, all battery degradation assumptions were based on the battery's operation and not the battery's chemistry. Assumptions on the batteries normal working parameters were made, limiting the battery to conform to these rules. This would prevent the battery running in a way that would majorly affect its longevity, making the prediction more accurate. These restrictions could be made greater or smaller at the expense of more or less chance of error on the battery health prediction. The following battery control measured were implemented:
 
-As highlighted in section \ref{battery-lifetime-assessment---understanding-battery-degradation} discusses the different variables which can effect a batteries cycle life. An approximation of the batteries was taken, taking into account the effect of each of these variables and placing a battery usage strategy in place. The rated battery cycle life is taken to be the number of full cycles a battery can complete before it has degraded to 80% of it's original capacity. This figure was used as it is the best metric for how a battery should perform based on a normal use case. The model uses this assumption to degrade the battery by the fraction of it's cycle life that it has charged up by. For each charging iteration the new max capacity becomes slightly smaller, reducing the size of the cycle. A counter is then run summing up the amount the battery has charged. When this equals the current maximum, a complete cycle has been fulfilled. The effect of this method means that the battery will degrade faster the longer it has been applied. This follows the mean trend of battery cycle life shown in figure \ref{batCapGen}.
+* __Reduction in Depth of Discharge__: To reduce wear on the battery, the battery was confined to work within 10-90% of its current maximum capacity, allowing a maximum depth of discharge of 80%. Draining the battery can cause detrimental effects on the while overcharging can also do the same. Working within these two parameters follows similar principles applied by Tesla in their electric cars \cite{Charging49:online}.
+* __Speed of Depletion__: A battery was never run above its max specified power. As the battery was rated at this value, it should be designed to cope with this level of use for no longer than 2 hours a day. The simulation will analyse the average discharge rate as a measure of the validity of the battery health
+* __Temperature__: was assumed to remain within expected bounds, based on the assumptions made in section \ref{temperature}. Using the Red rate and TRIAD strategies would allow the battery to cool over weekends.
+* __Charging__: The battery would only charge during Green periods, at a rate which would ensure the battery would be charged fully by the next Red period; this was based on the capacity required divided by the length of the Green rate period. Section \ref{Battery-Degradation-Parameters} suggested that charging at a lower speed, particularly during the last 10% of charge, made a large impact on the battery lifetime. It is assumed here that smart charging techniques such as trickling (seen on most modern smartphones), would be incorporated into the actual battery, but modelling these methods would not increase the accuracy of the model, so was been neglected.
 
-Any assumptions made about battery degradation were based on battery operation and not the batteries chemistry. Assumptions were made on what constitutes "normal working parameters", alleviating extremes in modes that have an exponential effect on how the battery degrades.
-To reduce wear on the battery, the battery was confined to work within 10-90% of it current maximum capacity, allowing a maximum depth of discharge of 80%. Draining the battery can cause detrimental effects on the whilst overcharging can also do the same. Working within these two parameters follows similar principles applied by Tesla in their electric cars \hl{add reference here}. The battery was never run above it's demand maximum (max power KW), however no factor was used to degrade the battery quicker if it operated at this factor (a known cause of wear). As the battery was rated at this value, it should be designed to cope at this level of use for no longer than 2 hours a day.
+* __Battery Efficiency__: This was regarded in the model by multiplying the energy drawn when charging by the additional losses caused inefficiencies. This assumption was made as it is likely that the battery once charged can supply what it has stored. The Powerpack 2 integrated inverter, supplies energy in AC, quoting its efficiency to this level (see figure \ref{pp2tab}). It is assumed that the quoted figure is very representative of the battery's efficiency in the system. Efficiency gains could also be achieved by designing the system, so it primarily sends power to DC first without transforming, this will not be evaluated in this project, see Figure \ref{pp2tab}.
 
- Temperature was also assumed to remain within expected bounds. Britain only experiences hot days a few times a year and rarely drops below freezing, making it a better climate for battery operational temperatures than the states where average temperatures are a lot hotter. Using the two strategies defined above means the battery is only ever discharging or charging 5 days a week, with some charge on a Saturday mornings dependent on the battery selected. This allows the battery too cool down and perform any life enhancing cycling activities if relevant \hl{Consider how these two days could be used to improve the batteries lifetime}.   
+\begin{wraptable}{r}{0.42\textwidth}
+\vspace{-20pt}
+\caption{Tesla Powerpack 2 Specification}
+\vspace{-5pt}
+  \begin{center}
+     \includegraphics[trim = 0 0 0 0, clip, width=0.41\textwidth]{PP2spec.pdf}
+  \end{center}
+  \vspace{-20pt}
+  \label{pp2tab}
+\end{wraptable}
 
-The model was run until either the runtime reached it's end or the battery reached it's end of life value of 80%. This meant answer were comparable. It is worth noting that there are examples of batteries being used beyond their end of life cycle. \hl{This is being seen by Nissan/ Honda in recycling their car batteries to use in homes}, as there are little associated costs with batteries after they have been installed if the battery has payed itself back, the battery will continue to generate profit. However as there is a lot of unpredictability about whether the battery will fail, this has not been regarded in the model and instead seen as the asset no-longer holding any more value.
+The model was run until the either runtime elapsed or the battery reached its end of life value (80\%), allowing results to be comparable. There are examples of batteries being used beyond their end of life cycle. Renault and connected energy have been investigating using the end of life Li-ion car batteries in home use applications \cite{Renaultt62:online}, \cite{UsedRena38:online}. It is believed there is still plenty of life remaining, and the increased probability of failure is less of a problem when used for bill reduction purposes. In the case of the new campus, there are little-associated costs with batteries after they have been installed if the battery has paid itself back, the battery will continue to generate profit. If unpredictability is seen to be an issue, this may be the case if emergency power is seen as a key value of having the battery, then it may be possible Analysing this value is out of scope for this project so an end of life battery was be classed as having no value.
 
-\hl{Diagram of Battery Cycling Degradation}
+## Input Parameters and Multi-Battery Simulation
 
-### Battery Efficiencies
-
-Battery efficiency was regarded in the model by multiplying the energy drawn when charging by the additional loses caused inefficiencies. This assumptions was made as it is likely that the battery once charged can supply what it has stored, although some losses will be incurred when transforming back to AC again. It is assumed that the efficiency figure regards both transformations. Efficiency gains could also be achieved by designing the system so it primarily sends power to DC first without transforming. Efficiency however does not play a huge part in improving costs savings due to the difference between charging in green periods and the red rate being so significant.
-
-### Input Parameters and Multi-Battery Simulation
-
-In order to understand the optimum battery type for a given scenario, and then infer the total savings that the battery could generate; a large array of different batteries with different power ratings and capacities was modelled. This required iterating the model numerous times. To reduce computation time, parallel computing was implemented to iterate each discrete battery scenario in the 0D model.
-
-The following Operational Parameters Were Used to Generate the Output Results Discussed in this report. Values stated as variables were varied per battery.
-\begin{table}[H]
-\begin{tabular}{p{4.3cm}p{8cm}}
-\textbf{Upfront Costs}:& Variable\\
-\textbf{Max Power}:& Variable\\
-\textbf{Upfront Costs}:& Variable\\
-\textbf{Depth Of Discharge \textit{(DoD)}}:& 80\% \\
-\textbf{Cycle Life}:& 5000 [@TeslaPow57:online]\\
-\textbf{Max Charge}:& $\frac{1-\text{DoD}}{2+\text{DoD}} \times$ CurrentCapacity\\
-\textbf{Min Charge}:& $\frac{1-\text{DoD}}{2} \times$ Current Capacity\\
-\textbf{End Life Value}:& 80\%\\
-\textbf{Additional Costs}:& £0 \\
-\textbf{Charge Rate}:& Max Power $\times$ 0.4 (In kWh per Half Hour)\\
-\textbf{TRIAD Days}:& 04-Dec-2014, 19-Jan-2015, 02-Feb-2015\\
-\textbf{TRIAD Rate}:& £33.55  (price per KW)\\
-\textbf{Unit Rate}:&  6.832p\\
-\textbf{Red Rate}:&  24.41p\\
-\textbf{Amber Rate}:&  0.287p\\
-\textbf{Green Rate}:&  0.161p\\
-\textbf{Usage Variation $\sigma$}:&  $\frac{\text{Max Value + Mean Value}}{2}$ (For minute by minute granularity)
-\end{tabular}
-\label{inputparam}
-\caption{Table Showing the Input Parameters of the Model}
-\end{table}
+To understand the optimum battery type for a given scenario, and then infer the total savings that the battery could generate; a large array of different batteries with different power ratings and capacities were modelled. Using actual data from Tesla \cite{Powerpac23:online}, the real costs of the different battery specifications were modelled. To find trends in the different battery types, the modelled required iterating through numerous different battery specifications. To reduce computation time, parallel computing was implemented to iterate each discrete battery scenario in the 0D model.
 
 The following diagram depicts the model of the entire multi-battery system.
 
-\hl{Large system Diagram of the Logic behind the model}
+\begin{figure}[H]
+ \centering
+ \includegraphics[trim = 0 0 0 0, clip, width=0.8\textwidth]{largelogic.eps}
+ \caption{Logic Diagram For Multi-battery Simulation}
+ \label{largelogic}
+ \end{figure}
 
- \hl{It was important that the model was as clear and simple as possible. To improve clarity within the model, structures were used to group variables. The benefit of using structures is the ability to pass them into a function. Using structures throughout the Lagoon Energy Model function and Multiple Lagoon Model script allowed all the required variables to be passed between the function and script using one structure. This greatly improved the structure and clarity of the model script.}
 
-## Performance Optimisation of Battery Storage Model
+To comply with the requirements set in section \ref{model-development-requirements} The following methods were used to optimise the performance of MATLAB model.
 
-[@getreuer5685writing]
+ * _Vectorisation_: storing data within multidimensional arrays and using vector operations
+ *  _Variable Initialisation_: all matrices were initialised to reduce memory.
+ * _MATLAB Function Reduction_: functions such as linear interpolation are cumbersome. These were recreated and simplified, solving tasks more efficiently.
+ * _Parallel Processing_: Multiple cores on the processor were used to iterate through independent battery specifications in large multi-battery simulations. To achieve this successfully, code was rewritten to make all events discrete, substituted methods such as `while` and `break`. For large multi-parameter simulations, this can increased the processing time significantly,.
+ *  _Profiler Tool _: Within MATLAB, the performance of code can be measured in the amount of time it takes to run. This tool was used to identify bottlenecks within the model.
+ * _Single Integers_: Single integers are half the size of double integers, the default storage method for data within MATLAB. Double-precision floating point numbers allow the CPU to handle very large values. As this level of accuracy is unnecessary, use of 32bit single integers increased performance [@getreuer5685writing].
+ * _Do Not Repeat Yourself (DRY)_: Coding technique to improve readability and performance of code, through use of functions.
 
-* Use Profiler \hl{Within MATLAB, the performance of a code can be measured in the amount of time it takes to run. The MATLAB profiler is a useful tool which records the amount of time spend in the different functions called within a script. The profiler can be used to identify bottlenecks within the model.}
-* Array Preallocation
-* Vectorisation
-* Reference Wildcards
-* Delete Sub Matrices
-* Convert to column vectors
-* Parallel Computing For loops
-* Minimised using MATLAB functions (linear interpolation etc.)
-* Used single instead of double integers (half size of memory allocation). \hl{The default storage method for data within MATLAB is a double-precision floating point number (Mathworks, 2016). This method of representing a number within CPU memory is able handle very large values, however requires 64 bits per number. By storing numbers as a single-precision data type, only 32 bits are required, reducing the data size by a half. This helps to manage memory within the model.}
-* DRY coding technique
+The result of this method reduced processing time per battery from ~110 seconds to under 10 seconds. This was crucial in allowing the 113 different battery simulation run quickly. The runtime of the multi-scenario program was reduced to 220 seconds. This allowed different sensitivities studies to be run, greatly improving the functionality of the tool.

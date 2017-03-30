@@ -86,21 +86,6 @@
   \field{year}{2016}
 \endentry
 
-\entry{WhatisPe67:online}{online}{}
-  \field{title}{What is Peak Demand?}
-  \verb{url}
-  \verb https://www.nbpower.com/en/smart-habits/beat-the-peak/what-is-peak-dema
-  \verb nd
-  \endverb
-  \list{institution}{1}{%
-    {Energie NB Power}%
-  }
-  \field{year}{2017}
-  \field{urlday}{23}
-  \field{urlmonth}{03}
-  \field{urlyear}{2017}
-\endentry
-
 \entry{GBNation22:online}{online}{}
   \field{title}{G. B. National Grid status}
   \verb{url}
@@ -136,62 +121,6 @@
   \field{urlday}{24}
   \field{urlmonth}{03}
   \field{urlyear}{2017}
-\endentry
-
-\entry{7555793}{inproceedings}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Telaretti}{T.}%
-     {E.}{E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Dusonchet}{D.}%
-     {L.}{L.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{power consumption;power markets;power system economics;secondary
-  cells;BESS operating strategy;ancillary service market;battery energy storage
-  system;daily usage pattern;economic feasibility evaluation;electrochemical
-  storage system;global energy landscape;off-peak period;on-peak period;peak
-  load shaving applications;power system reliability;power system
-  stability;Batteries;Dynamic programming;Economics;Power system
-  reliability;Power system stability;Reliability;TOU tariffs;battery energy
-  storage;case study;peak demand charges;peak load shaving}
-  \strng{namehash}{TEDL1}
-  \strng{fullhash}{TEDL1}
-  \field{abstract}{%
-  Battery Energy Storage Systems (BESSs) are gaining more and more attention in
-  the current global energy landscape, thanks to some peculiar characteristics
-  such as the versatility, modularity, scalability, fast response time, etc.
-  BESSs can advantageously be used in the ancillary services market, in order
-  to provide all the services necessary to ensure the stability and the
-  reliability of the power system. Among other applications, BESS can also be
-  used to shift electricity demand from on-peak to off-peak periods, also
-  contributing to relieve peak demand charges, thus ensuring a saving for the
-  customers. The BESS is charged when the electricity prices are the lowest
-  (during the night) and discharged when the prices are the highest (during the
-  daily hours), contemporary achieving a leveling of the daily usage pattern.
-  This paper is the first of a two-part series, aiming to evaluate the economic
-  feasibility of electrochemical storage systems in peak load shaving
-  applications. The sizing and the operating strategy of the BESS are defined,
-  so as to obtain, at the same time, the flattest daily usage pattern and the
-  maximum benefit for the customer. A case study is analyzed, showing the
-  modification of the power diagram when the BESS is added. The simulation
-  results show a customer daily power profile perfectly leveled in shoulder
-  seasons and a peak shaving effect in all other days.%
-  }
-  \field{booktitle}{2016 IEEE 16th International Conference on Environment and
-  Electrical Engineering (EEEIC)}
-  \verb{doi}
-  \verb 10.1109/EEEIC.2016.7555793
-  \endverb
-  \field{pages}{1\bibrangedash 6}
-  \field{title}{Battery storage systems for peak load shaving applications:
-  Part 1: Operating strategy and modification of the power diagram}
-  \field{month}{06}
-  \field{year}{2016}
 \endentry
 
 \entry{Part1Att26:online}{online}{}
@@ -608,22 +537,6 @@
   \endverb
   \field{volume}{44}
   \field{journaltitle}{Electric Power Components and Systems}
-  \field{year}{2016}
-\endentry
-
-\entry{brentemail}{misc}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Brenton}{B.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{BJ1}
-  \strng{fullhash}{BJ1}
-  \field{howpublished}{Email Correspondance}
-  \field{title}{Estates Prilimary Feedback Email}
-  \field{month}{10}
   \field{year}{2016}
 \endentry
 
@@ -1199,6 +1112,62 @@
   \field{volume}{55}
   \field{journaltitle}{Energy and Buildings}
   \field{year}{2012}
+\endentry
+
+\entry{7555793}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Telaretti}{T.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dusonchet}{D.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{power consumption;power markets;power system economics;secondary
+  cells;BESS operating strategy;ancillary service market;battery energy storage
+  system;daily usage pattern;economic feasibility evaluation;electrochemical
+  storage system;global energy landscape;off-peak period;on-peak period;peak
+  load shaving applications;power system reliability;power system
+  stability;Batteries;Dynamic programming;Economics;Power system
+  reliability;Power system stability;Reliability;TOU tariffs;battery energy
+  storage;case study;peak demand charges;peak load shaving}
+  \strng{namehash}{TEDL1}
+  \strng{fullhash}{TEDL1}
+  \field{abstract}{%
+  Battery Energy Storage Systems (BESSs) are gaining more and more attention in
+  the current global energy landscape, thanks to some peculiar characteristics
+  such as the versatility, modularity, scalability, fast response time, etc.
+  BESSs can advantageously be used in the ancillary services market, in order
+  to provide all the services necessary to ensure the stability and the
+  reliability of the power system. Among other applications, BESS can also be
+  used to shift electricity demand from on-peak to off-peak periods, also
+  contributing to relieve peak demand charges, thus ensuring a saving for the
+  customers. The BESS is charged when the electricity prices are the lowest
+  (during the night) and discharged when the prices are the highest (during the
+  daily hours), contemporary achieving a leveling of the daily usage pattern.
+  This paper is the first of a two-part series, aiming to evaluate the economic
+  feasibility of electrochemical storage systems in peak load shaving
+  applications. The sizing and the operating strategy of the BESS are defined,
+  so as to obtain, at the same time, the flattest daily usage pattern and the
+  maximum benefit for the customer. A case study is analyzed, showing the
+  modification of the power diagram when the BESS is added. The simulation
+  results show a customer daily power profile perfectly leveled in shoulder
+  seasons and a peak shaving effect in all other days.%
+  }
+  \field{booktitle}{2016 IEEE 16th International Conference on Environment and
+  Electrical Engineering (EEEIC)}
+  \verb{doi}
+  \verb 10.1109/EEEIC.2016.7555793
+  \endverb
+  \field{pages}{1\bibrangedash 6}
+  \field{title}{Battery storage systems for peak load shaving applications:
+  Part 1: Operating strategy and modification of the power diagram}
+  \field{month}{06}
+  \field{year}{2016}
 \endentry
 
 \entry{1300158}{inproceedings}{}
@@ -2042,9 +2011,53 @@
   \field{number}{1}
   \field{pages}{72\bibrangedash 80}
   \field{title}{Simulation of capacity fade in lithium-ion batteries}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S0378775302004901
+  \endverb
   \field{volume}{113}
   \field{journaltitle}{Journal of Power Sources}
   \field{year}{2003}
+\endentry
+
+\entry{REIEC61465:online}{online}{}
+  \field{title}{The Importance of Testing PV Batteries to the IEC 61427
+  Standard}
+  \verb{url}
+  \verb http://www.trojanbattery.com/pdf/RE_IEC_61427_Standard.pdf
+  \endverb
+  \list{institution}{1}{%
+    {Trojan Battery Company}%
+  }
+  \field{year}{2013}
+  \field{urlday}{27}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
+\endentry
+
+\entry{Renaultt62:online}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lilly}{L.}%
+     {Chris}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LC1}
+  \strng{fullhash}{LC1}
+  \field{title}{Renault to recycle EV batteries with energy storage firm -
+  Zap-Map}
+  \verb{url}
+  \verb https://www.zap-map.com/renault-to-recycle-ev-batteries-with-energy-sto
+  \verb rage-firm/
+  \endverb
+  \list{institution}{1}{%
+    {Zap Map}%
+  }
+  \field{month}{02}
+  \field{year}{2016}
+  \field{urlday}{26}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
 \endentry
 
 \entry{rong2006analytical}{article}{}
@@ -2078,20 +2091,6 @@
   \field{year}{2006}
 \endentry
 
-\entry{Powerpac95:online}{online}{}
-  \field{title}{Powerpack | Commercial and Utility Energy Storage Solutions}
-  \verb{url}
-  \verb https://www.tesla.com/en_GB/powerpack
-  \endverb
-  \list{institution}{1}{%
-    {Telsla}%
-  }
-  \field{year}{2017}
-  \field{urlday}{25}
-  \field{urlmonth}{03}
-  \field{urlyear}{2017}
-\endentry
-
 \entry{WeatherA0:online}{online}{}
   \field{title}{Weather Averages for London, United Kingdom}
   \verb{url}
@@ -2104,6 +2103,196 @@
   \field{urlday}{25}
   \field{urlmonth}{03}
   \field{urlyear}{2017}
+\endentry
+
+\entry{BatteryL10:online}{online}{}
+  \field{title}{Battery Life and How To Improve It}
+  \verb{url}
+  \verb http://www.mpoweruk.com/life.htm
+  \endverb
+  \field{urlday}{15}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
+\endentry
+
+\entry{Teslawil27:online}{online}{}
+  \field{title}{Tesla Will Use Different Batteries for its Grid Products,
+  Here's Why}
+  \verb{url}
+  \verb http://fortune.com/2015/05/18/tesla-grid-batteries-chemistry/
+  \endverb
+  \list{institution}{1}{%
+    {Fortune.com}%
+  }
+  \field{year}{2015}
+  \field{urlday}{28}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
+\endentry
+
+\entry{Effectso69:online}{online}{}
+  \field{title}{Effects of Discharge Rate and Temperature on Battery Capacity
+  and Life | Engineers Edge}
+  \verb{url}
+  \verb http://www.engineersedge.com/battery/discharge_rate_temperature_effects
+  \verb _battery.htm
+  \endverb
+  \field{urlday}{15}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
+\endentry
+
+\entry{Prematur82:online}{online}{}
+  \field{title}{Premature Voltage Cut-off - Battery University}
+  \verb{url}
+  \verb http://batteryuniversity.com/learn/article/premature_voltage_cut_off
+  \endverb
+  \field{urlday}{15}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
+\endentry
+
+\entry{BatteryP62:online}{online}{}
+  \field{title}{Battery Performance Characteristics - How to specify and test a
+  battery}
+  \verb{url}
+  \verb http://www.mpoweruk.com/performance.htm
+  \endverb
+  \list{institution}{1}{%
+    {Woodbank Communications Ltd}%
+  }
+  \field{year}{2016}
+  \field{urlday}{28}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
+\endentry
+
+\entry{omar2012rechargeable}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Omar}{O.}%
+     {Noshin}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Daowd}{D.}%
+     {Mohamed}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bossche}{B.}%
+     {Peter van~den}{P.~v.~d.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hegazy}{H.}%
+     {Omar}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smekens}{S.}%
+     {Jelle}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Coosemans}{C.}%
+     {Thierry}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mierlo}{M.}%
+     {Joeri~van}{J.~v.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Molecular Diversity Preservation International}%
+  }
+  \strng{namehash}{ONDMBPvd+1}
+  \strng{fullhash}{ONDMBPvdHOSJCTMJv1}
+  \field{number}{8}
+  \field{pages}{2952\bibrangedash 2988}
+  \field{title}{Rechargeable energy storage systems for plug-in hybrid electric
+  vehicles---Assessment of electrical characteristics}
+  \field{volume}{5}
+  \field{journaltitle}{Energies}
+  \field{year}{2012}
+\endentry
+
+\entry{omar2013peukert}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Omar}{O.}%
+     {Noshin}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bossche}{B.}%
+     {Peter Van~den}{P.~V.~d.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Coosemans}{C.}%
+     {Thierry}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mierlo}{M.}%
+     {Joeri~Van}{J.~V.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Multidisciplinary Digital Publishing Institute}%
+  }
+  \strng{namehash}{ONBPVdCT+1}
+  \strng{fullhash}{ONBPVdCTMJV1}
+  \field{number}{11}
+  \field{pages}{5625\bibrangedash 5641}
+  \field{title}{Peukert revisited---critical appraisal and need for
+  modification for lithium-ion batteries}
+  \field{volume}{6}
+  \field{journaltitle}{Energies}
+  \field{year}{2013}
+\endentry
+
+\entry{xu2016modeling}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Xu}{X.}%
+     {Bolun}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Oudalov}{O.}%
+     {Alexandre}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ulbig}{U.}%
+     {Andreas}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Andersson}{A.}%
+     {Goran}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kirschen}{K.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{XBOAUA+1}
+  \strng{fullhash}{XBOAUAAGKD1}
+  \field{title}{Modeling of lithium-ion battery degradation for cell life
+  assessment}
+  \field{journaltitle}{IEEE Transactions on Smart Grid}
+  \field{year}{2016}
 \endentry
 
 \entry{Choi2002130}{article}{}
@@ -2164,75 +2353,16 @@
   \field{urlyear}{2017}
 \endentry
 
-\entry{BatteryL10:online}{online}{}
-  \field{title}{Battery Life and How To Improve It}
+\entry{ZeroDMod80:online}{online}{}
+  \field{title}{Zero-D Modelling Approach with ANSYS Products | Val{\'e}rie
+  Gelbgras | Pulse | LinkedIn}
   \verb{url}
-  \verb http://www.mpoweruk.com/life.htm
+  \verb https://www.linkedin.com/pulse/zero-d-modelling-approach-ansys-products
+  \verb -val%C3%A9rie-gelbgras
   \endverb
-  \field{urlday}{15}
+  \field{urlday}{17}
   \field{urlmonth}{03}
   \field{urlyear}{2017}
-\endentry
-
-\entry{Prematur82:online}{online}{}
-  \field{title}{Premature Voltage Cut-off - Battery University}
-  \verb{url}
-  \verb http://batteryuniversity.com/learn/article/premature_voltage_cut_off
-  \endverb
-  \field{urlday}{15}
-  \field{urlmonth}{03}
-  \field{urlyear}{2017}
-\endentry
-
-\entry{Effectso69:online}{online}{}
-  \field{title}{Effects of Discharge Rate and Temperature on Battery Capacity
-  and Life | Engineers Edge}
-  \verb{url}
-  \verb http://www.engineersedge.com/battery/discharge_rate_temperature_effects
-  \verb _battery.htm
-  \endverb
-  \field{urlday}{15}
-  \field{urlmonth}{03}
-  \field{urlyear}{2017}
-\endentry
-
-\entry{xu2016modeling}{article}{}
-  \name{author}{5}{}{%
-    {{}%
-     {Xu}{X.}%
-     {Bolun}{B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Oudalov}{O.}%
-     {Alexandre}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ulbig}{U.}%
-     {Andreas}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Andersson}{A.}%
-     {Goran}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kirschen}{K.}%
-     {Daniel}{D.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {IEEE}%
-  }
-  \strng{namehash}{XBOAUA+1}
-  \strng{fullhash}{XBOAUAAGKD1}
-  \field{title}{Modeling of lithium-ion battery degradation for cell life
-  assessment}
-  \field{journaltitle}{IEEE Transactions on Smart Grid}
-  \field{year}{2016}
 \endentry
 
 \entry{combined-heat-power-buildings}{book}{}
@@ -2272,6 +2402,53 @@
   \field{year}{2015}
 \endentry
 
+\entry{Charging49:online}{online}{}
+  \field{title}{Charging for Optimum Battery Life}
+  \verb{url}
+  \verb https://forums.tesla.com/en_GB/forum/forums/charging-optimum-battery-li
+  \verb fe
+  \endverb
+  \list{institution}{1}{%
+    {Tesla}%
+  }
+  \field{month}{07}
+  \field{year}{2015}
+  \field{urlday}{26}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
+\endentry
+
+\entry{UsedRena38:online}{online}{}
+  \field{title}{Used Renault EV batteries to be recycled into energy storage
+  systems}
+  \verb{url}
+  \verb http://www.fleetnews.co.uk/news/environment/2016/02/05/used-renault-ev-
+  \verb batteries-to-be-recycled-into-energy-storage-systems
+  \endverb
+  \list{institution}{1}{%
+    {Fleet News}%
+  }
+  \field{month}{02}
+  \field{year}{2016}
+  \field{urlday}{26}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
+\endentry
+
+\entry{Powerpac23:online}{online}{}
+  \field{title}{Powerpack | Commercial and Utility Energy Storage Solutions}
+  \verb{url}
+  \verb https://www.tesla.com/en_GB/powerpack
+  \endverb
+  \list{institution}{1}{%
+    {Tesla}%
+  }
+  \field{year}{2017}
+  \field{urlday}{29}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
+\endentry
+
 \entry{getreuer5685writing}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -2303,19 +2480,22 @@
   \field{urlyear}{2017}
 \endentry
 
-\entry{UnitedKi95:online}{online}{}
-  \field{title}{United Kingdom Inflation Rate | 1989-2017 | Data | Chart |
-  Calendar}
-  \verb{url}
-  \verb http://www.tradingeconomics.com/united-kingdom/inflation-cpi
-  \endverb
-  \list{institution}{1}{%
-    {Trading Economics}%
+\entry{heatcibse}{report}{}
+  \name{author}{1}{}{%
+    {{}%
+     {AECOM}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
   }
-  \field{year}{2017}
-  \field{urlday}{22}
-  \field{urlmonth}{03}
-  \field{urlyear}{2017}
+  \strng{namehash}{A2}
+  \strng{fullhash}{A2}
+  \field{title}{Heat networks: Code of Practice for the UK}
+  \list{institution}{1}{%
+    {CIBSE}%
+  }
+  \field{type}{techreport}
+  \field{year}{2015}
 \endentry
 
 \entry{wpMWMD}{misc}{}
@@ -2337,6 +2517,21 @@
   \field{title}{Western Power Discussion}
   \field{month}{03}
   \field{year}{2017}
+\endentry
+
+\entry{UnitedKi95:online}{online}{}
+  \field{title}{United Kingdom Inflation Rate | 1989-2017 | Data | Chart |
+  Calendar}
+  \verb{url}
+  \verb http://www.tradingeconomics.com/united-kingdom/inflation-cpi
+  \endverb
+  \list{institution}{1}{%
+    {Trading Economics}%
+  }
+  \field{year}{2017}
+  \field{urlday}{22}
+  \field{urlmonth}{03}
+  \field{urlyear}{2017}
 \endentry
 
 \entry{daniels2013financial}{inproceedings}{}

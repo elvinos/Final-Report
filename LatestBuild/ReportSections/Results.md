@@ -1,106 +1,155 @@
 
 # Results
-This project aims to evaluate whether the value gained from purchasing batteries outweighs its large upfront costs and other challenges that battery technology faces. This section analyses the data gathered from zero-dimensional model and discusses the plausibility of using a battery and which battery is optimum based on a demand profile for both Senate House and the new University campus.
-
-## Senate House Battery Optimisation
-
-\hl{
-  * Graphs of NPV, Total Savings and Payback Time
-  * Discussion on installation costs
-  * Optimum battery to choose
-}
-
-## New Campus Battery Optimisation
-
-Using the input values defined in section \ref{definition-of-new-campus-requirements}, the model was used generated results for 113 different battery types. Due to the size demand profile of the battery requiring  up to \hl{xkW} in a during a red rate period, and requiring a capacity of up to \hl{ykWh}, meant that many different solutions were plausible for providing the most value. By simulating for a range of batteries over a period of time, key trends between capacity and max power could be seen. A 25 year period was selected to evaluate the battery performance over. It is expected that after this period of time, technology will have significantly changed, refurbishments on the buildings will be under consideration and unpredictability on the long term use of the batteries will be reduced. The following results will talk through the three key value measurements discussed in section \ref{battery-economics}.
-
-### Total Savings and Payback Period
-
-Due to the 25 year limit placed on the batteries, the largest batteries did not necessarily deliver the greatest savings due to their high purchase price not being converted into additional savings from the battery strategies having no further load to be shifted. Figure \ref{SRTS2} shows the parabolic shape with a local maximum between the battery size and the total savings for a 25 year period. For the new campus, a battery size of around 2000 kWh appeared to be the best choice battery to select. The max power needs to be very high, with a 1.2-1.3 MW power response, to access these maximum total savings.
-
-\begin{figure}[H]
- \centering
- \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{SRTS2.eps}
- \caption{Battery Size Vs Total Savings}
- \label{SRTS2}
-\end{figure}
-
-Looking at the payback period shown in Figure \ref{SRPB2}, a different story is told. The correct combination of max power and battery size is required to get a payback period between 6.3 and 8 years. Battery Sizes all remain below 2000kWh and provided that the battery size is paired with the correct maximum power, the shortest payback period can be accessed. After the 2000kWh mark, capacity rather than max power has the greatest effect in increasing the payback time.
-
-\begin{figure}[H]
- \centering
- \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{SRPB2.eps}
- \caption{Graph of Battery Size vs PayBack Time}
- \label{SRPB2}
-\end{figure}
-
-Figures \ref{SPA2} and \ref{SRTSPB5} look to use a graphical approach, of choosing the optimum battery system based on both its capacity and power rating.
+The objective of this report was to evaluate whether there is the strong business case for investing in energy storage technology for the New University Campus. This section analyses the data gathered from the zero-dimensional model, discussing the value which optimum batteries specifications could bring to the new Temple Quarter campus. Figures \ref{histredload} and \ref{redloadperc}, describes the energy profile for the new campus's usage during Red rate periods.
 
 \begin{figure}[H]
 \centering
-\includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{SPA2.eps}
-\caption{Graph Showing Top 30 Batteries with Fitted Curves for both Payback Time and Total Savings}
-\label{SPA2}
+\begin{minipage}{.495\textwidth}
+  \centering
+ \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{histredload.eps}
+ \vspace{-20pt}
+ \caption{Histogram Showing Red Periods Total Daily Usage Frequency}
+ \label{histredload}
+\end{minipage}
+\hfill
+\begin{minipage}{.495\textwidth}
+  \centering
+ \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{redloadperc.eps}
+ \vspace{-20pt}
+   \caption{Time Spent at Power Demand Level}
+  \label{redloadperc}
+\end{minipage}
+\vspace{-30pt}
 \end{figure}
 
-A small region either-side of where the two plots cross in Figure \ref{SPA2}, can be approximated to be the optimum battery battery parameters. A designer aiming to select a battery based on these two parameters would look here to make a selection then find the nearest corresponding battery on the market that fits these values. It is apparent that the is a very steep drop off in total savings for batteries that fall outside these bounds. For both max power and total capacity selecting a battery with a lower rating than this bound will minimise the payback time, whilst selecting above this region will increase the payback time exponentially.
+These energy profile plots, described the range of battery specifications which should be simulated. Figure \ref{histredload}, that how a battery with a usable capacity greater than ~1800kWh will have excess capacity to demand. By taking into account end of life degradation, battery's up to and end of life capacity of 2000kWh were modelled. Figure \ref{redloadperc}, describes the percentage of time the battery would spend at max load. A battery rated at 920kW would be only run at max load 10\% of the time. As discharge rate effects capacity, battery's rated up to 1300kW were simulated. Based on this analysis 65 different Powerpack 2 battery specifications were identified as plausible solutions.
+
+A 25 year runtime period was used to evaluate the battery performance over \footcite[See Page 27 of][]{heatcibse};  chosen on the assumption that most technology in the building will be replaced by this point, as the building begins to receive some refurbishment. Li-ion battery technology will have also significantly advanced, or at least drop significantly in price \footnote{See Figure \ref{mckBatPrice} for a prediction in battery prices}. Using a set period will also reduce uncertainty in battery health and prevent favouritism for larger batteries. An investor is unlikely to look beyond 25 years, so savings made after these periods will not be considered. The following results will talk through the three key value measurements discussed in section \ref{battery-economics}.
+
+## Total Savings and Payback Period
+
+ Figure \ref{SRTS2} shows the parabolic shape with a local maximum between the battery size and the total savings. For the new campus, a battery size of around ~2.2MWh generated the maximum total savings over the simulation run time. In contrast, Figure \ref{SRPB2}, highlights that a much larger range of batteries fell close shortest payback time of 6.3years, where power and capacity increased proportionally.
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.495\textwidth}
+  \centering
+   \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{batsts.eps}
+ \caption{Battery Size Vs Total Savings}
+ \label{SRTS2}
+\end{minipage}
+\hfill
+\begin{minipage}{.495\textwidth}
+  \centering
+\includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{batspb.eps}
+   \caption{Graph of Battery Size vs PayBack Time}
+  \label{SRPB2}
+\end{minipage}
+\vspace{-10pt}
+\end{figure}
+
+Figures \ref{SRTS2} and \ref{SRPB2}, begin to give a good insight into the financial performance of the battery, however, presented in this form, it difficult for a designer to choose the optimum battery. To make the results more useful, an algorithm was made, which generated best-fit plots over the maximum battery specifications for the different total saving and payback time plots. Figures \ref{SPA2} shows how these curves plotted over the maximum values.
+
+\begin{figure}[H]
+\centering
+\includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{mxfit.eps}
+\caption{Graph Showing Top 40 Batteries with Fitted Curves for both Payback Time and Total Savings}
+\label{SPA2}
+\vspace{-20pt}
+\end{figure}
+
+By superimposing these max-fit curves, a graphical tool was created, allowing a designer to visualise the tradeoff between total savings and payback time, shown in Figure \ref{SRTSPB5}. A small region around the cross over point of the two plots shows the specifications of the optimum batteries. By creating a set of rules (e.g. the battery must have a payback period less than seven years), all the solutions become immediately apparent. A small shortlist of the batteries can be made, referring back to the original list of Powerpack specifications.
 
 \begin{figure}[H]
  \centering
- \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{SRTSPB5ed2.eps}
+ \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{mxfitplt.eps}
  \caption{Comparison Between Fit Curves for Payback Period and Total Savings}
  \label{SRTSPB5}
+ \vspace{-20pt}
  \end{figure}
 
- Payback period is important measure when evaluating the investments risk. The longer the pay back period the more time there is for the battery to fail. For the Tesla Power-pack modelled, the batteries have a 10 year warranty. These reduces the risk significantly if the investment were to fail before this period. There are other risks associated with long payback periods are  energy pricing changing significantly reducing the value that the battery creates. Energy contracts typically last no longer than 4 years,\hl{find reference} in which billing structure could result in the batteries value dropping to zero - \hl{add sensitivity analysis}. Knowing that $\frac{2}{3}$ of the investment has been paid back as opposed to only a $\frac{1}{2}$ or less can have dramatic effects on the risk of the investment. These factors should be considered when choosing the design region of battery selection.
+Analysing Figure \ref{SRTSPB5}, the regions where the best trade-off between payback time and total savings (around where the two plots intersect) has been highlighted. The results show that a battery around 1762kWh and 744.4kW, produces a good compromise. Increasing capacity beyond increases total saving at the result of quickly decreasing the pay back period. Alternatively, when looking at max power, payback time is increases slightly for as power decreases. Up top 950kW, total savings dramatically increase, with very little decrease in payback time. The green region highlights the region after the intersection point, showing a battery larger than 745kW but less that 950kW, is optimum.
 
-### NPV
+Measuring the payback period is necessary when evaluating the risk of investing in a battery. The longer the payback time, the greater the risk in either the battery failing or regulation changing diminishing the batteries value \footnote{See Table \ref{AdChalltab} for a more detailed description of the challenges that an ESS system faces}. The Powerpack 2 specifications modelled, have a 10 year warranty; this eliminates any risk if the battery were to fail before this period. Changes in energy billing are therefore the biggest risk the technology faces. Energy contracts typically last no longer than four years \cite{wpMWMD},  after which a change in pricing scheme could reduce the battery's value to zero. Knowing that $\frac{2}{3}$ of the investment has a very low risk of uncertainty rather than $\frac{1}{2}$, makes the investment much more attractive. These factors should be considered when choosing the design region of battery selection. For a structural investment, a payback period between 5 and 7 years is deemed good. The optimum battery payback time is 6.3 years falling within this range. From this analysis investing in Li-ion appear feasible.
 
-An alternate way which tries to quantify risk, is by using net present value. Three rates of 3\%, 7\% and 12\% were selected to understand the value of the different batteries. Figure \ref{SRNPV1}, shows the NPV of the different batteries at these different rates.
+## NPV
+
+Net present value was the second method used to assess the battery systems value. As long payback periods are inherently risky, NPV uses discount rates to devalue cash that is made further in the future. As discussed in section \ref{net-present-value}, the Internal Return Rate was found. This calculation found for the range of battery assessed that the average IRR was 11\%,falling between 2 and 15\%. Three discount rates of 3\%, 7\% and 12\% were selected to understand the value of the different batteries based of the IRR calculation. Figure \ref{SRNPV1} shows the net present values of the various simulated batteries at these different rates.
 
 \begin{figure}[H]
  \centering
- \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{SRNPV1.eps}
+ \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{npv1.eps}
  \caption{Net Present value at Different Discount Rates - Comparison}
  \label{SRNPV1}
+ \vspace{-20pt}
 \end{figure}
 
-For discount rates of 3\% and 7\% the battery with the highest value was the same, having a power rating  of 1100 kW and a capacity of 2090kWh. When the discount rate is increased much above 7\%, it can be seen that the number of batteries that have a positive value is significantly reduced. The best value battery also becomes smaller rated to only 900kW and 1710kWh.
+Using the different NPV rates, presented conflicting optimum batteries. Increasing discount rate favoured smaller. Looking across the result of it was decided that a batteries a 7\% discount rate the following assumptions:
 
-Selecting an appropriate discount rate is therefore key for deciding which is the best investment if using net present value. As the battery will degrade each year until it reaches its end of life value, it could be argued that the value of the asset decreases proportionally with this the remaining life of the battery. Looking at the the optimum battery at a discount rate of 7\% (see Table \ref{BestNPVTable} below), it can be seen that the specific battery ran for 4904 cycles. Based on this assumption the value of the battery would be 98% of it's original rate, this works out at a discount rate of roughly 3.92\%. As this will be different for each batteries the discount rate based on remaining value alone must approximate all batteries a value of 3\% therefore seems fair. Discount rate also takes into account inflation. For the UK this rate has varied between  -0.1\% and 3.5\% for the last 5 years \cite{UnitedKi95:online}.An approximate value of 2\% could be added to the discount rate to incorporate how money now is worth more than money later.
+* __Battery Health__: As the battery will degrade each year until it reaches its end of life value, an assumption can be made that the value of the asset decreases proportionally to the battery's health. Looking at the optimum battery at a discount rate of 7\% (see Table \ref{BestNPVTable} below), it can be seen that the specific battery ran for 4904 cycles. Based on this assumption the value of the battery would be 98% of its original value, equating to a discount rate of  ~3.92\% over the 25 year period. As each battery degrades differently, the discount rate due to battery healthy can be approximated to 4\%.
+* __Inflation__: Inflation is another factor of the discount rate. For the UK, this rate has varied between  -0.1\% and 3.5\% for the last five years \cite{UnitedKi95:online}. It is expected that the price of energy bills will increase with inflation, therefore this interest was neglected.
+* __Interest Rates__:  Discount rates can be used to incorporate interests on loans. As the battery would be purchased at the same time as the rest of the new campus it is assumed that the battery will be bought under the new campus's mortgage;  keeping the interest rate low, approximated to 3\%.
 
-Finally discount rates can be used to incorporate interests on loans. As the battery would be a large one off payment that could be included in the mortgage on the new campus. This would keep the interest rate low, which can be approximated to 2\%. Using these three approximations gives a discount rate of around 7\% shown in figure \ref{SRNPV1}.
+Using these approximations gives a discount rate of around 7\% shown in figure \ref{SRNPV1}.
 
-### Discussion on Optimum Battery
-Below is a table showing the results of the battery which held the best NPV at a discount rate of 7\%:
-\begin{table}[H]
-\begin{tabular}{p{3.4cm}p{3cm}p{3cm}}
-\textit{Parameter} & \textit{NPV Value} & \textit{Best Value}\\
-\textbf{Battery Power Rating}:& 1100 kW\\
-\textbf{Battery Capacity}:& 2090 kWh\\
-\textbf{Total Saved}:& £1,953,706 & £1,966,697\\
-\textbf{Payback Period}:& 7.0959 Years & 6.3562 Years\\
-\textbf{Mean DoD}:& 31.5759\% \\
-\textbf{Cycles}:& 4904\\
-\textbf{Years}:& 25\\
-\end{tabular}
-\label{BestNPVTable}
-\caption{Table Showing the Best Battery Results based on a Net Present Value of 7\%}
-\end{table}
+## Battery Health Analysis
 
-Comparing the results between Net Present Value and the Total Saving Vs Payback plots (see Figure \ref{SRTSPB5}),shows that the recommendation of NPV at 7\% is larger than the recommendation from the total saving payback plot. This suggests that at this discount rate, total savings is worth more than a reduced payback time.
+In order to reduce computational time and simplify the model, assumptions were made to confine the battery to never work outside of normal working parameters. Section \ref{battery-lifetime-assessment---understanding-battery-degradation}, discussed how discharge time and depth of discharge effect the battery lifetime. Based of experimental data, equations for how these factors effect were found. The way the model was created to measure average depth of discharge and discharge time, allowing the effect of these parameters to be analysed after completing the simulation. Understanding the effect of these parameters increases the validity of results. Figure \ref{DOD2mbs} and \ref{Dist1} show the trend between depth of discharge and discharge for the different batteries.
 
-### Battery Usage and Secondary Analysis
+\begin{figure}[H]
+\centering
+\begin{minipage}{.495\textwidth}
+  \centering
+  \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{DOD1bs.pdf}
+ \caption{Depth of Discharge For Battery Lifetime}
+ \label{DOD2mbs}
+\end{minipage}
+\hfill
+\begin{minipage}{.495\textwidth}
+  \centering
+   \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{Dist1bs.pdf}
+   \caption{Expected Capacity Offset Due to Discharge Rate and Depth of Discharge}
+  \label{Dist1}
+\end{minipage}
+\vspace{-10pt}
+\end{figure}
 
-Due to the way the model was created some secondary analysis could be conducted on how the battery was run over it's lifetime. By measuring the batteries usage on weekdays, the mean depth of discharge could be measured. Based on the research conducted in section \ref{battery-lifetime-assessment---understanding-battery-degradation}, it is believed that the battery will wear much quicker when its average depth of discharge is higher, than when the depth of discharge is kept smaller. Figure \ref{DOD1} shows the relationship between depth of discharge and the battery type.
+The patterns observed in Figures \ref{DOD2mbs} and \ref{Dist1} occur due to the difference between maximum power and maximum capacity. Comparing this result to Figure \ref{SRTS2}, it can be seen that the batteries achieving the maximum total savings have DOD greater than 70%, but are not always fully discharged.  Batteries appear to fall into two categories; one of high mean depth of discharge between 70-80\% and one with a mean depth of discharge around 50\%. This is a result of the relationship between capacity and max power, limiting the possible depth of discharge that the battery could reach in the two hour red rate period. With regards to the discharge rate in Figure \ref{Dist1}, As capacity increases, discharge rate tends also increase, almost doubling against the high power lower capacity batteries.
+
+Using the polynomial equations outlined in Figures \ref{disRate}, \ref{SoCgraph} and  an additional performance parameter describing a more realistic end cycle life size was found based on these two measurements. The results are shown in Figure \ref{capnew}.
 
 \begin{figure}[H]
  \centering
- \includegraphics[trim = 0 0 0 0, clip, width=0.8\textwidth]{DOD1.eps}
-\caption{Depth of Discharge For Battery Lifetime}
- \label{DOD1}
+ \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{capnew2.eps}
+ \caption{Showing the Expected Effect of Depth of Discharge and Discharge Time on Predicted Cycle Life}
+ \label{capnew}
+ \vspace{-20pt}
  \end{figure}
 
- It can be observed from Figure \ref{DOD1} that batteries whose capacity if less than 3000kWh, fall into two categories; one of high mean depth of discharge between 70-80\% and one with a mean depth of discharge around 50\%. This is a result of the relationship between capacity and max power, limiting the possible depth of discharge that the battery could reach in the two hour period that the battery is run.
+  It is clear from Figure \ref{capnew} that taking into account DOD and discharge time , the lifetime of the battery can either be reduced or increased significantly. As not all batteries will fully degrade by the end of the 25 year lifetime, slightly reduced capacity may not be a problem as the battery should still be functional beyond the end of life value. From research, it appears depth of discharge can have a more dramatic effect on the batteries lifetime. To make experimental effects of DOD comparable for the Powerpack, a conservative assumption of the battery being rated at 70\% DOD was used. \cite{Teslawil27:online}, however notes that it is possible higher DOD were used to achieve the 5000 cycle life. This would decrease the effect of DOD significantly, meaning many more batteries would increase in cycle life rather than decrease. For both these reasons it is unclear whether error in predicting battery will have a significant effect on the battery's value.
 
- It is recommended that the designer should consult this graph in order to gauge how accurate the degradation estimate may be.
+## Discussion on Optimum Battery
+Table \ref{Bestbat}, show the optimum battery configurations based on the metrics discussed perviously.
+\begin{table}[H]
+\centering
+\caption{Table Showing the Best Battery Results Comparing the different Economic Measurements}
+\includegraphics[trim = 0 0 0 0, clip, width=0.8\textwidth]{topbatstab.pdf}
+\label{Bestbat}
+\vspace{-20pt}
+\end{table}
+
+The following observations can be made on the results:
+
+* The difference in NPV between the best NPV, total savings and max plot values is around £40,000, this is relatively marginal against the total cost of the investment
+* A difference of only a years payback time can be observed by all the best performing batteries.
+* All the batteries are run towards their maximum working threshold with high DOD and mean discharge times
+* The maximum plot specification battery gives the highest Return on Investment (ROI), this measure helps understand how much money is made, compared to how much was invested.
+* Annualised savings of all the battery excluding lowest payback ranges by £6,000 only. Between max plot and total savings, an increase in 35\% in upfront cost creates only 9\% more yield a year.
+* Selecting a battery based on the lowest payback period has a significantly lower NPV and the likelihood of it failing before it reaches 5000 cycles is likely
+* By selecting the battery with the largest total savings has the highest probability of not wearing out before it reaches the end of life
+
+
+## Sensitivity on Key Assumptions
+
+* Graph of effect of peak demand rise by 25%
+* Graph on the effect of change in pricing structure - decrease DUOS - increase Capacity ?

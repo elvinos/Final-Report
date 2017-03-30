@@ -1,0 +1,127 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {british}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Acknowledgements}{i}{Doc-Start}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Declaration}{i}{Doc-Start}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Executive Summary}{ii}{Doc-Start}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{List of Figures}{v}{Doc-Start}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{List of Tables}{v}{Doc-Start}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{List of Acronyms}{v}{Doc-Start}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{List of Definitions}{vi}{Doc-Start}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Project Introduction and Objectives}{1}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Individual Project Introduction}{1}{subsection.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}Objectives}{2}{subsection.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Background and Summary of Key Work and References}{2}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Sustainability and Energy Storage Systems}{3}{subsection.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}University Energy Charges}{3}{subsection.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Current Peak Demand Management Methods}{4}{subsection.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Peak Shaving Systems Literature Review}{5}{subsection.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.1}Forecasting and the Use of ESS in Load Shifting}{5}{subsubsection.2.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.2}Supply Levelling}{5}{subsubsection.2.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.3}Battery Sizing and Financial Modelling}{5}{subsubsection.2.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5}Comparison of Energy Storage Systems}{6}{subsection.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6}Battery Selection - Tesla Powerpack 2}{7}{subsection.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Battery Storage Technology Key Advantages and Challenges}{7}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Battery Economics}{7}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.1}Net Present Value}{8}{subsubsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.2}Payback Period}{8}{subsubsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Li-ion Battery Costing}{8}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Battery Lifetime Assessment - Understanding Battery Degradation}{9}{subsection.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.1}Temperature}{9}{subsubsection.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.2}Depth of Discharge (DoD)}{10}{subsubsection.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.3}Usage}{10}{subsubsection.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.4}Charging}{11}{subsubsection.3.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Battery Model Definition}{11}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Model Development Requirements}{12}{subsection.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1}Zero-Dimensional vs.~Three-Dimensional Modelling}{12}{subsubsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2}Code Optimisation and Ease of Development}{12}{subsubsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.3}User Interface}{12}{subsubsection.4.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Creation of Senate House Billing Model}{12}{subsection.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.1}Representative Bill Creation}{13}{subsubsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}Representative Demand Profile}{13}{subsection.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4}Definition of the New Temple Quarter Campus}{15}{subsection.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.4.1}Energy Profile Tool}{15}{subsubsection.4.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5}Definition of System Strategies}{16}{subsection.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.1}Red Rate Charge Avoidance Strategy}{16}{subsubsection.4.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.2}Triad Avoidance Strategy}{16}{subsubsection.4.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.3}Battery Control Strategy}{17}{subsubsection.4.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6}~Input Parameters and Multi-Battery Simulation}{19}{subsection.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Validation of Model}{20}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Data File}{20}{subsection.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Assumptions and Limitations}{20}{subsection.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Results}{21}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Total Savings and Payback Period}{22}{subsection.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}NPV}{24}{subsection.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3}Battery Health Analysis}{25}{subsection.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4}Discussion on Optimum Battery}{26}{subsection.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5}Sensitivity on Key Assumptions}{27}{subsection.6.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Conclusions and Future Work}{28}{section.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1}Conclusions on Modelling Tool}{28}{subsection.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2}Conclusions on Results}{28}{subsection.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3}Future Work}{29}{subsection.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Appendices}{30}{section.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1}Battery Degredation}{33}{subsection.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2}Senate Load Profile}{33}{subsection.8.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3}Model Operation Parameters}{33}{subsection.8.3}
